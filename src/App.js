@@ -5,6 +5,13 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Loading from "./components/Loading";
+import Home from "./components/Home";
+import Cart from "./components/Cart";
+import Profile from "./components/Profile";
+import Men from "./components/Men";
+import Women from "./components/Women";
+import Kids from "./components/Kids";
+import Categories from "./components/Categories";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -32,11 +39,13 @@ function App() {
               <NavBar />
             </div>
             <Routes>
-              <Route path="/" exact component={NavBar} />
-              <Route path="/certificates" component={NavBar} />
-              <Route path="/projects" component={NavBar} />
-              <Route path="/skills" component={NavBar} />
-              <Route path="/contact" component={NavBar} />
+              <Route path="/" exact element={<Home />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/men" element={<Men />} />
+              <Route path="/women" element={<Women />} />
+              <Route path="/kids" element={<Kids />} />
+              <Route path="/categories" element={<Categories />} />
             </Routes>
           </div>
         </Router>

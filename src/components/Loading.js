@@ -7,7 +7,7 @@ const Loading = () => {
     <div style={{ marginTop: "18%" }} align="center">
       <Loader
         type="BallTriangle"
-        color="#0d6efd"
+        color="rgb(250 3 219 / 94%)"
         height={80}
         width={80}
         timeout={3000} //3 secs
