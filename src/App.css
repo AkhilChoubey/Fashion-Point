@@ -1,5 +1,4 @@
-/* NavBar styling */
-
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italiana&family=Open+Sans+Condensed:wght@300&family=Petemoss&family=Sacramento&display=swap");
 #nav-brand {
   font-size: 1.75rem;
 }
@@ -63,8 +62,8 @@
 /* Swipe Cards */
 
 .tinderCards {
-  padding-top: 7%;
-  padding-left: 54%;
+  padding-top: 5%;
+  padding-left: 18%;
 }
 
 .card {
@@ -73,8 +72,8 @@
   width: 400px;
   padding: 5px;
   max-width: 85vw;
-  height: 50vh;
-  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  height: 25rem;
+  box-shadow: 0px 18px 53px 0px rgba(185, 181, 181, 0.3);
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -92,4 +91,40 @@
 .cardContent {
   width: 100%;
   height: 100%;
+}
+
+.card h4 {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 98%;
+  color: rgb(253, 251, 251);
+}
+
+@media (max-width: 450px) {
+  .tinderCards {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+/* Home Styling */
+
+.home h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 6rem;
+  margin-top: 12%;
+  margin-left: 7%;
+}
+
+.home h3 {
+  font-weight: bolder;
+  color: rgb(247, 8, 235);
+  /* font-family: "Italiana", serif; */
+  /* font-family: "Great Vibes", cursive; */
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  margin-top: 2%;
+  margin-left: 7%;
 }

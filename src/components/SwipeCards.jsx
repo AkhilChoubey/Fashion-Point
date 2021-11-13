@@ -1,5 +1,6 @@
 import TinderCard from "react-tinder-card";
 import SwipeCardElements from "./constants/SwipeCardElements";
+import f1 from "./images/SwipeImages/f1.jfif";
 // ...
 const SwipeCards = () => {
   const swiped = (direction, nameToDelete) => {
@@ -31,7 +32,9 @@ const SwipeCards = () => {
             <div
               style={{ backgroundImage: `url(${item.image})` }}
               className="card"
-            ></div>
+            >
+              <h4>{item.name}</h4>
+            </div>
           </TinderCard>
         ))}
       </div>

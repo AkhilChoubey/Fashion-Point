@@ -1,53 +1,35 @@
-import React from "react";
 import f1 from "../images/SwipeImages/f1.jfif";
 import f2 from "../images/SwipeImages/f2.jpg";
-import f3 from "../images/SwipeImages/f3.jpg";
-import f4 from "../images/SwipeImages/f4.jfif";
-import f5 from "../images/SwipeImages/f5.jfif";
 import f6 from "../images/SwipeImages/f6.jpg";
 import f7 from "../images/SwipeImages/f7.jpg";
-import f8 from "../images/SwipeImages/f8.jfif";
-import f9 from "../images/SwipeImages/f9.jfif";
-import f10 from "../images/SwipeImages/f10.jpg";
-export default [
+
+const Item = [
   {
     id: 1,
-    image: { f1 },
+    image: f1,
+    name: "Winter Wear",
   },
   {
     id: 2,
-    image: { f2 },
+    image: f2,
+    name: "Womens Wear",
   },
-  {
-    id: 3,
-    image: { f3 },
-  },
-  {
-    id: 4,
-    image: { f4 },
-  },
+
   {
     id: 5,
-    image: { f5 },
+    image: f6,
+    name: "Casuals",
   },
   {
     id: 6,
-    image: { f6 },
+    image: f6,
+    name: "Casuals",
   },
   {
     id: 7,
-    image: { f7 },
-  },
-  {
-    id: 8,
-    image: { f8 },
-  },
-  {
-    id: 9,
-    image: { f9 },
-  },
-  {
-    id: 10,
-    image: { f10 },
+    image: f7,
+    name: "Mens Wear",
   },
 ];
+
+export default Item;
