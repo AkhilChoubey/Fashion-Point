@@ -1,28 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import SwipeCards from "./SwipeCards";
 import ParticleEffectButton from "react-particle-effect-button";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
+import { GoLinkExternal } from "react-icons/go";
+
 const Home = () => {
+  const [buttonEffect, setButtonEffect] = useState(false);
   return (
-    <div className="home" style={{ display: "flex" }}>
+    <div className="home">
       <div style={{ display: "block" }}>
         <h1>BOOST YOUR STYLE SENCE</h1>
         <h3>Right here Right now!</h3>
-        <AwesomeButton type="primary" style={{ outerWidth: "4rem" }}>
-          Button
-        </AwesomeButton>
 
-        {/* <ParticleEffectButton
-          color="#121019"
-         
-          duration={1000}
-          style="fill"
-          direction="left"
-          
-        >
-          BUTTON CONTENT GOES HERE
-        </ParticleEffectButton> */}
+        <button className="btn btn-outline-dark btn-explore btn-lg">
+          EXPLORE <GoLinkExternal />
+        </button>
       </div>
       <SwipeCards />
     </div>
@@ -30,3 +23,33 @@ const Home = () => {
 };
 
 export default Home;
+
+/* <div
+          style={{ marginLeft: "34%", marginTop: "3%" }}
+          onClick={() => {
+            if (buttonEffect === true) {
+              setButtonEffect(false);
+            } else if (buttonEffect === false) setButtonEffect(true);
+          }}
+        >
+          <ParticleEffectButton
+            color="rgb(247, 8, 235)"
+            duration={2000}
+            style="stroke"
+            direction="left"
+            hidden={buttonEffect}
+            onBegin={() => {
+              if (buttonEffect === true) {
+                setButtonEffect(false);
+              } else if (buttonEffect === false) setButtonEffect(true);
+            }}
+            onComplete={() => {
+              if (buttonEffect === true) {
+                setButtonEffect(false);
+                // } else if (buttonEffect === false) setButtonEffect(true);
+              }
+            }}
+          >
+            EXPLORE
+          </ParticleEffectButton>
+        </div> */

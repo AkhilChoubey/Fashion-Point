@@ -49,32 +49,33 @@ const NavBar = () => {
                 className="collapse navbar-collapse nav-final"
                 id="navbarSupportedContent"
               >
-                <form className="d-flex search">
-                  <input
-                    name="valData"
-                    onChange={() => {}}
-                    className="form-control me-2"
-                    type="search"
-                    placeholder="Search products"
-                    aria-label="Search"
-                    style={{
-                      width: "17rem",
-                      borderRadius: "25px",
-                      background: "white",
-                    }}
-                  />
-                  <div
-                    type="submit"
-                    onClick={() => {}}
-                    style={{
-                      paddingLeft: "4px",
-                      fontSize: "23px",
-                      paddingBottom: "2%",
-                    }}
-                  >
-                    <BsSearch />
-                  </div>
-                </form>
+                {/* //   <form className="d-flex search">
+              //     <input 
+              //       name="valData"
+              //       onChange={() => {}}
+              //       className="form-control me-2"
+              //       type="search"
+              //       placeholder="Search products"
+              //       aria-label="Search"
+              //       style={{
+              //         width: "17rem",
+              //         borderRadius: "25px",
+              //         background: "white",
+              //       }}
+              //     />
+              //     <div
+              //       type="submit"
+              //       onClick={() => {}}
+              //       style={{
+              //         paddingLeft: "4px",
+              //         fontSize: "23px",
+              //         paddingBottom: "2%",
+              //       }}
+              //     >
+              //       <BsSearch />
+              //     </div>
+              //   </form>
+              */}
                 <ul
                   className="navbar-nav ml-auto mb-2 mb-lg-0"
                   id="navbar-list"
@@ -113,37 +114,49 @@ const NavBar = () => {
                     <span></span>
                   </li>
                   <div className="nav-icons-list">
-                    <li className="nav-item menuitem" id="nav-brand">
+                    <li
+                      className="nav-item menuitem"
+                      id="nav-brand1"
+                      style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                    >
                       <Link
                         to="/categories"
                         activeclassname="menu-active"
                         className="nav-link"
                         id="navbar-icons"
-                        data-aos="slide-left"
+                        data-aos="zoom-in"
                       >
                         <BiCategory />
                       </Link>
                       <span></span>
                     </li>
-                    <li className="nav-item menuitem" id="nav-brand">
+                    <li
+                      className="nav-item menuitem"
+                      id="nav-brand2"
+                      style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                    >
                       <Link
                         to="/cart"
                         activeclassname="menu-active"
                         className="nav-link"
                         id="navbar-icons"
-                        data-aos="slide-left"
+                        data-aos="zoom-in"
                       >
                         <HiShoppingCart />
                       </Link>
                       <span></span>
                     </li>
-                    <li className="nav-item menuitem" id="nav-brand">
+                    <li
+                      className="nav-item menuitem"
+                      id="nav-brand3"
+                      style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                    >
                       <Link
                         to="/profile"
                         activeclassname="menu-active"
                         className="nav-link"
                         id="navbar-icons"
-                        data-aos="slide-left"
+                        data-aos="zoom-in"
                       >
                         <CgProfile />
                       </Link>

@@ -19,6 +19,18 @@
   margin-right: 30px;
 }
 
+#nav-category:hover {
+  color: rgb(247, 8, 235);
+}
+
+#nav-brand:hover {
+  color: rgb(247, 8, 235);
+}
+
+#navbar-icons:hover {
+  color: rgb(247, 8, 235);
+}
+
 #navbar-list {
   margin-left: 12%;
   font-size: 1.15rem;
@@ -62,7 +74,7 @@
 /* Swipe Cards */
 
 .tinderCards {
-  padding-top: 5%;
+  padding-top: 0;
   padding-left: 18%;
 }
 
@@ -72,8 +84,8 @@
   width: 400px;
   padding: 5px;
   max-width: 85vw;
-  height: 25rem;
-  box-shadow: 0px 18px 53px 0px rgba(185, 181, 181, 0.3);
+  height: 28rem;
+  box-shadow: 0px 18px 53px 0px rgba(185, 181, 181, 0.35);
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -100,21 +112,41 @@
   text-align: center;
   width: 98%;
   color: rgb(253, 251, 251);
+  height: 4rem;
+  font-family: "Italiana", serif;
+  font-size: 3rem;
 }
 
 @media (max-width: 450px) {
   .tinderCards {
     padding-top: 0;
     padding-left: 0;
+    margin-top: 5%;
+  }
+}
+
+/* Loader setting */
+
+.loader {
+  margin-top: 18%;
+}
+
+@media (max-width: 450px) {
+  .loader {
+    margin-top: 75%;
   }
 }
 
 /* Home Styling */
 
+.home {
+  display: flex;
+}
+
 .home h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 6rem;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 7%;
 }
 
@@ -127,4 +159,37 @@
   font-size: 4rem;
   margin-top: 2%;
   margin-left: 7%;
+}
+
+.btn-explore {
+  margin-left: 7%;
+  margin-top: 2%;
+  width: 20%;
+  color: rgb(247, 8, 235);
+}
+
+@media (max-width: 450px) {
+  .home {
+    display: block;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-left: 1%;
+    text-align: center;
+  }
+  .home h3 {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+  }
+
+  .btn-explore {
+    width: 85.2%;
+    margin: 0;
+    margin-left: 7.2%;
+    margin-top: 5%;
+  }
 }

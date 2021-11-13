@@ -4,9 +4,9 @@ import Loader from "react-loader-spinner";
 
 const Loading = () => {
   return (
-    <div style={{ marginTop: "18%" }} align="center">
+    <div className="loader" align="center">
       <Loader
-        type="BallTriangle"
+        type="TailSpin"
         color="rgb(250 3 219 / 94%)"
         height={80}
         width={80}
