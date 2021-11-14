@@ -1,7 +1,10 @@
 import f1 from "../images/SwipeImages/f1.jfif";
 import f2 from "../images/SwipeImages/f2.jpg";
+import f5 from "../images/SwipeImages/f5.png";
 import f6 from "../images/SwipeImages/f6.jpg";
 import f7 from "../images/SwipeImages/f7.jpg";
+import f11 from "../images/SwipeImages/f11.jpg";
+import f12 from "../images/SwipeImages/f12.jpg";
 
 const Item = [
   {
@@ -22,8 +25,19 @@ const Item = [
   },
   {
     id: 6,
-    image: f6,
-    name: "Casuals",
+    image: f5,
+    name: "Indian Classics",
+  },
+
+  {
+    id: 8,
+    image: f11,
+    name: "Festive Wear",
+  },
+  {
+    id: 9,
+    image: f12,
+    name: "Traditional Wear",
   },
   {
     id: 7,

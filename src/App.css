@@ -118,7 +118,7 @@
 }
 
 .card h6 {
-  background: rgba(152, 217, 243, 0.7);
+  background: rgba(0, 0, 0, 1);
   position: absolute;
   bottom: 15%;
   text-align: center;
@@ -127,6 +127,7 @@
   height: 2rem;
   font-size: 1rem;
   border-radius: 6px;
+  padding-top: 1.2%;
 }
 
 @media (max-width: 450px) {
@@ -178,6 +179,7 @@
   margin-top: 2%;
   width: 20%;
   color: rgb(247, 8, 235);
+  border-radius: 16px 0 16px 0;
 }
 
 @media (max-width: 450px) {

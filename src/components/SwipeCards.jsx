@@ -1,6 +1,8 @@
 import TinderCard from "react-tinder-card";
 import SwipeCardElements from "./constants/SwipeCardElements";
 import { RiErrorWarningLine } from "react-icons/ri";
+import { BsArrowLeftShort } from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
 
 // ...
 const SwipeCards = () => {
@@ -36,11 +38,18 @@ const SwipeCards = () => {
             >
               {item.id === 7 && (
                 <h6>
-                  <RiErrorWarningLine /> Hold and swipe left and right to view
+                  <RiErrorWarningLine /> Hold and swipe left or right to view
                   other pics.
                 </h6>
               )}
-              <h4>{item.name}</h4>
+              {item.id === 7 ? (
+                <h4>
+                  <BsArrowLeftShort style={{ fontSize: "2rem" }} /> {item.name}{" "}
+                  <BsArrowRightShort style={{ fontSize: "2rem" }} />
+                </h4>
+              ) : (
+                <h4>{item.name}</h4>
+              )}
             </div>
           </TinderCard>
         ))}

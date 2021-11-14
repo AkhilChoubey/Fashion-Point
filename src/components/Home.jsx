@@ -4,6 +4,7 @@ import ParticleEffectButton from "react-particle-effect-button";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import { GoLinkExternal } from "react-icons/go";
+import SideBar from "./SideBar";
 
 const Home = () => {
   const [buttonEffect, setButtonEffect] = useState(false);
@@ -13,11 +14,16 @@ const Home = () => {
         <h1>BOOST YOUR STYLE SENCE</h1>
         <h3>Right here Right now!</h3>
 
-        <button className="btn btn-outline-dark btn-explore btn-lg">
+        <button
+          className="btn btn-outline-dark btn-explore btn-lg"
+          style={{ borderRadius: "16px 0 16px 0" }}
+        >
           EXPLORE <GoLinkExternal />
         </button>
       </div>
+
       <SwipeCards />
+      <SideBar />
     </div>
   );
 };
