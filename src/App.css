@@ -110,11 +110,23 @@
   position: absolute;
   bottom: 0;
   text-align: center;
-  width: 98%;
+  width: 97.3%;
   color: rgb(253, 251, 251);
   height: 4rem;
   font-family: "Italiana", serif;
   font-size: 3rem;
+}
+
+.card h6 {
+  background: rgba(152, 217, 243, 0.7);
+  position: absolute;
+  bottom: 15%;
+  text-align: center;
+  width: 97.3%;
+  color: rgb(253, 251, 251);
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
 }
 
 @media (max-width: 450px) {

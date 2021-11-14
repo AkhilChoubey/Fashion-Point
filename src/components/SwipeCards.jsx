@@ -1,6 +1,7 @@
 import TinderCard from "react-tinder-card";
 import SwipeCardElements from "./constants/SwipeCardElements";
-import f1 from "./images/SwipeImages/f1.jfif";
+import { RiErrorWarningLine } from "react-icons/ri";
+
 // ...
 const SwipeCards = () => {
   const swiped = (direction, nameToDelete) => {
@@ -33,6 +34,12 @@ const SwipeCards = () => {
               style={{ backgroundImage: `url(${item.image})` }}
               className="card"
             >
+              {item.id === 7 && (
+                <h6>
+                  <RiErrorWarningLine /> Hold and swipe left and right to view
+                  other pics.
+                </h6>
+              )}
               <h4>{item.name}</h4>
             </div>
           </TinderCard>

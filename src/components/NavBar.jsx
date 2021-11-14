@@ -31,6 +31,7 @@ const NavBar = () => {
                 id="nav-brand"
                 style={{ paddingTop: 0 }}
                 data-aos="slide-right"
+                title="Shopkeeper"
               >
                 <FaShopify />
               </Link>
@@ -118,6 +119,7 @@ const NavBar = () => {
                       className="nav-item menuitem"
                       id="nav-brand1"
                       style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                      title="Categories"
                     >
                       <Link
                         to="/categories"
@@ -134,6 +136,7 @@ const NavBar = () => {
                       className="nav-item menuitem"
                       id="nav-brand2"
                       style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                      title="Cart"
                     >
                       <Link
                         to="/cart"
@@ -150,6 +153,7 @@ const NavBar = () => {
                       className="nav-item menuitem"
                       id="nav-brand3"
                       style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                      title="Profile"
                     >
                       <Link
                         to="/profile"
