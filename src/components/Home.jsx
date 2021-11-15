@@ -1,29 +1,42 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import SwipeCards from "./SwipeCards";
-import ParticleEffectButton from "react-particle-effect-button";
-import { AwesomeButton } from "react-awesome-button";
+// import ParticleEffectButton from "react-particle-effect-button";
+// import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import { GoLinkExternal } from "react-icons/go";
 import SideBar from "./SideBar";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Carosel from "./Carosel";
 const Home = () => {
-  const [buttonEffect, setButtonEffect] = useState(false);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className="home">
-      <div style={{ display: "block" }}>
-        <h1>BOOST YOUR STYLE SENCE</h1>
-        <h3>Right here Right now!</h3>
+    <div style={{ display: "block" }}>
+      <div className="root-home">
+        <SideBar />
+        <div className="home">
+          <div style={{ display: "block" }}>
+            <h1>BOOST YOUR STYLE SENCE</h1>
+            <h3>Right here Right now!</h3>
 
-        <button
-          className="btn btn-outline-dark btn-explore btn-lg"
-          style={{ borderRadius: "16px 0 16px 0" }}
-        >
-          EXPLORE <GoLinkExternal />
-        </button>
+            <button
+              className="btn btn-outline-dark btn-explore btn-lg"
+              style={{ borderRadius: "16px 0 16px 0" }}
+            >
+              EXPLORE <GoLinkExternal />
+            </button>
+          </div>
+
+          <SwipeCards />
+        </div>
       </div>
-
-      <SwipeCards />
-      <SideBar />
+      <div className="home-carosel">
+        <Carosel />
+      </div>
+      <Carosel />
     </div>
   );
 };

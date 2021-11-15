@@ -10,6 +10,11 @@ p {
   position: relative;
   left: -10px;
   font-family: "Lato";
+  font-size: 23px;
+  padding-left: 7%;
+  padding-top: 2%;
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 #sidebar {
@@ -19,15 +24,18 @@ p {
   text-align: center;
   padding: 10px;
   margin-left: 10px;
+  margin-top: 4%;
+  z-index: 100000;
 }
 
 p .social-icons {
-  left: 30px;
+  left: 26px;
   position: relative;
   vertical-align: middle;
   text-align: center;
-  font-size: 24px;
+  font-size: 45px;
   color: black;
+  margin-bottom: 3%;
 }
 
 .social {
@@ -59,10 +67,18 @@ p .social-icons {
   background-color: #3b5998;
 }
 
-.facebook:hover {
-  background-color: #3b5998;
+.social:hover .social-icons {
+  color: white;
 }
 
+.facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.facebook {
+  border-radius: 0 16px 0 0;
+}
 .twitter:hover {
   background-color: #00aced;
 }
@@ -72,15 +88,16 @@ p .social-icons {
 }
 
 .linkedin p .social-icons {
-  left: 20px;
+  left: 15.3px;
 }
 
 .google p .social-icons {
-  left: 35px;
+  left: 14px;
+  font-size: 50px;
 }
 
 .youtube p .social-icons {
-  left: 18px;
+  left: 26px;
 }
 
 .youtube:hover {
@@ -89,4 +106,20 @@ p .social-icons {
 
 .linkedin:hover {
   background-color: #0976b4;
+}
+
+.linkedin {
+  border-radius: 0 0 16px 0;
+}
+
+.linkedin P .social-icons {
+  font-size: 39px;
+  left: 14px;
+}
+
+@media (max-width: 450px) {
+  #sidebar {
+    margin-top: 12%;
+    z-index: 99999;
+  }
 }
