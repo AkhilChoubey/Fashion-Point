@@ -1,7 +1,9 @@
 .slider-quote {
-  padding-top: 124px;
+  padding-top: 90px;
   margin-left: 5%;
   margin-right: 5%;
+  font-size: 5rem;
+  text-align: left;
 }
 
 .slider-div {
@@ -19,6 +21,12 @@
 @media (max-width: 980px) {
   .slider-div {
     height: 20rem;
+  }
+  .slider-quote {
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 4rem;
   }
 }
 
