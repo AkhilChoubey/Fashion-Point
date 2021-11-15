@@ -1,4 +1,4 @@
-a {
+.sidebar-link {
   text-decoration: none;
   vertical-align: middle;
   text-align: center;
@@ -27,6 +27,7 @@ p .social-icons {
   vertical-align: middle;
   text-align: center;
   font-size: 24px;
+  color: black;
 }
 
 .social {
@@ -35,7 +36,7 @@ p .social-icons {
   padding: 0;
   display: inline-table;
   height: 0px;
-  background-color: rgba(128, 128, 128, 0.73);
+  background-color: rgb(255, 255, 255);
   -moz-transition-property: margin-left;
   -moz-transition-duration: 0.2s;
   -moz-transition-delay: 0.2s;
@@ -63,11 +64,11 @@ p .social-icons {
 }
 
 .twitter:hover {
-  background-color: #4099ff;
+  background-color: #00aced;
 }
 
 .google:hover {
-  background-color: #dd4b39;
+  background-color: #e94475;
 }
 
 .linkedin p .social-icons {
@@ -83,7 +84,7 @@ p .social-icons {
 }
 
 .youtube:hover {
-  background-color: #e52d27;
+  background-color: #000;
 }
 
 .linkedin:hover {

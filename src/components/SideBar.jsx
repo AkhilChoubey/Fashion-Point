@@ -1,6 +1,8 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import "./SideBar.css";
+import { FaFacebookSquare } from "react-icons/fa";
+
 {
   /* <SocialIcon url="https://twitter.com/jaketrent" />; */
 }
@@ -8,51 +10,71 @@ const SideBar = () => {
   return (
     <div id="sidebar">
       <div class="social facebook">
-        <a href=" https://www.facebook.com " target="_blank">
+        <a
+          className="sidebar-link"
+          href=" https://www.facebook.com/profile.php?id=100009258792168 "
+          target="_blank"
+        >
           <p>
-            Like on Facebook{" "}
+            Like on Facebook
             <SocialIcon
               className="social-icons"
-              url="https://twitter.com/jaketrent"
-            />{" "}
+              url="https://www.facebook.com/profile.php?id=100009258792168"
+            />
           </p>
         </a>
       </div>
       <div class="social twitter">
-        <a href=" https://www.twitter.com " target="_blank">
+        <a
+          className="sidebar-link"
+          href=" https://twitter.com/AkhilKrChoubey1?t=X96s_nnAIvMM096_RWsoYg&s=08 "
+          target="_blank"
+        >
           <p>
             Follow on Twitter
             <SocialIcon
               className="social-icons"
-              url="https://twitter.com/jaketrent"
+              url="https://twitter.com/AkhilKrChoubey1?t=X96s_nnAIvMM096_RWsoYg&s=08"
             />{" "}
           </p>
         </a>
       </div>
       <div class="social google">
-        <a href=" https://www.plus.google.com " target="_blank">
+        <a
+          className="sidebar-link"
+          href="https://www.instagram.com/ironakhil/ "
+          target="_blank"
+        >
           <p>
-            &nbspAdd on Google+
+            Follow on Instagram
             <SocialIcon
               className="social-icons"
-              url="https://twitter.com/jaketrent"
+              url="https://www.instagram.com/ironakhil/"
             />{" "}
           </p>
         </a>
       </div>
       <div class="social youtube">
-        <a href=" https://www.youtube.com " target="_blank">
+        <a
+          className="sidebar-link"
+          href="https://github.com/AkhilChoubey"
+          target="_blank"
+        >
           <p>
-            Subscribe on Youtube
-            <SocialIcon url="https://twitter.com/jaketrent" />{" "}
+            Follow on Github
+            <SocialIcon url="https://github.com/AkhilChoubey" />{" "}
           </p>
         </a>
       </div>
       <div class="social linkedin">
-        <a href=" https://www.linkedin.com " target="_blank">
+        <a
+          className="sidebar-link"
+          href=" https://www.linkedin.com/in/akhil-choubey-376887192/"
+          target="_blank"
+        >
           <p>
             Connect on LinkedIn
-            <SocialIcon url="https://twitter.com/jaketrent" />{" "}
+            <SocialIcon url="https://www.linkedin.com/in/akhil-choubey-376887192/" />{" "}
           </p>
         </a>
       </div>
