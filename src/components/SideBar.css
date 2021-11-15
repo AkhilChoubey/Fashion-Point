@@ -119,14 +119,14 @@ p .social-icons {
 
 @media (max-width: 980px) {
   #sidebar {
-    top: 5%;
+    top: 20%;
     z-index: 99999;
   }
 }
 
 @media (max-width: 450px) {
   #sidebar {
-    margin-top: 40%;
+    margin-top: 12%;
     z-index: 99999;
   }
 }

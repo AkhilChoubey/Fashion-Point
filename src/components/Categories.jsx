@@ -19,8 +19,8 @@ const Categories = () => {
       ) : (
         <div className="container-fluid">
           <div className="row">
-            <div className="col-10 top-elements">
-              <div className="row gy-4">
+            <div className="col-10 top-elements" style={{ marginLeft: "11%" }}>
+              <div className="row col-sm-6 gy-4">
                 <CategoryCard imgsrc={d1} title="MENS" />
                 <CategoryCard imgsrc={d1} title="MENS" />
                 <CategoryCard imgsrc={d1} title="MENS" />

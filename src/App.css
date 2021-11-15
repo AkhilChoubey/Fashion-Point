@@ -190,7 +190,7 @@
   border-radius: 16px 0 16px 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 980px) {
   .home {
     display: block;
   }
@@ -221,4 +221,14 @@
 }
 .super-root-home {
   display: block;
+}
+
+/* Categories Styling */
+
+.row {
+  margin: auto;
+  margin-left: 17%;
+}
+.top-elements {
+  padding-left: 21%;
 }

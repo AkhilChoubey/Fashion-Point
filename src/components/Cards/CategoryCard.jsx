@@ -3,7 +3,7 @@ import React from "react";
 const CategoryCard = (props) => {
   return (
     <>
-      <div className="col-md-3 col-sm-6 col-10 ">
+      <div className="col-md-3 col-sm-6 col-6 ">
         <div
           style={{
             padding: 0,
