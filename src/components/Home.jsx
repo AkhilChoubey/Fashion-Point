@@ -8,13 +8,14 @@ import SideBar from "./SideBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Carosel from "./Carosel";
+import Categories from "./Categories";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   return (
-    <div style={{ display: "block" }}>
+    <div style={{ display: "block" }} className="super-root-home">
       <div className="root-home">
         <SideBar />
         <div className="home">
@@ -36,6 +37,7 @@ const Home = () => {
       <div className="home-carosel">
         <Carosel />
       </div>
+      <Categories />
     </div>
   );
 };

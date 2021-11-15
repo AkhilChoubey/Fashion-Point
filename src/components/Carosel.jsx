@@ -8,18 +8,25 @@ import Carousel from "react-material-ui-carousel";
 import { Paper } from "@material-ui/core";
 import "./Carosel.css";
 import { Link } from "react-router-dom";
+import { GrFormNext } from "react-icons/gr";
+import { GrFormPrevious } from "react-icons/gr";
 
 const Carosel = () => {
   return (
     <div style={{ marginTop: "5%" }}>
       {" "}
-      <Carousel navButtonsAlwaysVisible="true" interval="5000">
+      <Carousel
+        navButtonsAlwaysVisible="true"
+        interval="5000"
+        NextIcon={<GrFormNext />}
+        PrevIcon={<GrFormPrevious />}
+      >
         <Paper>
           <div
-            className="slider-div"
-            style={{
-              background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${a11})`,
-            }}
+            className="slider-div pic1"
+            // style={{
+            //   backgroundImage: ` url(${a11}) left center/400px 350px no-repeat`,
+            // }}
           >
             <h2 className="slider-quote">
               BUY 1 GET 1 <br />
@@ -33,6 +40,7 @@ const Carosel = () => {
                   background: "#d71144",
                   fontSize: "2rem",
                   borderRadius: "36px",
+                  marginTop: "3%",
                 }}
               >
                 BUY NOW
@@ -42,10 +50,10 @@ const Carosel = () => {
         </Paper>
         <Paper>
           <div
-            className="slider-div"
-            style={{
-              background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${a12})`,
-            }}
+            className="slider-div pic2"
+            // style={{
+            //   background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${a12})`,
+            // }}
           >
             <h2 className="slider-quote">
               UPTO 80% OFF ON KIDS WEARS <br />
@@ -58,6 +66,7 @@ const Carosel = () => {
                   background: "#d71144",
                   fontSize: "2rem",
                   borderRadius: "36px",
+                  marginTop: "3%",
                 }}
               >
                 BUY NOW
@@ -67,10 +76,10 @@ const Carosel = () => {
         </Paper>
         <Paper>
           <div
-            className="slider-div"
-            style={{
-              background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${a13})`,
-            }}
+            className="slider-div pic3"
+            // style={{
+            //   background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${a13})`,
+            // }}
           >
             <h2 className="slider-quote">
               BEST DEALS OF THE DAY <br />( UPTO 50% OFF ) <br />
@@ -80,7 +89,7 @@ const Carosel = () => {
                 style={{
                   width: "18rem",
                   height: "4rem",
-
+                  marginTop: "3%",
                   fontSize: "2rem",
                   borderRadius: "36px",
                 }}
