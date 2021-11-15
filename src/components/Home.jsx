@@ -36,7 +36,6 @@ const Home = () => {
       <div className="home-carosel">
         <Carosel />
       </div>
-      <Carosel />
     </div>
   );
 };
