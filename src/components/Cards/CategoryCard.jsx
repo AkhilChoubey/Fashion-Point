@@ -1,26 +1,30 @@
 import React from "react";
-
+import "./CategoryCards.css";
 const CategoryCard = (props) => {
   return (
     <>
       <div className="col-md-3 col-sm-6 col-6 ">
-        <div
-          style={{
-            padding: 0,
-            boxShadow: "0px 18px 53px 0px rgb(185 181 181 / 65%)",
-            height: "11rem",
-            width: "12rem",
-          }}
-        >
+        <div className="category-card-dimension">
           <div
             style={{
               width: "100%",
               height: "100%",
               background: `url(${props.imgsrc}) center/13rem 12rem no-repeat`,
               borderRadius: "12px",
+              paddingTop: "76.68%",
             }}
           >
-            <h4 className="card-title font-weight-bold">{props.title}</h4>
+            <h4
+              className="card-title font-weight-bold"
+              style={{
+                textAlign: "center",
+                color: "white",
+                background: "rgba(0,0,0,0.4)",
+                borderRadius: "0 0 12px 12px ",
+              }}
+            >
+              {props.title}
+            </h4>
           </div>
         </div>
         {/* <div

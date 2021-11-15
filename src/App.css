@@ -229,6 +229,12 @@
   margin: auto;
   margin-left: 17%;
 }
-.top-elements {
-  padding-left: 21%;
+#top-elements {
+  margin-left: 11%;
+}
+
+@media (max-width: 450px) {
+  #top-elements {
+    margin-left: 5%;
+  }
 }
