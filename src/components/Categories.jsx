@@ -33,17 +33,17 @@ const Categories = () => {
             <div className="col-10" id="top-elements">
               <div className="row gy-4">
                 <CategoryCard imgsrc={d1} title="MENS" />
-                <CategoryCard imgsrc={d2} title="MENS" />
-                <CategoryCard imgsrc={d3} title="MENS" />
-                <CategoryCard imgsrc={d4} title="MENS" />
-                <CategoryCard imgsrc={d5} title="MENS" />
-                <CategoryCard imgsrc={d6} title="MENS" />
-                <CategoryCard imgsrc={d7} title="MENS" />
-                <CategoryCard imgsrc={d8} title="MENS" />
-                <CategoryCard imgsrc={d9} title="MENS" />
-                <CategoryCard imgsrc={d10} title="MENS" />
-                <CategoryCard imgsrc={d10} title="MENS" />
-                <CategoryCard imgsrc={d10} title="MENS" />
+                <CategoryCard imgsrc={d2} title="WINTER WEAR" />
+                <CategoryCard imgsrc={d3} title="CASUALS" />
+                <CategoryCard imgsrc={d4} title="WESTERN" />
+                <CategoryCard imgsrc={d5} title="MOODY" />
+                <CategoryCard imgsrc={d6} title="TRADITIONAL" />
+                <CategoryCard imgsrc={d7} title="SPORTS WEAR" />
+                <CategoryCard imgsrc={d8} title="CLASSICS" />
+                <CategoryCard imgsrc={d9} title="CAPS" />
+                <CategoryCard imgsrc={d10} title="FESTIVE WEAR" />
+                <CategoryCard imgsrc={d10} title="KIDS" />
+                <CategoryCard imgsrc={d10} title="KIDS CASUALS" />
               </div>
             </div>
           </div>
