@@ -37,8 +37,11 @@ const Categories = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-10" id="top-elements">
-              <div className="row gy-4" style={{ marginBottom: "5%" }}>
-                <CategoryCard to="/Men" imgsrc={d1} title="MENS" />{" "}
+              <div
+                className="row gy-4"
+                style={{ marginBottom: "5%", marginTop: "5%" }}
+              >
+                <CategoryCard to="/Men" imgsrc={d1} title="MENS" />
                 <CategoryCard to="/Men" imgsrc={d2} title="WINTER WEAR" />
                 <CategoryCard to="/Men" imgsrc={d3} title="CASUALS" />
                 <CategoryCard to="/Women" imgsrc={d4} title="WESTERN" />
@@ -50,7 +53,7 @@ const Categories = () => {
                 <CategoryCard to="/Womwn" imgsrc={d10} title="FESTIVE WEAR" />
                 <CategoryCard to="Kids" imgsrc={d11} title="KIDS" />
                 <CategoryCard to="Kids" imgsrc={d12} title="KIDS CASUALS" />
-                <h3 class="brand-title">FIND YOUR FAVOURITE BRANDS</h3>
+                <h3 className="brand-title">FIND YOUR FAVOURITE BRANDS</h3>
                 <BrandsCard id="1" name="Puma" to="/Men" title={<SiPuma />} />
                 <BrandsCard
                   id="2"
