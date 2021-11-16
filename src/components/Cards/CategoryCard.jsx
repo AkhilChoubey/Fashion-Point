@@ -37,28 +37,6 @@ const CategoryCard = (props) => {
               </h4>
             </div>
           </div>
-          {/* <div
-          className="card"
-          style={{
-            padding: 0,
-            boxShadow: "0px 18px 53px 0px rgb(185 181 181 / 65%)",
-            height: "4rem",
-          }}
-          // data-aos="fade-up"
-        >
-          <div
-            className="card-body"
-            style={{ background: `url(${props.imgsrc})`, height: "7rem" }}
-          >
-            {/* <img
-              src={props.imgsrc}
-              className="card-img-top"
-              alt={props.imgsrc}
-            /> 
-            <h5 className="card-title font-weight-bold">{props.title}</h5>
-          </div>
-        </div>
-        */}
         </Link>
       </div>
     </>
