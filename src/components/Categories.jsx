@@ -32,7 +32,7 @@ const Categories = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-10" id="top-elements">
-              <div className="row gy-4">
+              <div className="row gy-4" style={{ marginBottom: "5%" }}>
                 <CategoryCard to="/Men" imgsrc={d1} title="MENS" />{" "}
                 <CategoryCard to="/Men" imgsrc={d2} title="WINTER WEAR" />
                 <CategoryCard to="/Men" imgsrc={d3} title="CASUALS" />
