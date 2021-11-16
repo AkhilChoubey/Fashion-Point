@@ -11,16 +11,17 @@ const CategoryCard = (props) => {
 
   return (
     <>
-      <div className="col-md-3 col-sm-6 col-6 ">
+      <div className="col-md-3 col-sm-6 col-6 " data-aos="zoom-in">
         <Link to={props.to} style={{ textDecoration: "none" }}>
           <div className="category-card-dimension">
             <div
+              className="category-body"
               style={{
                 width: "100%",
                 height: "100%",
                 background: `url(${props.imgsrc}) center/13rem 12rem no-repeat`,
                 borderRadius: "12px",
-                paddingTop: "76.68%",
+                // paddingTop: "76.68%",
               }}
             >
               <h4

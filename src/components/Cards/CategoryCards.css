@@ -18,8 +18,18 @@
   font-size: 1rem;
 }
 
+.category-body {
+  padding-top: 76.68%;
+}
+
 @media (max-width: 450px) {
   .category-card-dimension {
     width: 9rem;
+  }
+  .category-body {
+    padding-top: 106.4%;
+  }
+  .category-body h4 {
+    font-size: 1.2rem;
   }
 }
