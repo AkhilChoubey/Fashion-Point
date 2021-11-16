@@ -11,8 +11,9 @@ import d7 from "./images/CateroryImage/d7.jpg";
 import d8 from "./images/CateroryImage/d8.jpg";
 import d9 from "./images/CateroryImage/d9.jpg";
 import d10 from "./images/CateroryImage/d10.jpg";
-// import d11 from "./images/CateroryImage/d11.jpg";
-// import d12 from "./images/CateroryImage/d12.jpg";
+import d11 from "./images/CateroryImage/d11.jpg";
+import d12 from "./images/CateroryImage/d12.jpg";
+import { Link } from "react-router-dom";
 
 const Categories = () => {
   const [isLoading, setLoading] = useState(true);
@@ -32,18 +33,18 @@ const Categories = () => {
           <div className="row">
             <div className="col-10" id="top-elements">
               <div className="row gy-4">
-                <CategoryCard imgsrc={d1} title="MENS" />
-                <CategoryCard imgsrc={d2} title="WINTER WEAR" />
-                <CategoryCard imgsrc={d3} title="CASUALS" />
-                <CategoryCard imgsrc={d4} title="WESTERN" />
-                <CategoryCard imgsrc={d5} title="MOODY" />
-                <CategoryCard imgsrc={d6} title="TRADITIONAL" />
-                <CategoryCard imgsrc={d7} title="SPORTS WEAR" />
-                <CategoryCard imgsrc={d8} title="CLASSICS" />
-                <CategoryCard imgsrc={d9} title="CAPS" />
-                <CategoryCard imgsrc={d10} title="FESTIVE WEAR" />
-                <CategoryCard imgsrc={d10} title="KIDS" />
-                <CategoryCard imgsrc={d10} title="KIDS CASUALS" />
+                <CategoryCard to="/Men" imgsrc={d1} title="MENS" />{" "}
+                <CategoryCard to="/Men" imgsrc={d2} title="WINTER WEAR" />
+                <CategoryCard to="/Men" imgsrc={d3} title="CASUALS" />
+                <CategoryCard to="/Women" imgsrc={d4} title="WESTERN" />
+                <CategoryCard to="/Women" imgsrc={d5} title="MOODY" />
+                <CategoryCard to="/Women" imgsrc={d6} title="TRADITIONAL" />
+                <CategoryCard to="Women" imgsrc={d7} title="SPORTS WEAR" />
+                <CategoryCard to="/Women" imgsrc={d8} title="CLASSICS" />
+                <CategoryCard to="/Men" imgsrc={d9} title="CAPS" />
+                <CategoryCard to="/Womwn" imgsrc={d10} title="FESTIVE WEAR" />
+                <CategoryCard to="Kids" imgsrc={d11} title="KIDS" />
+                <CategoryCard to="Kids" imgsrc={d12} title="KIDS CASUALS" />
               </div>
             </div>
           </div>
