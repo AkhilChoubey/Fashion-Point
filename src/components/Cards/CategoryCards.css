@@ -7,19 +7,13 @@
 }
 
 .card-title1 {
-  background: rgba(0, 0, 0, 0.4);
-
-  bottom: 0;
-  text-align: center;
-  width: 97.3%;
-  color: rgb(253, 251, 251);
-  height: 2rem;
-  font-family: "Italiana", serif;
-  font-size: 1rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .category-body {
-  padding-top: 76.68%;
+  padding-top: 71.8%;
 }
 
 @media (max-width: 450px) {
