@@ -14,6 +14,11 @@ import d10 from "./images/CateroryImage/d10.jpg";
 import d11 from "./images/CateroryImage/d11.jpg";
 import d12 from "./images/CateroryImage/d12.jpg";
 import { Link } from "react-router-dom";
+import BrandsCard from "./Cards/BrandsCard";
+import { SiPuma } from "react-icons/si";
+import { CgAdidas } from "react-icons/cg";
+import { SiNike } from "react-icons/si";
+import { SiReebok } from "react-icons/si";
 
 const Categories = () => {
   const [isLoading, setLoading] = useState(true);
@@ -41,10 +46,15 @@ const Categories = () => {
                 <CategoryCard to="/Women" imgsrc={d6} title="TRADITIONAL" />
                 <CategoryCard to="Women" imgsrc={d7} title="SPORTS WEAR" />
                 <CategoryCard to="/Women" imgsrc={d8} title="CLASSICS" />
-                <CategoryCard to="/Men" imgsrc={d9} title="CAPS" />
+                <CategoryCard to="/Men" imgsrc={d9} title="BASICS" />
                 <CategoryCard to="/Womwn" imgsrc={d10} title="FESTIVE WEAR" />
                 <CategoryCard to="Kids" imgsrc={d11} title="KIDS" />
                 <CategoryCard to="Kids" imgsrc={d12} title="KIDS CASUALS" />
+                <h3 class="brand-title">FIND YOUR FAVOURITE BRANDS</h3>
+                <BrandsCard to="/Men" title={<SiPuma />} />
+                <BrandsCard to="/Men" title={<CgAdidas />} />
+                <BrandsCard to="/Men" title={<SiNike />} />
+                <BrandsCard to="/Men" title={<SiReebok />} />
               </div>
             </div>
           </div>

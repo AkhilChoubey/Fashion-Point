@@ -4,38 +4,31 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
-const CategoryCard = (props) => {
+const BrandsCard = (props) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   return (
     <>
-      <div className="col-md-3 col-sm-6 col-6 " data-aos="zoom-in">
+      <div
+        className="col-md-3 col-sm-6 col-6 "
+        data-aos="zoom-in"
+        style={{ marginBottom: "10%" }}
+      >
         <Link to={props.to} style={{ textDecoration: "none" }}>
-          <div className="category-card-dimension">
-            <div
-              className="category-body"
+          <div className="category-card-dimension1">
+            <h4
+              className="card-title11 font-weight-bold"
               style={{
+                textAlign: "center",
                 width: "100%",
                 height: "100%",
-                background: `url(${props.imgsrc}) center/13rem 12rem no-repeat`,
-                borderRadius: "12px",
-                // paddingTop: "76.68%",
+                alignItems: "center",
               }}
             >
-              <h4
-                className="card-title1 font-weight-bold"
-                style={{
-                  textAlign: "center",
-                  color: "white",
-                  background: "rgba(0,0,0,0.4)",
-                  borderRadius: "0 0 12px 12px ",
-                }}
-              >
-                {props.title}
-              </h4>
-            </div>
+              {props.title}
+            </h4>
           </div>
         </Link>
       </div>
@@ -43,4 +36,4 @@ const CategoryCard = (props) => {
   );
 };
 
-export default CategoryCard;
+export default BrandsCard;
