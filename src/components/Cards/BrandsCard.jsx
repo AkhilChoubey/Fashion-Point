@@ -23,6 +23,7 @@ const BrandsCard = (props) => {
         className="col-md-3 col-sm-6 col-6 "
         data-aos="zoom-in-down"
         style={{ marginBottom: "10%" }}
+        title={props.name}
       >
         <Link to={props.to} style={{ textDecoration: "none" }}>
           <div className="category-card-dimension1">

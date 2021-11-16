@@ -51,10 +51,20 @@ const Categories = () => {
                 <CategoryCard to="Kids" imgsrc={d11} title="KIDS" />
                 <CategoryCard to="Kids" imgsrc={d12} title="KIDS CASUALS" />
                 <h3 class="brand-title">FIND YOUR FAVOURITE BRANDS</h3>
-                <BrandsCard id="1" to="/Men" title={<SiPuma />} />
-                <BrandsCard id="2" to="/Men" title={<CgAdidas />} />
-                <BrandsCard id="3" to="/Men" title={<SiNike />} />
-                <BrandsCard id="4" to="/Men" title={<SiReebok />} />
+                <BrandsCard id="1" name="Puma" to="/Men" title={<SiPuma />} />
+                <BrandsCard
+                  id="2"
+                  name="Adidas"
+                  to="/Men"
+                  title={<CgAdidas />}
+                />
+                <BrandsCard id="3" name="Nike" to="/Men" title={<SiNike />} />
+                <BrandsCard
+                  id="4"
+                  name="Reebok"
+                  to="/Men"
+                  title={<SiReebok />}
+                />
               </div>
             </div>
           </div>
