@@ -1,0 +1,39 @@
+.item-card-container {
+  width: 25%;
+}
+
+.product-card-btn {
+  width: 370%;
+  position: absolute;
+  top: 84%;
+  margin-left: 50%;
+}
+
+@media (max-width: 980px) {
+  .item-card-container {
+    width: 50%;
+  }
+  .product-card-btn {
+    margin-left: 25%;
+    width: 250%;
+  }
+}
+
+@media (max-width: 770px) {
+  .item-card-container {
+    width: 50%;
+  }
+  .product-card-btn {
+    margin-left: 20%;
+    width: 200%;
+  }
+}
+@media (max-width: 450px) {
+  .item-card-container {
+    width: 100%;
+  }
+  .product-card-btn {
+    margin-left: 17%;
+    width: 170%;
+  }
+}

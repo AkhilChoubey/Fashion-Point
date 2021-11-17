@@ -30,10 +30,7 @@ const Men = () => {
                   style={{ marginBottom: "5%", marginTop: "5%" }}
                 >
                   {MenItems.map((m) => (
-                    <div
-                      className="item-card-container"
-                      style={{ width: "25%" }}
-                    >
+                    <div className="item-card-container">
                       <Productcard
                         photos={[m.image]}
                         price={m.price}
