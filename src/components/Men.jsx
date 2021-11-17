@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
-import { ProductCard } from "react-ui-cards";
 import { useCart } from "react-use-cart";
 import MenItems from "./constants/MenItems";
 import Productcard from "./Cards/Productcard";
