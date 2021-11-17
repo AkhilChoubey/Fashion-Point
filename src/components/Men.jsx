@@ -32,7 +32,7 @@ const Men = () => {
                   {MenItems.map((m) => (
                     <div className="item-card-container">
                       <Productcard
-                        photos={[m.image]}
+                        photos={[m.image, m.image2, m.image3]}
                         price={m.price}
                         productName={m.name}
                         description={m.description}

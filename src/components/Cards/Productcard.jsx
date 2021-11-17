@@ -11,11 +11,11 @@ const Productcard = (props) => {
       title={props.productName}
     >
       <ProductCard
-        photos={[props.photos]}
+        photos={props.photos}
         price={props.price}
         productName={props.productName}
         description={props.description}
-        style={{ height: "10rem" }}
+        // style={{ height: "10rem" }}
       />
       <div
         onClick={() => {
