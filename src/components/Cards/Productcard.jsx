@@ -17,18 +17,28 @@ const Productcard = (props) => {
         description={props.description}
         style={{ height: "10rem" }}
       />
-      <button
-        className="btn btn-warning btn-lg product-card-btn"
+      <div
         onClick={() => {
-          return props.addItem, setSelectButton(true);
+          selectButton === false
+            ? setSelectButton(true)
+            : setSelectButton(true);
         }}
-        style={{
-          color: selectButton && "white",
-          background: selectButton && "#238636",
-        }}
+        className="product-card-btn"
       >
-        {selectButton === true ? "Added to Cart!" : "Add to cart"}
-      </button>
+        <button
+          className="btn btn-warning btn-lg "
+          onClick={props.addItem}
+          style={{
+            color: selectButton === true ? "white" : "Black",
+            background: selectButton === true ? "#238636" : "#ffc107",
+            borderColor: selectButton === true ? "#238636" : "#ffc107",
+            fontSize: selectButton && "1.1rem",
+            width: "100%",
+          }}
+        >
+          {selectButton === true ? "ITEM ADDED TO CART!" : "ADD TO CART"}
+        </button>
+      </div>
     </div>
   );
 };
