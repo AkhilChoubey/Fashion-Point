@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../Loading";
 import { useCart } from "react-use-cart";
-import WinterItems from "./constants/CategoriesConstants/WinterWearItems";
+import WinterItems from "../constants/CategoriesConstants/WinterWearItems";
 import Productcard from "../Cards/Productcard";
 import "../CommonCategory.css";
 const Winter = () => {

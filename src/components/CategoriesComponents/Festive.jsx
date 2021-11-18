@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../Loading";
 import { useCart } from "react-use-cart";
-import FestiveItems from "./constants/CategoriesConstants/FestiveWearItems";
+import FestiveItems from "../constants/CategoriesConstants/FestiveWearItems";
 import Productcard from "../Cards/Productcard";
 import "../CommonCategory.css";
 const Festive = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../Loading";
 import { useCart } from "react-use-cart";
-import AdidasItems from "./constants/CategoriesConstants/AdidasItems";
+import AdidasItems from "../constants/CategoriesConstants/AdidasItems";
 import Productcard from "../Cards/Productcard";
 import "../CommonCategory.css";
 const Adidas = () => {

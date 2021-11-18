@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../Loading";
 import { useCart } from "react-use-cart";
-import PumaItems from "./constants/CategoriesConstants/PumaItems";
+import PumaItems from "../constants/CategoriesConstants/PumaItems";
 import Productcard from "../Cards/Productcard";
 import "../CommonCategory.css";
 const Puma = () => {
