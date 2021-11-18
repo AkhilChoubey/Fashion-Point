@@ -1,4 +1,4 @@
-const BasicsItems = [
+const FestiveWearItems = [
   {
     id: 1,
     image: "",
@@ -145,4 +145,4 @@ const BasicsItems = [
   },
 ];
 
-export default BasicsItems;
+export default FestiveWearItems;
