@@ -3,7 +3,7 @@ import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import SportsItems from "./constants/CategoriesConstants/SportsWearItems";
 import Productcard from "../Cards/Productcard";
-import "./CommonCategory.css";
+import "../CommonCategory.css";
 const SportsWear = () => {
   const [isLoading, setLoading] = useState(true);
 

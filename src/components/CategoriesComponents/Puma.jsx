@@ -3,7 +3,7 @@ import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import PumaItems from "./constants/CategoriesConstants/PumaItems";
 import Productcard from "../Cards/Productcard";
-import "./CommonCategory.css";
+import "../CommonCategory.css";
 const Puma = () => {
   const [isLoading, setLoading] = useState(true);
 

@@ -3,7 +3,7 @@ import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import MoodyItems from "./constants/CategoriesConstants/MoodyItems";
 import Productcard from "../Cards/Productcard";
-import "./CommonCategory.css";
+import "../CommonCategory.css";
 const Moody = () => {
   const [isLoading, setLoading] = useState(true);
 

@@ -3,7 +3,7 @@ import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import CasualsItems from "./constants/CategoriesConstants/CasualsItems";
 import Productcard from "../Cards/Productcard";
-import "./CommonCategory.css";
+import "../CommonCategory.css";
 const Casuals = () => {
   const [isLoading, setLoading] = useState(true);
 
