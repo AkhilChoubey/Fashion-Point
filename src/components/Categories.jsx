@@ -58,14 +58,14 @@ const Categories = () => {
                 <BrandsCard
                   id="2"
                   name="Adidas"
-                  to="/Men"
+                  to="/Adidas"
                   title={<CgAdidas />}
                 />
                 <BrandsCard id="3" name="Nike" to="/Men" title={<SiNike />} />
                 <BrandsCard
                   id="4"
                   name="Reebok"
-                  to="/Men"
+                  to="/Reebok"
                   title={<SiReebok />}
                 />
               </div>

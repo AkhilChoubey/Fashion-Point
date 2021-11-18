@@ -12,6 +12,20 @@ import Men from "./components/Men";
 import Women from "./components/Women";
 import Kids from "./components/Kids";
 import Categories from "./components/Categories";
+import Adidas from "./components/CategoriesComponents/Adidas";
+import Reebok from "./components/CategoriesComponents/Reebok";
+import Basics from "./components/CategoriesComponents/Basics";
+import Casuals from "./components/CategoriesComponents/Casuals";
+import Classics from "./components/CategoriesComponents/Classics";
+import Festive from "./components/CategoriesComponents/Festive";
+import KidsCasuals from "./components/CategoriesComponents/KidsCasuals";
+import Moody from "./components/CategoriesComponents/Moody";
+import Nike from "./components/CategoriesComponents/Nike";
+import Puma from "./components/CategoriesComponents/Puma";
+import SportsWear from "./components/CategoriesComponents/SportsWear";
+import Traditional from "./components/CategoriesComponents/Traditional";
+import Western from "./components/CategoriesComponents/Western";
+import Winter from "./components/CategoriesComponents/Winter";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -46,6 +60,22 @@ function App() {
               <Route path="/women" element={<Women />} />
               <Route path="/kids" element={<Kids />} />
               <Route path="/categories" element={<Categories />} />
+
+              {/* Caterories router */}
+              <Route path="/Adidas" exact element={<Adidas />} />
+              <Route path="/Reebok" exact element={<Reebok />} />
+              <Route path="/Basics" exact element={<Basics />} />
+              <Route path="/Casuals" exact element={<Casuals />} />
+              <Route path="/Classics" exact element={<Classics />} />
+              <Route path="/Festive" exact element={<Festive />} />
+              <Route path="/KidsCasuals" exact element={<KidsCasuals />} />
+              <Route path="/Moody" exact element={<Moody />} />
+              <Route path="/Nike" exact element={<Nike />} />
+              <Route path="/Puma" exact element={<Puma />} />
+              <Route path="/SportsWear" exact element={<SportsWear />} />
+              <Route path="/Traditional" exact element={<Traditional />} />
+              <Route path="/Western" exact element={<Western />} />
+              <Route path="/Winter" exact element={<Winter />} />
             </Routes>
           </div>
         </Router>
