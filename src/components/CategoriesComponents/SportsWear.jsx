@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Loading from "./Loading";
+import Loading from "../Loading";
 import { useCart } from "react-use-cart";
 import SportsItems from "./constants/CategoriesConstants/SportsWearItems";
 import Productcard from "../Cards/Productcard";

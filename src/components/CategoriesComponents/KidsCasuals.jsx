@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Loading from "./Loading";
+import Loading from "../Loading";
 import { useCart } from "react-use-cart";
 import KidsCasualsItems from "./constants/CategoriesConstants/KidsCasualsItems";
 import Productcard from "../Cards/Productcard";
