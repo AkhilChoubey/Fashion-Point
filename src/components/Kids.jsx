@@ -29,8 +29,10 @@ const Kids = () => {
                   style={{ marginBottom: "5%", marginTop: "5%" }}
                 >
                   {KidsItems.map((m) => (
-                    <div className="item-card-container">
+                    <div key={m.id} className="item-card-container">
                       <Productcard
+                        key={m.id}
+                        id={m.id}
                         photos={[
                           m.variation_0_image,
                           m.variation_1_image,

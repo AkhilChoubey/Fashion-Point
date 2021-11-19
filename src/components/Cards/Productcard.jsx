@@ -11,6 +11,7 @@ const Productcard = (props) => {
       title={props.productName}
     >
       <ProductCard
+        key={props.id}
         photos={props.photos}
         price={"$ " + props.price}
         productName={props.productName}

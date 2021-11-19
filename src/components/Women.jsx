@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import { useCart } from "react-use-cart";
-import WomenItems from "./constants/WomenItems";
+import WomenItems from "./constants/Womensitemss";
 import Productcard from "./Cards/Productcard";
 import "./CommonCategory.css";
 const Women = () => {
@@ -29,12 +29,16 @@ const Women = () => {
                   style={{ marginBottom: "5%", marginTop: "5%" }}
                 >
                   {WomenItems.map((m) => (
-                    <div className="item-card-container">
+                    <div key={m.id} className="item-card-container">
                       <Productcard
-                        photos={[m.image, m.image2, m.image3]}
+                        photos={[
+                          m.variation_0_image,
+                          m.variation_1_image,
+                          m.image_url,
+                        ]}
                         price={m.price}
-                        productName={m.name}
-                        description={m.description}
+                        productName={m.subcategory}
+                        description={m.name}
                         addItem={() => addItem(m)}
                       />
                     </div>
