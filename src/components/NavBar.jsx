@@ -4,11 +4,6 @@ import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BiCategory } from "react-icons/bi";
-import { SiPuma } from "react-icons/si";
-import { CgAdidas } from "react-icons/cg";
-import { SiNike } from "react-icons/si";
-import { SiReebok } from "react-icons/si";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -117,7 +112,62 @@ const NavBar = () => {
                     </Link>
                     <span></span>
                   </li>
-
+                  {/* //////////////// */}
+                  {/* <li className="nav-item menuitem nav-category-item">
+                    <Link
+                      to="/women"
+                      activeclassname="menu-active"
+                      className="nav-link"
+                      id="nav-category"
+                    >
+                      ACCESSORIES
+                    </Link>
+                    <span></span>
+                  </li>
+                  <li className="nav-item menuitem nav-category-item">
+                    <Link
+                      to="/women"
+                      activeclassname="menu-active"
+                      className="nav-link"
+                      id="nav-category"
+                    >
+                      BAGS
+                    </Link>
+                    <span></span>
+                  </li>
+                  <li className="nav-item menuitem nav-category-item">
+                    <Link
+                      to="/women"
+                      activeclassname="menu-active"
+                      className="nav-link"
+                      id="nav-category"
+                    >
+                      BEAUTY
+                    </Link>
+                    <span></span>
+                  </li>
+                  <li className="nav-item menuitem nav-category-item">
+                    <Link
+                      to="/women"
+                      activeclassname="menu-active"
+                      className="nav-link"
+                      id="nav-category"
+                    >
+                      HOUSE
+                    </Link>
+                    <span></span>
+                  </li>
+                  <li className="nav-item menuitem nav-category-item">
+                    <Link
+                      to="/women"
+                      activeclassname="menu-active"
+                      className="nav-link"
+                      id="nav-category"
+                    >
+                      JEWELRY
+                    </Link>
+                    <span></span>
+                  </li> */}
                   <div className="nav-icons-list">
                     <li
                       className="nav-item menuitem"
