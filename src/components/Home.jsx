@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div style={{ display: "block" }} className="super-root-home">
       <div className="root-home">
-        <SideBar />
+        {/* <SideBar /> */}
         <div className="home">
           <div style={{ display: "block" }}>
             <h1>BOOST YOUR STYLE SENCE</h1>

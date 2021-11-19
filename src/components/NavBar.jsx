@@ -4,6 +4,11 @@ import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BiCategory } from "react-icons/bi";
+import { SiPuma } from "react-icons/si";
+import { CgAdidas } from "react-icons/cg";
+import { SiNike } from "react-icons/si";
+import { SiReebok } from "react-icons/si";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -111,6 +116,37 @@ const NavBar = () => {
                       KIDS
                     </Link>
                     <span></span>
+                  </li>
+                  <li className="nav-item dropdown menuitem nav-category-item">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      BRANDS
+                    </a>
+                    <div
+                      className="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <a className="dropdown-item" href="#">
+                        <SiPuma /> PUMA
+                      </a>
+                      <a className="dropdown-item" href="#">
+                        <CgAdidas /> ADIDAS
+                      </a>
+                      <div className="dropdown-divider"></div>
+                      <a className="dropdown-item" href="#">
+                        <SiReebok /> REEBOK
+                      </a>
+                      <a className="dropdown-item" href="#">
+                        <SiNike /> NIKE
+                      </a>
+                    </div>
                   </li>
                   <div className="nav-icons-list">
                     <li

@@ -26,6 +26,7 @@ import SportsWear from "./components/CategoriesComponents/SportsWear";
 import Traditional from "./components/CategoriesComponents/Traditional";
 import Western from "./components/CategoriesComponents/Western";
 import Winter from "./components/CategoriesComponents/Winter";
+import SideBar from "./components/SideBar";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -51,6 +52,9 @@ function App() {
               }}
             >
               <NavBar />
+            </div>
+            <div>
+              <SideBar />
             </div>
             <Routes>
               <Route path="/" exact element={<Home />} />
