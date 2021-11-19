@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { ProductCard } from "react-ui-cards";
+import { useCart } from "react-use-cart";
 
 const Productcard = (props) => {
-  const [selectButton, setSelectButton] = useState(false);
+  const { inCart } = useCart();
 
+  const [selectButton, setSelectButton] = useState(inCart(props.id));
+  //console.log(inCart(props.id));
   return (
     <div
       className="col-md-3 col-sm-6 col-6 "
@@ -20,9 +23,7 @@ const Productcard = (props) => {
       />
       <div
         onClick={() => {
-          selectButton === false
-            ? setSelectButton(true)
-            : setSelectButton(true);
+          setSelectButton(true);
         }}
         className="product-card-btn"
       >
@@ -35,6 +36,8 @@ const Productcard = (props) => {
             borderColor: selectButton === true ? "#238636" : "#ffc107",
             fontSize: selectButton && "1.1rem",
             width: "100%",
+            pointerEvents: selectButton && "none",
+            cursor: selectButton && "not-allowed",
           }}
         >
           {selectButton === true ? "ITEM ADDED TO CART!" : "ADD TO CART"}

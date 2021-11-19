@@ -3,6 +3,7 @@ import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 const Cart = () => {
   const [isLoading, setLoading] = useState(true);
+  const [totalAmount, setTotalAmount] = useState(0);
 
   useEffect(() => {
     setTimeout(() => {
@@ -16,8 +17,16 @@ const Cart = () => {
     items,
     updateItemQuantity,
     removeItem,
+    cartTotal,
   } = useCart();
 
+  useEffect(() => {
+    items.forEach((m) => {
+      setTotalAmount((pre) => {
+        return pre + m.item;
+      });
+    });
+  }, []);
   return (
     <div>
       {isLoading ? (
@@ -30,6 +39,7 @@ const Cart = () => {
           <ul>
             {items.map((item) => (
               <li key={item.id}>
+                <img src={item.image_url} />
                 {item.quantity} x {item.name} &mdash;
                 <button
                   onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
@@ -45,6 +55,7 @@ const Cart = () => {
               </li>
             ))}
           </ul>
+          <h1>Total Amount :$ {Math.round(cartTotal * 100) / 100}</h1>
         </div>
       )}
     </div>

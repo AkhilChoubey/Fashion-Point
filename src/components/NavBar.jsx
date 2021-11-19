@@ -4,6 +4,8 @@ import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BiCategory } from "react-icons/bi";
+import { useCart } from "react-use-cart";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -11,6 +13,8 @@ const NavBar = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const { totalItems } = useCart();
 
   return (
     <div className="container-fluid nav_bg">
@@ -188,7 +192,11 @@ const NavBar = () => {
                     <li
                       className="nav-item menuitem"
                       id="nav-brand2"
-                      style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                      style={{
+                        fontSize: "1.55rem",
+                        paddingTop: "3%",
+                        color: "#238636",
+                      }}
                       title="Cart"
                     >
                       <Link
@@ -196,8 +204,23 @@ const NavBar = () => {
                         activeclassname="menu-active"
                         className="nav-link"
                         id="navbar-icons"
+                        style={{ color: totalItems > 0 ? "#238636" : "" }}
                       >
                         <HiShoppingCart />
+                        {totalItems > 0 ? (
+                          <sup
+                            style={{
+                              background: "#ff0000",
+                              color: "white",
+                              borderRadius: "6px",
+                              fontWeight: 600,
+                            }}
+                          >
+                            {totalItems}{" "}
+                          </sup>
+                        ) : (
+                          ""
+                        )}
                       </Link>
                       <span></span>
                     </li>

@@ -31,6 +31,7 @@ const Women = () => {
                   {WomenItems.map((m) => (
                     <div key={m.id} className="item-card-container">
                       <Productcard
+                        id={m.id}
                         photos={[
                           m.variation_0_image,
                           m.variation_1_image,

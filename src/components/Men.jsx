@@ -36,7 +36,7 @@ const Men = () => {
                         // productName={m.name}
                         // description={m.description}
                         // addItem={() => addItem(m)}
-
+                        id={m.id}
                         photos={[
                           m.variation_0_image,
                           m.variation_1_image,
