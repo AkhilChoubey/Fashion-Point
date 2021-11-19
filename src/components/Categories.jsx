@@ -13,7 +13,6 @@ import d9 from "./images/CateroryImage/d9.jpg";
 import d10 from "./images/CateroryImage/d10.jpg";
 import d11 from "./images/CateroryImage/d11.jpg";
 import d12 from "./images/CateroryImage/d12.jpg";
-import { Link } from "react-router-dom";
 import BrandsCard from "./Cards/BrandsCard";
 import { SiPuma } from "react-icons/si";
 import { CgAdidas } from "react-icons/cg";

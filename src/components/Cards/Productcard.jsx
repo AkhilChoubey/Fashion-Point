@@ -12,7 +12,7 @@ const Productcard = (props) => {
     >
       <ProductCard
         photos={props.photos}
-        price={props.price}
+        price={"$" + props.price}
         productName={props.productName}
         description={props.description}
         // style={{ height: "10rem" }}

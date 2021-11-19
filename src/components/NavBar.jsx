@@ -117,37 +117,7 @@ const NavBar = () => {
                     </Link>
                     <span></span>
                   </li>
-                  <li className="nav-item dropdown menuitem nav-category-item">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      BRANDS
-                    </a>
-                    <div
-                      className="dropdown-menu"
-                      aria-labelledby="navbarDropdown"
-                    >
-                      <a className="dropdown-item" href="#">
-                        <SiPuma /> PUMA
-                      </a>
-                      <a className="dropdown-item" href="#">
-                        <CgAdidas /> ADIDAS
-                      </a>
-                      <div className="dropdown-divider"></div>
-                      <a className="dropdown-item" href="#">
-                        <SiReebok /> REEBOK
-                      </a>
-                      <a className="dropdown-item" href="#">
-                        <SiNike /> NIKE
-                      </a>
-                    </div>
-                  </li>
+
                   <div className="nav-icons-list">
                     <li
                       className="nav-item menuitem"
