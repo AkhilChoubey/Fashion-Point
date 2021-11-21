@@ -7,6 +7,8 @@ import { TiArrowBack } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import { BsHandbagFill } from "react-icons/bs";
 import { BsBagXFill } from "react-icons/bs";
+import { IoMdAddCircle } from "react-icons/io";
+import { HiMinusCircle } from "react-icons/hi";
 
 const Cart = () => {
   const [isLoading, setLoading] = useState(true);
@@ -59,7 +61,7 @@ const Cart = () => {
 
                   <th class="text-center">
                     <button
-                      class="btn btn-sm btn-outline-danger"
+                      class="btn btn-sm btn-danger remove-all"
                       onClick={emptyCart}
                     >
                       RESET CART
@@ -105,30 +107,42 @@ const Cart = () => {
                       </div>
                     </td>
                     <td class="text-center" style={{ paddingTop: "2.5%" }}>
-                      <button
+                      {/* <button
                         class="btn btn-success"
                         style={{ fontSize: "1rem", borderRadius: "50%" }}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity + 1)
                         }
-                      >
-                        +
-                      </button>
+                      > */}
+                      <IoMdAddCircle
+                        // class="btn btn-success"
+                        style={{
+                          fontSize: "3rem",
+                          borderRadius: "50%",
+                          color: "green",
+                        }}
+                        onClick={() =>
+                          updateItemQuantity(item.id, item.quantity + 1)
+                        }
+                      />
+
                       <br />
                       <br />
 
                       {item.quantity}
                       <br />
                       <br />
-                      <button
-                        class="btn btn-warning"
-                        style={{ fontSize: "1rem", borderRadius: "50%" }}
+                      <HiMinusCircle
+                        // class="btn btn-warning"
+                        style={{
+                          fontSize: "3rem",
+                          borderRadius: "50%",
+                          color: "#dc3545",
+                        }}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity - 1)
                         }
-                      >
-                        -
-                      </button>
+                      />
                     </td>
                     <td
                       class="text-center text-lg text-medium"

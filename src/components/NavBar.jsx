@@ -14,7 +14,7 @@ const NavBar = () => {
     Aos.init({ duration: 1000 });
   }, []);
 
-  const { totalItems } = useCart();
+  const { totalItems, emptyCart } = useCart();
 
   return (
     <div className="container-fluid nav_bg">
@@ -204,14 +204,15 @@ const NavBar = () => {
                         activeclassname="menu-active"
                         className="nav-link"
                         id="navbar-icons"
-                        style={{ color: totalItems > 0 ? "#238636" : "" }}
+                        style={{
+                          color: totalItems > 0 ? "#238636" : "#79797e",
+                        }}
                       >
                         <HiShoppingCart />
                         {totalItems > 0 ? (
                           <sup
                             style={{
-                              background: "#ff0000",
-                              color: "white",
+                              color: "red",
                               borderRadius: "6px",
                               fontWeight: 600,
                             }}

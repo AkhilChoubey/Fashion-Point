@@ -9,6 +9,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Carosel from "./Carosel";
 import Categories from "./Categories";
+import { Link } from "react-router-dom";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -23,12 +24,13 @@ const Home = () => {
             <h1>BOOST YOUR STYLE SENCE</h1>
             <h3>Right here Right now!</h3>
 
-            <button
+            <Link
               className="btn btn-outline-dark btn-explore btn-lg"
               style={{ borderRadius: "16px 0 16px 0" }}
+              to="/categories"
             >
               EXPLORE <GoLinkExternal />
-            </button>
+            </Link>
           </div>
 
           <SwipeCards />

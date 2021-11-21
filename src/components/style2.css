@@ -51,6 +51,10 @@
 .total-amount {
   font-size: 2rem;
 }
+
+.remove-all {
+  width: 50%;
+}
 @media (max-width: 768px) {
   .empty-cart-container {
     margin-top: 30%;
@@ -75,6 +79,9 @@
   }
 
   .shopping-cart-footer > .column:last-child .btn {
+    width: 100%;
+  }
+  .remove-all {
     width: 100%;
   }
 }
