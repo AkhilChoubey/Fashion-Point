@@ -10,6 +10,10 @@ import "aos/dist/aos.css";
 import Carosel from "./Carosel";
 import Categories from "./Categories";
 import { Link } from "react-router-dom";
+import AccessoryHome from "./CategoriesComponents/OthersHome/AccessoryHome";
+import JewelryHome from "./CategoriesComponents/OthersHome/JewelryHome";
+import BeautyHome from "./CategoriesComponents/OthersHome/BeautyHome";
+import BagsHome from "./CategoriesComponents/OthersHome/BagsHome";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -25,9 +29,9 @@ const Home = () => {
             <h3>Right here Right now!</h3>
 
             <Link
-              className="btn btn-outline-dark btn-explore btn-lg"
-              style={{ borderRadius: "16px 0 16px 0" }}
+              className="btn-explore btn btn-danger btn-lg"
               to="/categories"
+              style={{ fontSize: "2rem", borderRadius: "65px 0" }}
             >
               EXPLORE <GoLinkExternal />
             </Link>
@@ -40,6 +44,10 @@ const Home = () => {
         <Carosel />
       </div>
       <Categories />
+      <AccessoryHome />
+      <JewelryHome />
+      <BeautyHome />
+      <BagsHome />
     </div>
   );
 };

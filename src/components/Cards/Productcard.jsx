@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { ProductCard } from "react-ui-cards";
 import { useCart } from "react-use-cart";
 
+//CSS of this component is in CommonCategory.css
+
 const Productcard = (props) => {
   const { inCart } = useCart();
 
@@ -10,7 +12,12 @@ const Productcard = (props) => {
   return (
     <div
       className="col-md-3 col-sm-6 col-6 "
-      style={{ marginBottom: "10%", margin: "5%", position: "relative" }}
+      style={{
+        marginBottom: "10%",
+        margin: "5%",
+        position: "relative",
+        width: "100%",
+      }}
       title={props.productName}
     >
       <ProductCard
@@ -20,6 +27,7 @@ const Productcard = (props) => {
         productName={props.productName}
         description={props.description}
         // style={{ height: "10rem" }}
+        style={{ width: "100%" }}
       />
       <div
         onClick={() => {

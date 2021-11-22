@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { BsBagXFill } from "react-icons/bs";
 import { IoMdAddCircle } from "react-icons/io";
 import { HiMinusCircle } from "react-icons/hi";
+import { RiDeleteBin2Fill } from "react-icons/ri";
 
 const Cart = () => {
   const [isLoading, setLoading] = useState(true);
@@ -149,7 +150,7 @@ const Cart = () => {
                       className="text-center text-lg text-medium"
                       style={{ paddingTop: "8%" }}
                     >
-                      $ {item.price}
+                      $ {Math.round(item.price * item.quantity * 100) / 100}
                     </td>
                     <td className="text-center" style={{ paddingTop: "6.7%" }}>
                       <a
@@ -162,7 +163,7 @@ const Cart = () => {
                         data-original-title="Remove item"
                         title="Remove Item"
                       >
-                        <AiTwotoneDelete />
+                        <RiDeleteBin2Fill />
                       </a>
                     </td>
                   </tr>
@@ -191,7 +192,7 @@ const Cart = () => {
             </div>
             <div className="shopping-cart-footer">
               <div className="column">
-                <Link className="btn btn-outline-secondary" to="/">
+                <Link className="btn btn-secondary" to="/">
                   <TiArrowBack style={{ fontSize: "1.5rem" }} /> BACK TO HOME
                 </Link>
               </div>
