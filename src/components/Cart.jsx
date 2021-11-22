@@ -5,7 +5,6 @@ import "./style2.css";
 import { AiTwotoneDelete } from "react-icons/ai";
 import { TiArrowBack } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import { BsHandbagFill } from "react-icons/bs";
 import { BsBagXFill } from "react-icons/bs";
 import { IoMdAddCircle } from "react-icons/io";
 import { HiMinusCircle } from "react-icons/hi";
@@ -52,16 +51,16 @@ const Cart = () => {
       ) : (
         <div>
           <div className="table-responsive shopping-cart">
-            <table class="table">
+            <table className="table">
               <thead>
                 <tr>
                   <th>PRODUCTS</th>
-                  <th class="text-center">QUANTITY</th>
-                  <th class="text-center">PRICE</th>
+                  <th className="text-center">QUANTITY</th>
+                  <th className="text-center">PRICE</th>
 
-                  <th class="text-center">
+                  <th className="text-center">
                     <button
-                      class="btn btn-sm btn-danger remove-all"
+                      className="btn btn-sm btn-danger remove-all"
                       onClick={emptyCart}
                     >
                       RESET CART
@@ -86,18 +85,18 @@ const Cart = () => {
                 </button>
                 <button onClick={() => removeItem(item.id)}>&times;</button>
               </li> */
-                  <tr>
-                    <td class="image-td">
-                      <div class="product-item">
-                        <a class="product-thumb" href="#">
-                          <img
-                            src={item.image_url}
-                            style={{ height: "14rem" }}
-                            alt="Product"
-                          />
-                        </a>
+                  <tr key={item.id}>
+                    <td className="image-td">
+                      <div className="product-item">
+                        {/* <a class="product-thumb" href="#"> */}
+                        <img
+                          src={item.image_url}
+                          style={{ height: "14rem" }}
+                          alt="Product"
+                        />
+                        {/* </a> */}
                         <div
-                          class="product-info"
+                          className="product-info"
                           style={{ paddingTop: "19.1%", paddingLeft: "2%" }}
                         >
                           <span>
@@ -106,7 +105,7 @@ const Cart = () => {
                         </div>
                       </div>
                     </td>
-                    <td class="text-center" style={{ paddingTop: "2.5%" }}>
+                    <td className="text-center" style={{ paddingTop: "2.5%" }}>
                       {/* <button
                         class="btn btn-success"
                         style={{ fontSize: "1rem", borderRadius: "50%" }}
@@ -120,6 +119,7 @@ const Cart = () => {
                           fontSize: "3rem",
                           borderRadius: "50%",
                           color: "green",
+                          cursor: "pointer",
                         }}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity + 1)
@@ -138,6 +138,7 @@ const Cart = () => {
                           fontSize: "3rem",
                           borderRadius: "50%",
                           color: "#dc3545",
+                          cursor: "pointer",
                         }}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity - 1)
@@ -145,15 +146,19 @@ const Cart = () => {
                       />
                     </td>
                     <td
-                      class="text-center text-lg text-medium"
+                      className="text-center text-lg text-medium"
                       style={{ paddingTop: "8%" }}
                     >
                       $ {item.price}
                     </td>
-                    <td class="text-center" style={{ paddingTop: "6.7%" }}>
+                    <td className="text-center" style={{ paddingTop: "6.7%" }}>
                       <a
                         onClick={() => removeItem(item.id)}
-                        style={{ fontSize: "2rem", color: "red" }}
+                        style={{
+                          fontSize: "2rem",
+                          color: "red",
+                          cursor: "pointer",
+                        }}
                         data-original-title="Remove item"
                         title="Remove Item"
                       >
@@ -173,25 +178,25 @@ const Cart = () => {
               background: "white",
             }}
           >
-            <div class="shopping-cart-footer">
-              <div class="column text-lg total-amount">
+            <div className="shopping-cart-footer">
+              <div className="column text-lg total-amount">
                 TOTAL AMOUNT :{" "}
                 <span
-                  class="text-medium"
+                  className="text-medium"
                   style={{ color: "red", fontWeight: "bold" }}
                 >
                   $ {Math.round(cartTotal * 100) / 100}
                 </span>
               </div>
             </div>
-            <div class="shopping-cart-footer">
-              <div class="column">
-                <Link class="btn btn-outline-secondary" to="/">
+            <div className="shopping-cart-footer">
+              <div className="column">
+                <Link className="btn btn-outline-secondary" to="/">
                   <TiArrowBack style={{ fontSize: "1.5rem" }} /> BACK TO HOME
                 </Link>
               </div>
-              <div class="column buy-now-btn">
-                <a class="btn btn-success" href="#">
+              <div className="column buy-now-btn">
+                <a className="btn btn-success" href="#">
                   BUY NOW
                 </a>
               </div>

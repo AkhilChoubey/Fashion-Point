@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CategoryCard from "./Cards/CategoryCard";
 import Loading from "./Loading";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import d1 from "./images/CateroryImage/d1.jpg";
 import d2 from "./images/CateroryImage/d2.jpg";
 import d3 from "./images/CateroryImage/d3.jpg";
@@ -27,6 +29,10 @@ const Categories = () => {
       setLoading(false);
     }, 1000);
   });
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
     <div>
