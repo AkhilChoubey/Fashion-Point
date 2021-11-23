@@ -14,6 +14,7 @@ import AccessoryHome from "./CategoriesComponents/OthersHome/AccessoryHome";
 import JewelryHome from "./CategoriesComponents/OthersHome/JewelryHome";
 import BeautyHome from "./CategoriesComponents/OthersHome/BeautyHome";
 import BagsHome from "./CategoriesComponents/OthersHome/BagsHome";
+import Footer from "./Footer";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -59,6 +60,7 @@ const Home = () => {
       <JewelryHome />
       <BeautyHome />
       <BagsHome />
+      <Footer />
     </div>
   );
 };

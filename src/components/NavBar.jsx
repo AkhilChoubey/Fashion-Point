@@ -4,6 +4,7 @@ import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BiCategory } from "react-icons/bi";
+import { BsFillPersonFill } from "react-icons/bs";
 import { useCart } from "react-use-cart";
 
 import Aos from "aos";
@@ -237,7 +238,7 @@ const NavBar = () => {
                         className="nav-link"
                         id="navbar-icons"
                       >
-                        <CgProfile />
+                        <BsFillPersonFill />
                       </Link>
                       <span></span>
                     </li>
