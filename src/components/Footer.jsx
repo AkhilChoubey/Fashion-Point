@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-category-container">
           <h5>CATEGORIES</h5>
-          <div className="footer-all-categories" style={{ display: "flex" }}>
+          <div className="footer-all-categories">
             <div style={{ display: "block" }}>
               <Link className="footer-category-items" to="/Men">
                 Men
@@ -110,7 +110,7 @@ const Footer = () => {
                 <BsGithub />
               </a>
               <a
-                style={{ fontSize: "1.8rem", color: "#696b79" }}
+                className="footer-linkedin-icon"
                 href="https://www.linkedin.com/in/akhil-choubey-376887192/"
               >
                 <GrLinkedin />

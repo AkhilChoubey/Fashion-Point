@@ -10,26 +10,17 @@ const BeautyHome = () => {
 
   return (
     <>
-      <div style={{ display: "flex", marginTop: "10%" }}>
-        <div style={{ marginLeft: "9%" }}>
-          <h1 style={{ fontSize: "3.5rem" }}>
+      <div className="others-container" style={{ marginTop: "10%" }}>
+        <div className="others-first-child">
+          <h1 className="others-text">
             You are Amazing Just Like <br /> Our{" "}
             <span style={{ color: "rgb(248 18 41)" }}>Products.</span>
           </h1>
-          <button
-            style={{
-              marginTop: "5%",
-              width: "16rem",
-              height: "4.5rem",
-              fontSize: "2rem",
-              borderRadius: "65px 0",
-            }}
-            className="btn btn-warning btn-lg"
-          >
+          <button className="others-expore-btn btn btn-warning btn-lg">
             EXPLORE
           </button>
         </div>
-        <img style={{ width: "25rem" }} src={BeautyImage} data-aos="zoom-out" />
+        <img className="others-image" src={BeautyImage} data-aos="zoom-out" />
       </div>
     </>
   );
