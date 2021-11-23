@@ -25,13 +25,24 @@ const Home = () => {
         {/* <SideBar /> */}
         <div className="home">
           <div style={{ display: "block" }}>
-            <h1>BOOST YOUR STYLE SENCE</h1>
+            <h1>
+              BOOST YOUR{" "}
+              <span
+                style={{
+                  color: "red",
+                  fontWeight: "600",
+                }}
+              >
+                STYLE
+              </span>{" "}
+              SENCE
+            </h1>
             <h3>Right here Right now!</h3>
 
             <Link
               className="btn-explore btn btn-danger btn-lg"
               to="/categories"
-              style={{ fontSize: "2rem", borderRadius: "65px 0" }}
+              style={{ fontSize: "2rem", borderRadius: "65px" }}
             >
               EXPLORE <GoLinkExternal />
             </Link>

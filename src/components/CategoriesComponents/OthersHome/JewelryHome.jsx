@@ -18,7 +18,7 @@ const JewelryHome = () => {
         />
         <div style={{ marginLeft: "10%" }}>
           <h1 style={{ fontSize: "3.5rem" }}>
-            Surprise Your Loved one's With Our{" "}
+            Surprise Your Loved One's With Our{" "}
             <span style={{ color: "rgb(248 18 41)" }}>Jewellery</span>{" "}
             Collection.
           </h1>

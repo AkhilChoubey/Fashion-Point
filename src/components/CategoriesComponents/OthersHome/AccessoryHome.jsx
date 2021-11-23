@@ -14,7 +14,7 @@ const AccessoryHome = () => {
         <div style={{ marginLeft: "9%" }}>
           <h1 style={{ fontSize: "4.5rem" }}>
             Your <span style={{ color: "rgb(248 18 41)" }}> Accessories</span>{" "}
-            <br /> Search ends here.
+            <br /> Search Ends Here.
           </h1>
           <button
             style={{
