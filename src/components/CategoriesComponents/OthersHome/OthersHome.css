@@ -24,6 +24,7 @@
 
 .others-image {
   width: 25rem;
+  margin-left: 8%;
 }
 
 @media (max-width: 980px) {
@@ -47,6 +48,7 @@
   .others-image {
     height: 17rem;
     width: 70%;
+    margin-left: 0;
   }
 }
 
