@@ -6,6 +6,8 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
+import UseAnimations from "react-useanimations";
+import github from "react-useanimations/lib/github";
 
 const Footer = () => {
   return (

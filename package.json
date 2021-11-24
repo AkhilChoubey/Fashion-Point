@@ -26,6 +26,7 @@
     "react-tinder-card": "^1.4.5",
     "react-ui-cards": "^3.0.0",
     "react-use-cart": "^1.13.0",
+    "react-useanimations": "^2.0.6",
     "sweetalert": "^2.1.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^1.1.2"
