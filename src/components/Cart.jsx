@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import { useCart } from "react-use-cart";
+
 import "./style2.css";
 import { AiTwotoneDelete } from "react-icons/ai";
 import { TiArrowBack } from "react-icons/ti";

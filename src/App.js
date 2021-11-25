@@ -3,9 +3,12 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
-import $ from "jquery";
-import Popper from "popper.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { loadUser } from "./redux/actions/AuthActions";
+//Components for routes
 import Loading from "./components/Loading";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
@@ -29,9 +32,16 @@ import Traditional from "./components/CategoriesComponents/Traditional";
 import Western from "./components/CategoriesComponents/Western";
 import Winter from "./components/CategoriesComponents/Winter";
 import SideBar from "./components/SideBar";
+import SignUp from "./components/Auth/Signup";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadUser());
+  }, [dispatch]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -44,6 +54,7 @@ function App() {
         <Loading />
       ) : (
         <Router>
+          <ToastContainer />
           <div>
             <div
               style={{
@@ -82,6 +93,9 @@ function App() {
               <Route path="/Traditional" exact element={<Traditional />} />
               <Route path="/Western" exact element={<Western />} />
               <Route path="/Winter" exact element={<Winter />} />
+
+              {/* Authentication routes */}
+              <Route path="/signup" exact element={<SignUp />} />
             </Routes>
           </div>
         </Router>
