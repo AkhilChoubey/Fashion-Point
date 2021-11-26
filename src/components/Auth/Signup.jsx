@@ -12,6 +12,7 @@ import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
+import "./Auth.css";
 
 const useStyles = makeStyles({
   formStyle: {
@@ -61,15 +62,17 @@ const SignUp = () => {
       <form
         noValidate
         autoComplete="off"
-        className={classes.formStyle}
+        className="signup-form"
         onSubmit={handleSubmit}
       >
-        <Typography variant="h5">SignUp</Typography>
+        <Typography variant="h5" style={{ textAlign: "center" }}>
+          SignUp
+        </Typography>
         <TextField
           className={classes.spacing}
           id="enter-first-name"
           label="Enter First Name"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.first_name}
           onChange={(e) => setUser({ ...user, first_name: e.target.value })}
@@ -78,7 +81,7 @@ const SignUp = () => {
           className={classes.spacing}
           id="enter-last-name"
           label="Enter Last Name"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.last_name}
           onChange={(e) => setUser({ ...user, last_name: e.target.value })}
@@ -87,7 +90,7 @@ const SignUp = () => {
           className={classes.spacing}
           id="enter-phone"
           label="Enter Phone Number"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.phone}
           onChange={(e) => setUser({ ...user, phone: e.target.value })}
@@ -96,7 +99,7 @@ const SignUp = () => {
           className={classes.spacing}
           id="enter-address"
           label="Enter Your Address"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.address}
           onChange={(e) => setUser({ ...user, address: e.target.value })}
@@ -123,7 +126,7 @@ const SignUp = () => {
           className={classes.spacing}
           id="enter-email"
           label="enterEmail"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.email}
           onChange={(e) => setUser({ ...user, email: e.target.value })}
@@ -133,7 +136,7 @@ const SignUp = () => {
           id="enter-password"
           type="password"
           label="enterPassword"
-          variant="outlined"
+          variant="filled"
           fullWidth
           value={user.password}
           onChange={(e) => setUser({ ...user, password: e.target.value })}
