@@ -2,9 +2,10 @@
 
 # dependencies
 /node_modules
+/Frontend/node_modules
 /.pnp
 .pnp.js
-
+/backend/node_modules
 # testing
 /coverage
 
