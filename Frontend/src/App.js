@@ -33,6 +33,7 @@ import Western from "./components/CategoriesComponents/Western";
 import Winter from "./components/CategoriesComponents/Winter";
 import SideBar from "./components/SideBar";
 import SignUp from "./components/Auth/Signup";
+import Login from "./components/Auth/Login";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -96,6 +97,7 @@ function App() {
 
               {/* Authentication routes */}
               <Route path="/signup" exact element={<SignUp />} />
+              <Route path="/login" exact element={<Login />} />
             </Routes>
           </div>
         </Router>

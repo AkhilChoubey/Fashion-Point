@@ -19,9 +19,10 @@ export const signUp = (user) => {
         });
       })
       .catch((error) => {
-        console.log(error.response);
-        toast.error(error.response?.data, {
-          position: toast.POSITION.BOTTOM_RIGHT,
+        // console.log(error.response);
+        console.log(error.response.data.errors[0]);
+        toast.error(error.response?.data.errors[0], {
+          position: toast.POSITION.TOP_RIGHT,
         });
       });
   };
@@ -31,24 +32,35 @@ export const signUp = (user) => {
 export const signIn = (email, password) => {
   return (dispatch) => {
     axios
-      .post("https://intense-anchorage-09653.herokuapp.com/v1/auth/login", {
-        email,
-        password,
-      })
+      .post(
+        //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
+        "http://localhost:4100/v1/auth/login",
+        {
+          email,
+          password,
+        }
+      )
       .then((token) => {
-        localStorage.setItem("token", token.data);
+        // console.log(token);
+        localStorage.setItem("token", token.data.data.token);
 
         dispatch({
           type: "SIGN_IN",
-          token: token.data,
+          token: token.data.data.token,
         });
       })
       .catch((error) => {
-        console.log(error.response);
+        // console.log(error.response);
 
-        toast.error(error.response?.data, {
-          position: toast.POSITION.BOTTOM_RIGHT,
-        });
+        if (error.response.status === 422) {
+          toast.error(error.response?.data.errors[0], {
+            position: toast.POSITION.BOTTOM_RIGHT,
+          });
+        } else {
+          toast.error(error.response?.data.message, {
+            position: toast.POSITION.BOTTOM_RIGHT,
+          });
+        }
       });
   };
 };
