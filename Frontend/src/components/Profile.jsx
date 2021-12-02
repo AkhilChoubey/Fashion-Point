@@ -3,6 +3,9 @@ import jwt_decode from "jwt-decode";
 import Loading from "./Loading";
 import { SiGnuprivacyguard } from "react-icons/si";
 import { Link } from "react-router-dom";
+import GirlProfile from "./images/girl-profile1.gif";
+import MenProfile from "./images/men-profile1.gif";
+
 const Profile = () => {
   //   first_name: "",
   // last_name: "",
@@ -70,13 +73,67 @@ const Profile = () => {
           </Link>
         </div>
       ) : (
-        <div>
-          First Name : {userFirstName}
-          Last Name : {userLastName}
-          Phone : {userPhone}
-          Gender : {userGender}
-          Address : {userAddress}
-          Email : {userEmail}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            fontSize: "2.5rem",
+          }}
+        >
+          {userGender === "Female" ? (
+            <img style={{ marginLeft: "5%", width: "35%" }} src={GirlProfile} />
+          ) : (
+            <img style={{ marginLeft: "5%", width: "35%" }} src={MenProfile} />
+          )}
+          <div
+            style={{
+              marginTop: "5%",
+              width: "-webkit-fill-available",
+              paddingLeft: "6%",
+            }}
+          >
+            <table
+              cellSpacing="50"
+              style={{ borderSpacing: "30px", padding: "5%" }}
+            >
+              <tr>
+                <td style={{ fontWeight: "500" }}>First Name</td>
+                <td>{userFirstName}</td>
+              </tr>
+              <tr>
+                <td style={{ fontWeight: "500" }}>Last Name</td>
+                <td>{userLastName}</td>
+              </tr>
+              <tr>
+                <td style={{ fontWeight: "500" }}>Phone</td>
+                <td>{userPhone}</td>
+              </tr>
+              <tr>
+                <td style={{ fontWeight: "500" }}>Gender</td>
+                <td>{userGender}</td>
+              </tr>
+              <tr>
+                <td style={{ fontWeight: "500" }}>Address</td>
+                <td>{userAddress}</td>
+              </tr>
+              <tr>
+                <td style={{ fontWeight: "500" }}>Email</td>
+                <td>{userEmail}</td>
+              </tr>
+            </table>
+            {/* First Name : {userFirstName}
+            <br />
+            Last Name : {userLastName}
+            <br />
+            Phone {"    "}: {userPhone}
+            <br />
+            Gender{"    "} : {userGender}
+            <br />
+            Address{"  "} : {userAddress}
+            <br />
+            Email{"  "} : {userEmail}
+            <br /> */}
+          </div>
         </div>
       )}
     </div>
