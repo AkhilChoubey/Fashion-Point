@@ -44,16 +44,16 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(signUp(user));
-    setUser({
-      first_name: "",
-      last_name: "",
-      dial_code: "+91",
-      phone: "",
-      gender: "",
-      email: "",
-      address: "",
-      password: "",
-    });
+    // setUser({
+    //   first_name: "",
+    //   last_name: "",
+    //   dial_code: "+91",
+    //   phone: "",
+    //   gender: "",
+    //   email: "",
+    //   address: "",
+    //   password: "",
+    // });
   };
 
   if (auth.email) return <Navigate to="/" />;
@@ -76,7 +76,6 @@ const SignUp = () => {
             id="enter-first-name"
             label="Enter First Name"
             variant="filled"
-            backgroundColor="white"
             fullWidth
             value={user.first_name}
             onChange={(e) => setUser({ ...user, first_name: e.target.value })}

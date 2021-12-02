@@ -19,11 +19,17 @@ export const signUp = (user) => {
         });
       })
       .catch((error) => {
-        // console.log(error.response);
-        console.log(error.response.data.errors[0]);
-        toast.error(error.response?.data.errors[0], {
-          position: toast.POSITION.TOP_RIGHT,
-        });
+        console.log(error.response);
+        // console.log(error.response.data.errors[0]);
+        if (error.response.status === 409) {
+          toast.error(error.response?.data.message, {
+            position: toast.POSITION.TOP_RIGHT,
+          });
+        } else {
+          toast.error(error.response?.data.errors[0], {
+            position: toast.POSITION.TOP_RIGHT,
+          });
+        }
       });
   };
 };

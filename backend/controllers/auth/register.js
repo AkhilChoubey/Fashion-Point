@@ -32,6 +32,7 @@ exports.createAccount = asyncHandler(async (req, res, next) => {
         // avatar_url: req.body.avatar_url,
         gender: req.body.gender,
         phone: req.body.phone,
+        address: req.body.address,
       });
       res
         .status(200)
