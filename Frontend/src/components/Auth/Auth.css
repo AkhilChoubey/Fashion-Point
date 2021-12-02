@@ -19,6 +19,19 @@
   margin-top: 2%;
 }
 
+@media (max-width: 950px) {
+  .signup-form {
+    width: 88%;
+    margin-left: 9%;
+  }
+  .auth-img {
+    display: none;
+  }
+  .auth-login-img {
+    display: none;
+  }
+}
+
 @media (max-width: 450px) {
   .signup-form {
     width: 88%;

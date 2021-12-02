@@ -121,7 +121,12 @@ const SignUp = () => {
                 control={<Radio />}
                 label="Female"
               />
-              <FormControlLabel value="Male" control={<Radio />} label="Male" />
+              <FormControlLabel
+                value="Male"
+                defaultChecked
+                control={<Radio />}
+                label="Male"
+              />
               <FormControlLabel
                 value="Other"
                 control={<Radio />}
