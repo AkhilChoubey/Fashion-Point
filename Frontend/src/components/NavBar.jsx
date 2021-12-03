@@ -5,6 +5,7 @@ import { HiShoppingCart } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BiCategory } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
+import { IoMdPower } from "react-icons/io";
 import { useCart } from "react-use-cart";
 
 import Aos from "aos";
@@ -242,6 +243,24 @@ const NavBar = () => {
                       </Link>
                       <span></span>
                     </li>
+                    {localStorage.getItem("token") && (
+                      <li
+                        className="nav-item menuitem"
+                        id="nav-brand3"
+                        style={{ fontSize: "1.55rem", paddingTop: "3%" }}
+                        title="Log Out"
+                      >
+                        <Link
+                          to="/profile"
+                          activeclassname="menu-active"
+                          className="nav-link"
+                          id="navbar-icons"
+                        >
+                          <IoMdPower />
+                        </Link>
+                        <span></span>
+                      </li>
+                    )}
                   </div>
                 </ul>
               </div>

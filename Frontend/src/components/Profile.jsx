@@ -5,6 +5,7 @@ import { SiGnuprivacyguard } from "react-icons/si";
 import { Link } from "react-router-dom";
 import GirlProfile from "./images/girl-profile1.gif";
 import MenProfile from "./images/men-profile1.gif";
+import "./Profile.css";
 
 const Profile = () => {
   //   first_name: "",
@@ -74,52 +75,133 @@ const Profile = () => {
         </div>
       ) : (
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            fontSize: "2.5rem",
-          }}
+          className="profile-container"
+          // style={{
+          //   display: "flex",
+          //   justifyContent: "space-around",
+          //   fontSize: "2.5rem",
+          // }}
         >
           {userGender === "Female" ? (
-            <img style={{ marginLeft: "5%", width: "35%" }} src={GirlProfile} />
+            <img
+              className="profile-img"
+              // style={{ marginLeft: "5%", width: "35%" }}
+              src={GirlProfile}
+            />
           ) : (
-            <img style={{ marginLeft: "5%", width: "35%" }} src={MenProfile} />
+            <img
+              className="profile-img"
+              // style={{ marginLeft: "5%", width: "35%" }}
+              src={MenProfile}
+            />
           )}
           <div
-            style={{
-              marginTop: "5%",
-              width: "-webkit-fill-available",
-              paddingLeft: "6%",
-            }}
+            className="profile-table-container"
+            // style={{
+            //   marginTop: "5%",
+            //   width: "-webkit-fill-available",
+            //   paddingLeft: "6%",
+            // }}
           >
             <table
-              cellSpacing="50"
-              style={{ borderSpacing: "30px", padding: "5%" }}
+              className="profile-table"
+              // style={{
+              //   borderSpacing: "30px",
+              //   padding: "5%",
+              //   width: "100%",
+              //   tableLayout: "auto",
+              // }}
             >
-              <tr>
-                <td style={{ fontWeight: "500" }}>First Name</td>
-                <td>{userFirstName}</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: "500" }}>Last Name</td>
-                <td>{userLastName}</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: "500" }}>Phone</td>
-                <td>{userPhone}</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: "500" }}>Gender</td>
-                <td>{userGender}</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: "500" }}>Address</td>
-                <td>{userAddress}</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: "500" }}>Email</td>
-                <td>{userEmail}</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>First Name</td>
+                  <td
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                    }}
+                  >
+                    {userFirstName}
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>Last Name</td>
+                  <td
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                    }}
+                  >
+                    {userLastName}
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>Phone</td>
+                  <td
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                    }}
+                  >
+                    {userPhone}
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>Gender</td>
+                  <td
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                    }}
+                  >
+                    {userGender}
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>Address</td>
+                  <td
+                    className="address-text"
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                      maxWidth: "25rem",
+                      display: "inline-block",
+                      wordWrap: "break-word",
+                    }}
+                  >
+                    {userAddress}
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: "500" }}>Email</td>
+                  <td
+                    style={{
+                      backgroundColor: "aliceblue",
+                      paddingLeft: 10,
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                      color: "grey",
+                    }}
+                  >
+                    {userEmail}
+                  </td>
+                </tr>
+              </tbody>
             </table>
             {/* First Name : {userFirstName}
             <br />
