@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import { useCart } from "react-use-cart";
+import { toast } from "react-toastify";
 
 import "./style2.css";
 import { AiTwotoneDelete } from "react-icons/ai";
@@ -198,9 +199,27 @@ const Cart = () => {
                 </Link>
               </div>
               <div className="column buy-now-btn">
-                <a className="btn btn-success" href="#">
+                <Link
+                  className="btn btn-success"
+                  to={
+                    localStorage.getItem("token") !== null
+                      ? "/ordersuccess"
+                      : "/profile"
+                  }
+                  onClick={() => {
+                    if (!localStorage.getItem("token")) {
+                      toast.error(
+                        `Please Login/SignUp to Continue with Your Order!`,
+                        {
+                          theme: "colored",
+                          position: toast.POSITION.TOP_RIGHT,
+                        }
+                      );
+                    }
+                  }}
+                >
                   BUY NOW
-                </a>
+                </Link>
               </div>
             </div>
           </div>

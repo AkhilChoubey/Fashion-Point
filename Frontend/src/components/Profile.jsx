@@ -126,6 +126,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     First Name
@@ -150,6 +152,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     Last Name
@@ -174,6 +178,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     Phone
@@ -198,6 +204,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     Gender
@@ -222,6 +230,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     Address
@@ -250,6 +260,8 @@ const Profile = () => {
                       paddingLeft: "10px",
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
+                      borderLeftWidth: 5,
+                      borderLeftColor: "#bdf2fe",
                     }}
                   >
                     Email

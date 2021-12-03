@@ -34,6 +34,7 @@ import Winter from "./components/CategoriesComponents/Winter";
 import SideBar from "./components/SideBar";
 import SignUp from "./components/Auth/Signup";
 import Login from "./components/Auth/Login";
+import OrderSuccess from "./components/OrderSuccess";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -98,6 +99,7 @@ function App() {
               {/* Authentication routes */}
               <Route path="/signup" exact element={<SignUp />} />
               <Route path="/login" exact element={<Login />} />
+              <Route path="/ordersuccess" exact element={<OrderSuccess />} />
             </Routes>
           </div>
         </Router>
