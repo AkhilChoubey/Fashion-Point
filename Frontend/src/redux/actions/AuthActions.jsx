@@ -19,7 +19,7 @@ export const signUp = (user) => {
         });
       })
       .catch((error) => {
-        console.log(error.response);
+        // console.log(error.response);
         // console.log(error.response.data.errors[0]);
         if (error.response.status === 409) {
           toast.error(error.response?.data.message, {

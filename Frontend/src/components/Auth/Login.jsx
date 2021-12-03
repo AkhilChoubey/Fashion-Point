@@ -40,6 +40,7 @@ const Login = () => {
     e.preventDefault();
     dispatch(signIn(creds.email, creds.password));
     setCreds({ email: "", password: "" });
+    localStorage.setItem("loggedOut", true);
   };
 
   if (auth.email) return <Navigate to="/" />;

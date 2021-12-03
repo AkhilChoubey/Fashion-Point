@@ -2,12 +2,14 @@
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .profile-table-container {
   margin-top: 5%;
   width: -webkit-fill-available;
   padding-left: 6%;
+  display: block;
 }
 
 .profile-table {

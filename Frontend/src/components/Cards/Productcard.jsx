@@ -33,28 +33,17 @@ const Productcard = (props) => {
       />
       <div
         onClick={() => {
-          if (!localStorage.getItem("token")) {
-            toast.error("Please Login/SignUp Before Adding Items to Cart");
-            <Navigate to="/profile" />;
-          } else {
-            setSelectButton(true);
-            toast.success("Item Added to Cart", {
-              theme: "colored",
-              position: toast.POSITION.BOTTOM_RIGHT,
-            });
-          }
+          setSelectButton(true);
+          toast.success("Item Added to Cart", {
+            theme: "colored",
+            position: toast.POSITION.BOTTOM_RIGHT,
+          });
         }}
         className="product-card-btn"
       >
         <button
           className="btn btn-warning btn-lg "
-          onClick={
-            !localStorage.getItem("token") ? (
-              <Navigate to="/profile" />
-            ) : (
-              props.addItem
-            )
-          }
+          onClick={props.addItem}
           style={{
             color: selectButton === true ? "white" : "Black",
             background: selectButton === true ? "#238636" : "#ffc107",

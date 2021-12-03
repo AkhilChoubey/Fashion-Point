@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import jwt_decode from "jwt-decode";
 import Loading from "./Loading";
 import { SiGnuprivacyguard } from "react-icons/si";
+import { IoMdPower } from "react-icons/io";
 import { Link } from "react-router-dom";
 import GirlProfile from "./images/girl-profile1.gif";
 import MenProfile from "./images/men-profile1.gif";
 import "./Profile.css";
+import { useDispatch } from "react-redux";
+import { signOut } from "../redux/actions/AuthActions";
 
 const Profile = () => {
   //   first_name: "",
@@ -22,6 +25,8 @@ const Profile = () => {
   const [userGender, setUserGender] = useState(null);
   const [userAddress, setUserAddress] = useState(null);
   const [userEmail, setUserEmail] = useState(null);
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setTimeout(() => {
@@ -114,63 +119,113 @@ const Profile = () => {
             >
               <tbody>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>First Name</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    First Name
+                  </td>
                   <td
                     style={{
                       backgroundColor: "aliceblue",
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      //  color: "grey",
                     }}
                   >
                     {userFirstName}
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>Last Name</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    Last Name
+                  </td>
                   <td
                     style={{
                       backgroundColor: "aliceblue",
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      //  color: "grey",
                     }}
                   >
                     {userLastName}
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>Phone</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    Phone
+                  </td>
                   <td
                     style={{
                       backgroundColor: "aliceblue",
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      //  color: "grey",
                     }}
                   >
                     {userPhone}
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>Gender</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    Gender
+                  </td>
                   <td
                     style={{
                       backgroundColor: "aliceblue",
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      //  color: "grey",
                     }}
                   >
                     {userGender}
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>Address</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    Address
+                  </td>
                   <td
                     className="address-text"
                     style={{
@@ -178,7 +233,7 @@ const Profile = () => {
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      // color: "grey",
                       maxWidth: "25rem",
                       display: "inline-block",
                       wordWrap: "break-word",
@@ -188,14 +243,24 @@ const Profile = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ fontWeight: "500" }}>Email</td>
+                  <td
+                    style={{
+                      fontWeight: "600",
+                      background: "azure",
+                      paddingLeft: "10px",
+                      borderBottomColor: "white",
+                      borderBottomWidth: "5px",
+                    }}
+                  >
+                    Email
+                  </td>
                   <td
                     style={{
                       backgroundColor: "aliceblue",
                       paddingLeft: 10,
                       borderBottomColor: "white",
                       borderBottomWidth: "5px",
-                      color: "grey",
+                      // color: "grey",
                     }}
                   >
                     {userEmail}
@@ -215,6 +280,19 @@ const Profile = () => {
             <br />
             Email{"  "} : {userEmail}
             <br /> */}
+            <div style={{ textAlign: "end" }}>
+              <Link
+                to="/"
+                className="btn btn-danger btn-lg"
+                onClick={() => {
+                  dispatch(signOut());
+                }}
+                style={{ borderRadius: "6px", marginTop: 5, marginRight: 5 }}
+              >
+                {" "}
+                <IoMdPower /> LogOut
+              </Link>
+            </div>
           </div>
         </div>
       )}

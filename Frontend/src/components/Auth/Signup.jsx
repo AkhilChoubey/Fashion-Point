@@ -54,6 +54,7 @@ const SignUp = () => {
     //   address: "",
     //   password: "",
     // });
+    localStorage.setItem("loggedOut", true);
   };
 
   if (auth.email) return <Navigate to="/" />;

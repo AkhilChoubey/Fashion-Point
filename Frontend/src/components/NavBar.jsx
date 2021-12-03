@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
@@ -7,13 +7,27 @@ import { BiCategory } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IoMdPower } from "react-icons/io";
 import { useCart } from "react-use-cart";
+import { useDispatch } from "react-redux";
+import { signOut } from "../redux/actions/AuthActions";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const NavBar = () => {
+  const [logOut, setLogOut] = useState(false);
+
+  const dispatch = useDispatch();
   useEffect(() => {
     Aos.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    console.log(localStorage.getItem("loggedOut"));
+    if (localStorage.getItem("loggedOut") === true) {
+      setLogOut(true);
+    } else {
+      setLogOut(false);
+    }
   }, []);
 
   const { totalItems, emptyCart } = useCart();
@@ -243,7 +257,7 @@ const NavBar = () => {
                       </Link>
                       <span></span>
                     </li>
-                    {localStorage.getItem("token") && (
+                    {logOut && (
                       <li
                         className="nav-item menuitem"
                         id="nav-brand3"
@@ -251,10 +265,14 @@ const NavBar = () => {
                         title="Log Out"
                       >
                         <Link
-                          to="/profile"
+                          to="/"
                           activeclassname="menu-active"
                           className="nav-link"
                           id="navbar-icons"
+                          onClick={() => {
+                            dispatch(signOut());
+                            setLogOut(false);
+                          }}
                         >
                           <IoMdPower />
                         </Link>
