@@ -302,7 +302,7 @@ const Profile = () => {
                 style={{ borderRadius: "6px", marginTop: 5, marginRight: 5 }}
               >
                 {" "}
-                <IoMdPower /> LogOut
+                <IoMdPower /> LOG OUT
               </Link>
             </div>
           </div>

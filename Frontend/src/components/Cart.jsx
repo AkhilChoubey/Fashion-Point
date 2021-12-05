@@ -215,6 +215,8 @@ const Cart = () => {
                           position: toast.POSITION.TOP_RIGHT,
                         }
                       );
+                    } else {
+                      emptyCart();
                     }
                   }}
                 >
