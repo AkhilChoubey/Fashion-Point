@@ -13,6 +13,12 @@
   margin-top: 0%;
 }
 
+.signup-form h6 {
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-left: 22.8%;
+}
+
 .auth-login-img {
   width: 50%;
   margin-left: 5%;
@@ -42,5 +48,10 @@
   }
   .auth-login-img {
     display: none;
+  }
+  .signup-form h6 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-left: 7.8%;
   }
 }

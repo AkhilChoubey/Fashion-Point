@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, TextField, Button } from "@material-ui/core";
 
@@ -79,6 +79,15 @@ const Login = () => {
             value={creds.password}
             onChange={(e) => setCreds({ ...creds, password: e.target.value })}
           />
+          <div style={{ textAlign: "end" }}>
+            <Link
+              to="/sendotptoemail"
+              style={{ fontSize: "1.1rem", textDecoration: "none" }}
+            >
+              {" "}
+              ForgotPassword?{" "}
+            </Link>
+          </div>
           <button
             style={{ marginTop: "20px", width: "100%" }}
             className="btn btn-warning"
@@ -86,6 +95,9 @@ const Login = () => {
           >
             LOGIN
           </button>
+          <h6>
+            New to ShopKeeper? <Link to="/signup">SignUp</Link>
+          </h6>
           {/* <Button
             variant="outlined"
             color="primary"

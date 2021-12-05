@@ -35,6 +35,9 @@ import SideBar from "./components/SideBar";
 import SignUp from "./components/Auth/Signup";
 import Login from "./components/Auth/Login";
 import OrderSuccess from "./components/OrderSuccess";
+import SendOtpToEmail from "./components/Auth/SendOtpToEmail";
+import ResetPassword from "./components/Auth/ResetPassword";
+import ConfirmOrder from "./components/Auth/ConfirmOrder";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -100,6 +103,13 @@ function App() {
               <Route path="/signup" exact element={<SignUp />} />
               <Route path="/login" exact element={<Login />} />
               <Route path="/ordersuccess" exact element={<OrderSuccess />} />
+              <Route
+                path="/sendotptoemail"
+                exact
+                element={<SendOtpToEmail />}
+              />
+              <Route path="/resetpassword" exact element={<ResetPassword />} />
+              <Route path="/confirmorder" exact element={<ConfirmOrder />} />
             </Routes>
           </div>
         </Router>

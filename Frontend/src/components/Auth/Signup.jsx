@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, TextField, Button } from "@material-ui/core";
@@ -162,6 +162,9 @@ const SignUp = () => {
           >
             SignUp
           </button>
+          <h6>
+            Already have an account? <Link to="/login">Login.</Link>
+          </h6>
           {/* <Button
             variant="outlined"
             color="primary"
