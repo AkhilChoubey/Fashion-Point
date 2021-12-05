@@ -72,6 +72,27 @@ export const signIn = (email, password) => {
   };
 };
 
+export const otpForPassword = (email) => {
+  return (dispatch) => {
+    axios
+      .post("http://localhost:4000/v1/auth/sendOtpToEmail", {
+        email,
+      })
+      .then((res) => {
+        console.log(res.data.message);
+        dispatch({
+          type: "OTP_PASSWORD",
+          message: res.data.message,
+        });
+      })
+      .catch((error) => {
+        toast.error(error.response?.data.message, {
+          position: toast.POSITION.BOTTOM_RIGHT,
+        });
+      });
+  };
+};
+
 /// LogOut user action
 export const signOut = () => {
   return (dispatch) => {

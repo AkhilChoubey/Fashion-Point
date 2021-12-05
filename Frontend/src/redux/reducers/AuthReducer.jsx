@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
 import jwtDecode from "jwt-decode";
+import { useHistory } from "react-router";
 
 const initialState = {
   token: localStorage.getItem("token"),
@@ -12,6 +13,8 @@ const initialState = {
 };
 
 const authReducer = (state = initialState, action) => {
+  const history = useHistory();
+
   switch (action.type) {
     case "SIGN_UP":
     case "SIGN_IN":
@@ -34,6 +37,15 @@ const authReducer = (state = initialState, action) => {
         gender: user.gender,
         email: user.email,
       };
+    case "OTP_PASSWORD":
+      toast.success(`OTP Successfully Sent!`, {
+        theme: "colored",
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      history.push({
+        pathname: "/resetpassword",
+      });
+
     case "SIGN_OUT":
       localStorage.removeItem("token");
       toast.success("Successfully Logged Out!", {
