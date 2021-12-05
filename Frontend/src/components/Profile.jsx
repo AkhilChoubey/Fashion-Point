@@ -128,6 +128,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     First Name
@@ -154,6 +156,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     Last Name
@@ -180,6 +184,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     Phone
@@ -206,6 +212,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     Gender
@@ -232,6 +240,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     Address
@@ -262,6 +272,8 @@ const Profile = () => {
                       borderBottomWidth: "5px",
                       borderLeftWidth: 5,
                       borderLeftColor: "#bdf2fe",
+                      borderRightWidth: 5,
+                      borderRightColor: "white",
                     }}
                   >
                     Email
