@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 import jwtDecode from "jwt-decode";
-import { useHistory } from "react-router";
-
+// import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 const initialState = {
   token: localStorage.getItem("token"),
   first_name: null,
@@ -12,8 +12,8 @@ const initialState = {
   email: null,
 };
 
-const authReducer = (state = initialState, action) => {
-  const history = useHistory();
+const AuthReducer = (state = initialState, action) => {
+  // const navigate = useNavigate();
 
   switch (action.type) {
     case "SIGN_UP":
@@ -42,9 +42,12 @@ const authReducer = (state = initialState, action) => {
         theme: "colored",
         position: toast.POSITION.TOP_RIGHT,
       });
-      history.push({
-        pathname: "/resetpassword",
-      });
+      // navigate.push({
+      //   pathname: "/resetpassword",
+      // });
+      <Navigate to="/resetpassword" />;
+      // console.log(action);
+      return action.message;
 
     case "SIGN_OUT":
       localStorage.removeItem("token");
@@ -66,4 +69,4 @@ const authReducer = (state = initialState, action) => {
   }
 };
 
-export default authReducer;
+export default AuthReducer;

@@ -75,7 +75,7 @@ export const signIn = (email, password) => {
 export const otpForPassword = (email) => {
   return (dispatch) => {
     axios
-      .post("http://localhost:4000/v1/auth/sendOtpToEmail", {
+      .post("http://localhost:4100/v1/auth/sendOtpToEmail", {
         email,
       })
       .then((res) => {
