@@ -49,6 +49,25 @@ const AuthReducer = (state = initialState, action) => {
       // console.log(action);
       return action.message;
 
+    case "OTP_ORDER":
+      toast.success(`OTP Successfully Sent!`, {
+        theme: "colored",
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      // navigate.push({
+      //   pathname: "/resetpassword",
+      // });
+      <Navigate to="/confirmorder" />;
+      // console.log(action);
+      return action.message;
+
+    case "ORDER_CONFIRM":
+      toast.success("Order Successfully Placed!", {
+        position: toast.POSITION.TOP_RIGHT,
+        theme: "colored",
+      });
+      return action.message;
+
     case "SIGN_OUT":
       localStorage.removeItem("token");
       toast.success("Successfully Logged Out!", {

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import { toast } from "react-toastify";
-
+import { useDispatch, useSelector } from "react-redux";
+import jwt_decode from "jwt-decode";
+import { otpForOrderConfirm } from "../redux/actions/AuthActions";
 import "./style2.css";
 import { AiTwotoneDelete } from "react-icons/ai";
 import { TiArrowBack } from "react-icons/ti";
@@ -15,6 +17,8 @@ import { RiDeleteBin2Fill } from "react-icons/ri";
 const Cart = () => {
   const [isLoading, setLoading] = useState(true);
 
+  const [userEmail, setUserEmail] = useState(null);
+
   const {
     isEmpty,
     totalUniqueItems,
@@ -24,11 +28,21 @@ const Cart = () => {
     cartTotal,
     emptyCart,
   } = useCart();
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
+
+    if (localStorage.getItem("token")) {
+      var token = localStorage.getItem("token");
+      var decoded = jwt_decode(token);
+
+      setUserEmail(decoded.email);
+    }
   });
+
+  const dispatch = useDispatch();
 
   return (
     <div>
@@ -203,7 +217,7 @@ const Cart = () => {
                   className="btn btn-success"
                   to={
                     localStorage.getItem("token") !== null
-                      ? "/ordersuccess"
+                      ? "/confirmorder"
                       : "/profile"
                   }
                   onClick={() => {
@@ -217,6 +231,7 @@ const Cart = () => {
                       );
                     } else {
                       emptyCart();
+                      dispatch(otpForOrderConfirm(userEmail));
                     }
                   }}
                 >

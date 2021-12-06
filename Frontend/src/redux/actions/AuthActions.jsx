@@ -126,6 +126,60 @@ export const NewPass = (otp, password) => {
   };
 };
 
+//////////////////////////////////////////////////////////////////////////////////////////
+//Send OTP For Order Confirm
+export const otpForOrderConfirm = (email) => {
+  return (dispatch) => {
+    axios
+      .post("http://localhost:4100/v1/auth//otpfororder", {
+        email,
+      })
+      .then((res) => {
+        console.log(res.data.message);
+        dispatch({
+          type: "OTP_ORDER",
+          message: res.data.message,
+        });
+      })
+      .catch((error) => {
+        toast.error(error.response?.data.message, {
+          position: toast.POSITION.BOTTOM_RIGHT,
+        });
+      });
+  };
+};
+
+//Order Confirm Action
+export const confirmOrder = (otp) => {
+  return (dispatch) => {
+    axios
+      .post(
+        //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
+        "http://localhost:4100/v1/auth/confirmorder",
+        // "http://192.168.43.120:4100/v1/auth/login",
+        {
+          otp,
+        }
+      )
+      .then((res) => {
+        // console.log(token);
+        console.log(res.data.message);
+        dispatch({
+          type: "ORDER_CONFIRM",
+          message: res.data.message,
+        });
+      })
+      .catch((error) => {
+        // console.log(error.response);
+
+        toast.error(error.response?.data.message, {
+          position: toast.POSITION.BOTTOM_RIGHT,
+          theme: "colored",
+        });
+      });
+  };
+};
+
 /// LogOut user action
 export const signOut = () => {
   return (dispatch) => {
