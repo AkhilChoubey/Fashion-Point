@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Navigate } from "react-router-dom";
+import Loading from "../Loading";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, TextField, Button } from "@material-ui/core";
@@ -28,6 +29,14 @@ const useStyles = makeStyles({
 });
 
 const SignUp = () => {
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  });
+
   const classes = useStyles();
   const auth = useSelector((state) => state.auth);
   const dispatch = useDispatch();
@@ -61,111 +70,114 @@ const SignUp = () => {
 
   return (
     <>
-      <div style={{ display: "flex" }}>
-        <img src={Img1} className="auth-img" />
-        <form
-          noValidate
-          autoComplete="off"
-          className="signup-form"
-          onSubmit={handleSubmit}
-        >
-          <Typography variant="h5" style={{ textAlign: "center" }}>
-            SignUp
-          </Typography>
-          <TextField
-            className={classes.spacing}
-            id="enter-first-name"
-            label="Enter First Name"
-            variant="filled"
-            fullWidth
-            value={user.first_name}
-            onChange={(e) => setUser({ ...user, first_name: e.target.value })}
-            style={{ backgroundColor: "white" }}
-          />
-          <TextField
-            className={classes.spacing}
-            id="enter-last-name"
-            label="Enter Last Name"
-            variant="filled"
-            fullWidth
-            value={user.last_name}
-            onChange={(e) => setUser({ ...user, last_name: e.target.value })}
-          />
-          <TextField
-            className={classes.spacing}
-            id="enter-phone"
-            label="Enter Phone Number"
-            variant="filled"
-            fullWidth
-            value={user.phone}
-            onChange={(e) => setUser({ ...user, phone: e.target.value })}
-          />
-          <TextField
-            className={classes.spacing}
-            id="enter-address"
-            label="Enter Your Address"
-            variant="filled"
-            fullWidth
-            value={user.address}
-            onChange={(e) => setUser({ ...user, address: e.target.value })}
-          />
-          <FormControl component="fieldset">
-            <FormLabel component="legend">Gender</FormLabel>
-            <RadioGroup
-              row
-              aria-label="gender"
-              name="row-radio-buttons-group"
-              onChange={(e) => setUser({ ...user, gender: e.target.value })}
-            >
-              <FormControlLabel
-                value="Female"
-                control={<Radio />}
-                label="Female"
-              />
-              <FormControlLabel
-                value="Male"
-                defaultChecked
-                control={<Radio />}
-                label="Male"
-              />
-              <FormControlLabel
-                value="Other"
-                control={<Radio />}
-                label="Other"
-              />
-            </RadioGroup>
-          </FormControl>
-
-          <TextField
-            className={classes.spacing}
-            id="enter-email"
-            label="Enter Email"
-            variant="filled"
-            fullWidth
-            value={user.email}
-            onChange={(e) => setUser({ ...user, email: e.target.value })}
-          />
-          <TextField
-            className={classes.spacing}
-            id="enter-password"
-            type="password"
-            label="Enter Password"
-            variant="filled"
-            fullWidth
-            value={user.password}
-            onChange={(e) => setUser({ ...user, password: e.target.value })}
-          />
-          <button
-            style={{ marginTop: "20px", width: "100%" }}
-            className="btn btn-warning"
-            type="submit"
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div style={{ display: "flex" }}>
+          <img src={Img1} className="auth-img" />
+          <form
+            noValidate
+            autoComplete="off"
+            className="signup-form"
+            onSubmit={handleSubmit}
           >
-            SignUp
-          </button>
-          <h6>
-            Already have an account? <Link to="/login">Login.</Link>
-          </h6>
-          {/* <Button
+            <Typography variant="h5" style={{ textAlign: "center" }}>
+              SignUp
+            </Typography>
+            <TextField
+              className={classes.spacing}
+              id="enter-first-name"
+              label="Enter First Name"
+              variant="filled"
+              fullWidth
+              value={user.first_name}
+              onChange={(e) => setUser({ ...user, first_name: e.target.value })}
+              style={{ backgroundColor: "white" }}
+            />
+            <TextField
+              className={classes.spacing}
+              id="enter-last-name"
+              label="Enter Last Name"
+              variant="filled"
+              fullWidth
+              value={user.last_name}
+              onChange={(e) => setUser({ ...user, last_name: e.target.value })}
+            />
+            <TextField
+              className={classes.spacing}
+              id="enter-phone"
+              label="Enter Phone Number"
+              variant="filled"
+              fullWidth
+              value={user.phone}
+              onChange={(e) => setUser({ ...user, phone: e.target.value })}
+            />
+            <TextField
+              className={classes.spacing}
+              id="enter-address"
+              label="Enter Your Address"
+              variant="filled"
+              fullWidth
+              value={user.address}
+              onChange={(e) => setUser({ ...user, address: e.target.value })}
+            />
+            <FormControl component="fieldset">
+              <FormLabel component="legend">Gender</FormLabel>
+              <RadioGroup
+                row
+                aria-label="gender"
+                name="row-radio-buttons-group"
+                onChange={(e) => setUser({ ...user, gender: e.target.value })}
+              >
+                <FormControlLabel
+                  value="Female"
+                  control={<Radio />}
+                  label="Female"
+                />
+                <FormControlLabel
+                  value="Male"
+                  defaultChecked
+                  control={<Radio />}
+                  label="Male"
+                />
+                <FormControlLabel
+                  value="Other"
+                  control={<Radio />}
+                  label="Other"
+                />
+              </RadioGroup>
+            </FormControl>
+
+            <TextField
+              className={classes.spacing}
+              id="enter-email"
+              label="Enter Email"
+              variant="filled"
+              fullWidth
+              value={user.email}
+              onChange={(e) => setUser({ ...user, email: e.target.value })}
+            />
+            <TextField
+              className={classes.spacing}
+              id="enter-password"
+              type="password"
+              label="Enter Password"
+              variant="filled"
+              fullWidth
+              value={user.password}
+              onChange={(e) => setUser({ ...user, password: e.target.value })}
+            />
+            <button
+              style={{ marginTop: "20px", width: "100%" }}
+              className="btn btn-warning"
+              type="submit"
+            >
+              SignUp
+            </button>
+            <h6>
+              Already have an account? <Link to="/login">Login.</Link>
+            </h6>
+            {/* <Button
             variant="outlined"
             color="primary"
             className={classes.spacing}
@@ -173,8 +185,9 @@ const SignUp = () => {
           >
             SignUp
           </Button> */}
-        </form>
-      </div>
+          </form>
+        </div>
+      )}
     </>
   );
 };

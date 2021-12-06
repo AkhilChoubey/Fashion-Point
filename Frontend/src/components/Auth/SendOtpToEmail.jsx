@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, TextField, Button } from "@material-ui/core";
+import Loading from "../Loading";
 
 import { otpForPassword } from "../../redux/actions/AuthActions";
 
@@ -28,6 +29,14 @@ const useStyles = makeStyles({
 });
 
 const SendOtpToEmail = () => {
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  });
+
   const classes = useStyles();
   const message = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -46,38 +55,41 @@ const SendOtpToEmail = () => {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <img src={Img1} className="auth-login-img" />
-        <form
-          noValidate
-          autoComplete="off"
-          className="signup-form"
-          onSubmit={handleSubmit}
-          style={{ paddingTop: "9%" }}
-        >
-          <Typography variant="h5" style={{ textAlign: "center" }}>
-            RESET PASSWORD
-          </Typography>
-
-          <TextField
-            className={classes.spacing}
-            id="enter-email"
-            label="Enter Email"
-            variant="filled"
-            fullWidth
-            value={creds.email}
-            onChange={(e) => setCreds({ ...creds, email: e.target.value })}
-          />
-
-          <button
-            style={{ marginTop: "20px", width: "100%" }}
-            className="btn btn-warning"
-            type="submit"
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <img src={Img1} className="auth-login-img" />
+          <form
+            noValidate
+            autoComplete="off"
+            className="signup-form"
+            onSubmit={handleSubmit}
+            style={{ paddingTop: "9%" }}
           >
-            SEND OTP
-          </button>
+            <Typography variant="h5" style={{ textAlign: "center" }}>
+              RESET PASSWORD
+            </Typography>
 
-          {/* <Button
+            <TextField
+              className={classes.spacing}
+              id="enter-email"
+              label="Enter Email"
+              variant="filled"
+              fullWidth
+              value={creds.email}
+              onChange={(e) => setCreds({ ...creds, email: e.target.value })}
+            />
+
+            <button
+              style={{ marginTop: "20px", width: "100%" }}
+              className="btn btn-warning"
+              type="submit"
+            >
+              SEND OTP
+            </button>
+
+            {/* <Button
             variant="outlined"
             color="primary"
             className={classes.spacing}
@@ -85,8 +97,9 @@ const SendOtpToEmail = () => {
           >
             SignUp
           </Button> */}
-        </form>
-      </div>
+          </form>
+        </div>
+      )}
     </>
   );
 };

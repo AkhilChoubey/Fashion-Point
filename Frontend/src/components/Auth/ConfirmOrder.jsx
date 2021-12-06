@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Loading from "../Loading";
 
 const ConfirmOrder = () => {
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  });
   return (
-    <>
-      <div> This is ConfirmOrder component.</div>
-    </>
+    <>{isLoading ? <Loading /> : <div> This is ConfirmOrder component.</div>}</>
   );
 };
 
