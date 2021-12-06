@@ -7,7 +7,7 @@ import { Typography, TextField, Button } from "@material-ui/core";
 import Loading from "../Loading";
 import { confirmOrder } from "../../redux/actions/AuthActions";
 import OtpInput from "react-otp-input";
-import Img1 from "../images/delhivery3.gif";
+import Img1 from "../images/OrderSuccess/orderSuccess2.gif";
 import "./Auth.css";
 import Countdown from "react-countdown";
 import { margin } from "@mui/system";

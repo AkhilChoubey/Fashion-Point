@@ -7,7 +7,7 @@ import { Typography, TextField, Button } from "@material-ui/core";
 import Loading from "../Loading";
 import { NewPass } from "../../redux/actions/AuthActions";
 import OtpInput from "react-otp-input";
-import Img1 from "../images/delhivery3.gif";
+import Img1 from "../images/teamAni5.gif";
 import "./Auth.css";
 import Countdown from "react-countdown";
 import { margin } from "@mui/system";
@@ -151,7 +151,7 @@ const ResetPassword = () => {
             autoComplete="off"
             className="signup-form"
             onSubmit={handleSubmit}
-            style={{ paddingTop: "6%" }}
+            style={{ paddingTop: "5%" }}
           >
             <Typography variant="h5" style={{ textAlign: "center" }}>
               ENTER NEW PASSWORD
