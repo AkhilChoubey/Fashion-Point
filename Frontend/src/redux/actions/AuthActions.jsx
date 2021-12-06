@@ -72,6 +72,7 @@ export const signIn = (email, password) => {
   };
 };
 
+//Send OTP For Password Update
 export const otpForPassword = (email) => {
   return (dispatch) => {
     axios
@@ -88,6 +89,38 @@ export const otpForPassword = (email) => {
       .catch((error) => {
         toast.error(error.response?.data.message, {
           position: toast.POSITION.BOTTOM_RIGHT,
+        });
+      });
+  };
+};
+
+//New Password Action
+export const NewPass = (otp, password) => {
+  return (dispatch) => {
+    axios
+      .post(
+        //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
+        "http://localhost:4100/v1/auth/resetPasswordWithOtp",
+        // "http://192.168.43.120:4100/v1/auth/login",
+        {
+          otp,
+          password,
+        }
+      )
+      .then((res) => {
+        // console.log(token);
+
+        dispatch({
+          type: "NEW_PASSWORD",
+          message: res.data.message,
+        });
+      })
+      .catch((error) => {
+        // console.log(error.response);
+
+        toast.error(error.response?.data.message, {
+          position: toast.POSITION.BOTTOM_RIGHT,
+          theme: "colored",
         });
       });
   };

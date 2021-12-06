@@ -64,6 +64,13 @@ const AuthReducer = (state = initialState, action) => {
         gender: null,
         email: null,
       };
+    case "NEW_PASSWORD":
+      toast.success("Password Successfully Updated!", {
+        position: toast.POSITION.TOP_RIGHT,
+        theme: "colored",
+      });
+      return action.message;
+
     default:
       return state;
   }
