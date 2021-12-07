@@ -15,11 +15,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2A/CD/57b2f490-848d-4e91-a117-d113c2654474.JPG",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2A/CD/57b2f490-848d-4e91-a117-d113c2654474.JPG",
+    image_url: "/",
     url: "https://fr.newchic.com/eyelashes-4382/p-1296354.html",
     id: "1296354",
     model: "SKU955160",
@@ -70,11 +70,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/09/38/ad1da1ed-d3a4-42ad-a418-87f50607ec46.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/09/38/ad1da1ed-d3a4-42ad-a418-87f50607ec46.jpg",
+    image_url: "/",
     url:
       "https://fr.newchic.com/other-personal-care-products-5723/p-1530616.html",
     id: "1530616",
@@ -96,11 +96,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/78/52/8b42497a-b124-4e4d-b4b8-864a9671140d.JPG",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/78/52/8b42497a-b124-4e4d-b4b8-864a9671140d.JPG",
+    image_url: "/",
     url: "https://fr.newchic.com/nail-art-set-4363/p-1076402.html",
     id: "1076402",
     model: "SKU418150",
@@ -121,11 +121,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F6/3F/4bc750f8-cdff-4c22-8d34-5a0609147cb2.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F6/3F/4bc750f8-cdff-4c22-8d34-5a0609147cb2.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/foot-care-4330/p-1200340.html",
     id: "1200340",
     model: "SKU764891",
@@ -173,11 +173,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/32/FB/d7f0e76f-669f-4c43-adcf-4c036254a918.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/32/FB/d7f0e76f-669f-4c43-adcf-4c036254a918.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/nail-art-set-4363/p-1667767.html",
     id: "1667767",
     model: "SKUE78590",
@@ -283,11 +283,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/29/B8/330d6b86-dd09-45b8-aff0-41297a60ddaf.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/29/B8/330d6b86-dd09-45b8-aff0-41297a60ddaf.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/nail-gel-and-polish-4355/p-1667772.html",
     id: "1667772",
     model: "SKUE99065",
@@ -335,11 +335,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/29/69/8c6ffdaf-218c-4e23-b495-cdccc4889feb.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/29/69/8c6ffdaf-218c-4e23-b495-cdccc4889feb.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/essential-oil-4329/p-1634735.html",
     id: "1634735",
     model: "SKUC92514",
@@ -360,11 +360,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/29/DA/ae21b984-4ed6-4736-b63c-7d5467c0c93b.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/29/DA/ae21b984-4ed6-4736-b63c-7d5467c0c93b.jpg",
+    image_url: "/",
     url:
       "https://fr.newchic.com/eyebrow-pencil-and-enhancers-4383/p-1685811.html",
     id: "1685811",
@@ -386,11 +386,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E3/47/910ca18f-b650-4805-91f1-d37f11421d0b.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E3/47/910ca18f-b650-4805-91f1-d37f11421d0b.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/foot-care-4330/p-1685380.html",
     id: "1685380",
     model: "SKUF32514",
@@ -411,11 +411,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/30/D0/9625edb4-f3f1-4048-b605-92c9b939eae2.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/30/D0/9625edb4-f3f1-4048-b605-92c9b939eae2.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/daily-necessities-9872/p-1652305.html",
     id: "1652305",
     model: "SKUE79358",
@@ -441,8 +441,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/1E/A2/e17627db-0628-4276-a533-9ddb160d88cb.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/1E/A2/e17627db-0628-4276-a533-9ddb160d88cb.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/hair-trimmer-4901/p-1669009.html",
     id: "1669009",
     model: "SKUE99641",
@@ -463,11 +462,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5D/5F/693ec4db-5cce-4c42-a7b8-28c9a2d404df.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5D/5F/693ec4db-5cce-4c42-a7b8-28c9a2d404df.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/health-care-9871/p-1643997.html",
     id: "1643997",
     model: "SKUE63694",
@@ -488,11 +487,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8B/4C/7bd525a4-2d01-4e70-9263-eb45c0618393.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8B/4C/7bd525a4-2d01-4e70-9263-eb45c0618393.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/massager-and-relaxing-5725/p-1664737.html",
     id: "1664737",
     model: "SKUE24759",
@@ -519,8 +518,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C7/3B/4a23cad4-039c-40ee-a922-33e98dddd808.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C7/3B/4a23cad4-039c-40ee-a922-33e98dddd808.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/health-care-9871/p-1662068.html",
     id: "1662068",
     model: "SKUE94244",
@@ -570,11 +568,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4B/C6/e68df5fb-5c0a-429c-ba00-f7c23bd393d6.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4B/C6/e68df5fb-5c0a-429c-ba00-f7c23bd393d6.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/hair-trimmer-4901/p-1315219.html",
     id: "1315219",
     model: "SKU985595",
@@ -622,11 +620,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E2/69/92875bdf-7b97-46c8-bb65-cdeadc8cb191.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E2/69/92875bdf-7b97-46c8-bb65-cdeadc8cb191.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/daily-necessities-9872/p-1652030.html",
     id: "1652030",
     model: "SKUE77787",
@@ -652,8 +650,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B0/C8/82e7ce87-3f3f-4d8c-95ed-6db15c6fe76d.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B0/C8/82e7ce87-3f3f-4d8c-95ed-6db15c6fe76d.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/synthetic-wigs-4150/p-1683629.html",
     id: "1683629",
     model: "SKUF29451",
@@ -674,11 +671,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D6/49/31e9e172-5e09-488e-bbd6-8b05c9d7cdb7.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D6/49/31e9e172-5e09-488e-bbd6-8b05c9d7cdb7.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/mirrors-4034/p-1634939.html",
     id: "1634939",
     model: "SKUE31382",
@@ -733,8 +730,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/AC/5D/e420a5da-96e6-4ba8-8839-fe1556eda43b.jpeg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/AC/5D/e420a5da-96e6-4ba8-8839-fe1556eda43b.jpeg",
+    image_url: "/",
     url: "https://fr.newchic.com/hair-scissors-and-shears-4485/p-1663557.html",
     id: "1663557",
     model: "SKUE95712",
@@ -755,11 +751,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/14/7D/552f79f1-4d66-4734-9090-bf119c8d9ed2.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/14/7D/552f79f1-4d66-4734-9090-bf119c8d9ed2.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/daily-necessities-9872/p-1665569.html",
     id: "1665569",
     model: "SKUE95884",
@@ -807,11 +803,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0D/9E/c89f9b4b-273b-4a39-9f97-b50071a70b4f.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0D/9E/c89f9b4b-273b-4a39-9f97-b50071a70b4f.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/mirrors-4034/p-1690464.html",
     id: "1690464",
     model: "SKUF28091",
@@ -832,11 +828,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/CB/d507e760-e34c-4baa-ad22-7c7821b2fb81.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/CB/d507e760-e34c-4baa-ad22-7c7821b2fb81.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/daily-necessities-9872/p-1650270.html",
     id: "1650270",
     model: "SKUE76060",
@@ -858,11 +854,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4D/A6/db3571c9-5142-b7a1-699d-9516deedc343.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4D/A6/db3571c9-5142-b7a1-699d-9516deedc343.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/nail-art-set-4363/p-971648.html",
     id: "971648",
     model: "SKU177056",
@@ -910,11 +906,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D7/66/91c61cb1-4143-4c33-88c8-517f369540ba.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D7/66/91c61cb1-4143-4c33-88c8-517f369540ba.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/epilator-4898/p-1693515.html",
     id: "1693515",
     model: "SKUF40270",
@@ -935,11 +931,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F6/73/06cbc32e-b06e-43bd-82c0-139daadd9102.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F6/73/06cbc32e-b06e-43bd-82c0-139daadd9102.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/health-care-9871/p-1643183.html",
     id: "1643183",
     model: "SKUE62386",
@@ -960,11 +956,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D0/65/39052b42-bfee-479c-9aee-a1ce234e6296.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D0/65/39052b42-bfee-479c-9aee-a1ce234e6296.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/nail-art-set-4363/p-1700974.html",
     id: "1700974",
     model: "SKUF24011",
@@ -1014,11 +1010,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/13/6D/de4c1ee5-19c7-45de-895b-f60337494500.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/13/6D/de4c1ee5-19c7-45de-895b-f60337494500.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/health-care-9871/p-1642369.html",
     id: "1642369",
     model: "SKUE60084",
@@ -1039,11 +1035,11 @@ const Beauty = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/77/CD/5b6131cd-4c93-49dc-a379-b9056a0e1778.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/77/CD/5b6131cd-4c93-49dc-a379-b9056a0e1778.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/synthetic-wigs-4150/p-1686866.html",
     id: "1686866",
     model: "SKUF29505",
@@ -1069,8 +1065,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6E/B3/bcd8bbec-09ac-4842-9eb3-aa190d37d959.jpeg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6E/B3/bcd8bbec-09ac-4842-9eb3-aa190d37d959.jpeg",
+    image_url: "1",
     url: "https://fr.newchic.com/blitzwolf-mirrors-4034/p-1624100.html",
     id: "1624100",
     model: "SKUE04615",
@@ -1096,8 +1091,7 @@ const Beauty = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8B/6F/043d0171-182e-4683-9792-1ba149caf645.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8B/6F/043d0171-182e-4683-9792-1ba149caf645.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/hair-trimmer-4901/p-1666374.html",
     id: "1666374",
     model: "SKUF01012",

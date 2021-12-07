@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, TextField, Button } from "@material-ui/core";
+import { Typography, TextField } from "@material-ui/core";
 import Loading from "../Loading";
 
 import { otpForPassword } from "../../redux/actions/AuthActions";
 
 import Img1 from "../images/delhivery3.gif";
-import Radio from "@mui/material/Radio";
-import RadioGroup from "@mui/material/RadioGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
+
 import "./Auth.css";
 
 const useStyles = makeStyles({
@@ -59,7 +55,7 @@ const SendOtpToEmail = () => {
         <Loading />
       ) : (
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <img src={Img1} className="auth-login-img" />
+          <img src={Img1} alt="404 Not Found." className="auth-login-img" />
           <form
             noValidate
             autoComplete="off"

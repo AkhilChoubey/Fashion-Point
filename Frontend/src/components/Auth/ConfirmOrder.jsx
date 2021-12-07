@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, TextField, Button } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import Loading from "../Loading";
 import { confirmOrder } from "../../redux/actions/AuthActions";
 import OtpInput from "react-otp-input";
 import Img1 from "../images/OrderSuccess/orderSuccess2.gif";
 import "./Auth.css";
 import Countdown from "react-countdown";
-import { margin } from "@mui/system";
-import { CountdownCircleTimer } from "react-countdown-circle-timer";
+
 import { toast } from "react-toastify";
 
 const useStyles = makeStyles({
@@ -144,7 +143,7 @@ const ConfirmOrder = () => {
             justifyContent: "space-between",
           }}
         >
-          <img src={Img1} className="auth-login-img" />
+          <img src={Img1} alt="404 Not Found." className="auth-login-img" />
 
           <form
             //noValidate

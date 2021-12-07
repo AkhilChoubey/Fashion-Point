@@ -42,11 +42,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9C/A8/e17e8307-43cc-43f0-ba4c-333342a450e3.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9C/A8/e17e8307-43cc-43f0-ba4c-333342a450e3.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1513785.html",
     id: "1513785",
     model: "SKUC71348",
@@ -96,11 +96,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E4/0D/cf1a0f56-ba62-4f6d-8de0-953bcc9c3975.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E4/0D/cf1a0f56-ba62-4f6d-8de0-953bcc9c3975.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1689722.html",
     id: "1689722",
     model: "SKUF37878",
@@ -121,11 +121,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6F/B5/05d5cc3e-2a7d-4717-bd33-ff17948d3237.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6F/B5/05d5cc3e-2a7d-4717-bd33-ff17948d3237.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1674308.html",
     id: "1674308",
     model: "SKUE92041",
@@ -202,11 +202,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/23/4C/b23e3267-f777-405a-b1fb-02a4dca5b6f3.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/23/4C/b23e3267-f777-405a-b1fb-02a4dca5b6f3.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1713803.html",
     id: "1713803",
     model: "SKUF64886",
@@ -227,11 +227,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/76/91/03232785-df4a-47b2-8caf-c6018fd0733c.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/76/91/03232785-df4a-47b2-8caf-c6018fd0733c.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/microwear-smart-watches-4993/p-1464414.html",
     id: "1464414",
     model: "SKUB99649",
@@ -340,8 +340,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5B/96/24fc56a7-9a4e-49a4-b717-c8c454c6c9ac.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5B/96/24fc56a7-9a4e-49a4-b717-c8c454c6c9ac.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/rings-4048/p-1697500.html",
     id: "1697500",
     model: "SKUF42285",
@@ -362,11 +361,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/42/7F/56f4cf70-df20-4f05-9c0b-05b09adca8f4.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/42/7F/56f4cf70-df20-4f05-9c0b-05b09adca8f4.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1708238.html",
     id: "1708238",
     model: "SKUF64390",
@@ -414,11 +413,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/51/3D/64d4c76d-cce6-463f-ba0a-000bd8d1abc6.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/51/3D/64d4c76d-cce6-463f-ba0a-000bd8d1abc6.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1667994.html",
     id: "1667994",
     model: "SKUE92262",
@@ -439,11 +438,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0C/44/dac105e3-9f80-4ec7-ba81-2139c0122728.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0C/44/dac105e3-9f80-4ec7-ba81-2139c0122728.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1693347.html",
     id: "1693347",
     model: "SKUF42621",
@@ -469,8 +468,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/52/CE/33104d3a-f5d0-4c04-be21-9ed53ce619b9.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/52/CE/33104d3a-f5d0-4c04-be21-9ed53ce619b9.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1646652.html",
     id: "1646652",
     model: "SKUE32617",
@@ -527,8 +525,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/96/05/a84ed30c-fa90-4963-9a12-f3b86d2fafe8.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/96/05/a84ed30c-fa90-4963-9a12-f3b86d2fafe8.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C5/EA/bd0cf14c-568c-4daf-9860-78a125c8224f.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/rings-4048/p-1709211.html",
     id: "1709211",
     model: "SKUF44540",
@@ -578,11 +575,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/11/36/f9cd2627-a0f9-44a3-a078-6971c7363fdb.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/11/36/f9cd2627-a0f9-44a3-a078-6971c7363fdb.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1659990.html",
     id: "1659990",
     model: "SKUE74247",
@@ -695,8 +692,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2A/06/98a67c78-6bc2-4087-af65-c3dd83e12a2d.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2A/06/98a67c78-6bc2-4087-af65-c3dd83e12a2d.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1696446.html",
     id: "1696446",
     model: "SKUF42292",
@@ -773,11 +769,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/86/EB/76dfffd0-0cb6-4593-959c-e39e2c744e13.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/86/EB/76dfffd0-0cb6-4593-959c-e39e2c744e13.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1701792.html",
     id: "1701792",
     model: "SKUF52961",
@@ -859,8 +855,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A2/D6/604a1d12-f4c7-44c8-9cfa-ada26423e74a.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A2/D6/604a1d12-f4c7-44c8-9cfa-ada26423e74a.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1696972.html",
     id: "1696972",
     model: "SKUF42310",
@@ -944,8 +939,7 @@ const Jewelry = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A3/BC/0d9fdee6-e2c7-429e-b4ec-9e1d0484aba4.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A3/BC/0d9fdee6-e2c7-429e-b4ec-9e1d0484aba4.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/bracelets-4043/p-1667999.html",
     id: "1667999",
     model: "SKUE91693",
@@ -1020,11 +1014,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BC/F5/e4be1b5c-c1aa-472b-9e33-8072e6a15530.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BC/F5/e4be1b5c-c1aa-472b-9e33-8072e6a15530.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1713784.html",
     id: "1713784",
     model: "SKUF64889",
@@ -1074,11 +1068,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F7/DA/60358e83-3ed8-486c-8afa-f786f4dd7c4c.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F7/DA/60358e83-3ed8-486c-8afa-f786f4dd7c4c.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/hair-accessories-5139/p-1681419.html",
     id: "1681419",
     model: "SKUF16205",
@@ -1157,11 +1151,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3C/4A/30daf321-a6d4-4fde-b49e-cebad5f6e7be.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3C/4A/30daf321-a6d4-4fde-b49e-cebad5f6e7be.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/necklaces-4047/p-1708186.html",
     id: "1708186",
     model: "SKUF64388",
@@ -1182,11 +1176,11 @@ const Jewelry = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/35/24/94b5bdaf-8da1-40c9-bb35-d338f5d5a136.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/35/24/94b5bdaf-8da1-40c9-bb35-d338f5d5a136.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/earrings-4041/p-1654135.html",
     id: "1654135",
     model: "SKUE74291",

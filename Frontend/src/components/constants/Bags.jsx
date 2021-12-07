@@ -1160,8 +1160,7 @@ const Bags = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4D/DA/e36a3c50-a1b7-4e97-bd66-a7a8cb483afc.jpeg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4D/DA/e36a3c50-a1b7-4e97-bd66-a7a8cb483afc.jpeg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4D/DA/e36a3c50-a1b7-4e97-bd66-a7a8cb483afc.jpeg",
+    image_url: "",
     url: "https://fr.newchic.com/crossbody-bags-3610/p-1325713.html",
     id: "1325713",
     model: "SKU998416",
@@ -1217,7 +1216,7 @@ const Bags = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/7F/81/fe67ce5d-8dde-4cf4-84d3-8742a38830b5.jpeg",
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/07/8B/b05cdb06-d5b1-4612-9bae-63563a7c55e8.jpg",
     url: "https://fr.newchic.com/crossbody-bags-3610/p-1645900.html",
     id: "1645900",
     model: "SKUE39234",
@@ -1303,8 +1302,7 @@ const Bags = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/35/C9/5e180d06-8948-4f71-8660-29e0a39a1380.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DD/52/9d4e5d3f-737e-4d8e-a911-ed0fc71a525a.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DD/52/9d4e5d3f-737e-4d8e-a911-ed0fc71a525a.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DD/52/9d4e5d3f-737e-4d8e-a911-ed0fc71a525a.jpg",
     url: "https://fr.newchic.com/crossbody-bags-3610/p-1360916.html",
@@ -1332,8 +1330,7 @@ const Bags = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/14/D7/03934cb4-053a-42b8-8eec-03b4fa2c6f29.jpeg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E0/D7/0b2243fa-2f90-4147-9d74-c6a88ab49b17.jpeg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E0/D7/0b2243fa-2f90-4147-9d74-c6a88ab49b17.jpeg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E0/D7/0b2243fa-2f90-4147-9d74-c6a88ab49b17.jpeg",
     url: "https://fr.newchic.com/backpack-3624/p-1646054.html",

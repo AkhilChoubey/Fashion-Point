@@ -4,7 +4,7 @@ import { Link, Navigate } from "react-router-dom";
 import Loading from "../Loading";
 
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, TextField, Button } from "@material-ui/core";
+import { Typography, TextField } from "@material-ui/core";
 
 import { signUp } from "../../redux/actions/AuthActions";
 
@@ -74,7 +74,7 @@ const SignUp = () => {
         <Loading />
       ) : (
         <div style={{ display: "flex" }}>
-          <img src={Img1} className="auth-img" />
+          <img src={Img1} alt="404 Not Found." className="auth-img" />
           <form
             noValidate
             autoComplete="off"

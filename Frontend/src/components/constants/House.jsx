@@ -22,8 +22,7 @@ const House = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/banggood/images/5A/E8/242bfcc1-f15e-479b-9003-fc72a469eccc.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/banggood/images/5A/E8/242bfcc1-f15e-479b-9003-fc72a469eccc.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/banggood/images/8E/58/668fcfb1-f341-4316-b871-bfd143d070fa.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/egrow-flowers-8679/p-1317953.html",
     id: "1317953",
     model: "SKU967403",
@@ -73,11 +72,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/68/54/71047677-fea2-4339-b98d-fdd6ef7496fd.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/upload/2012/chenjianwei/SKU093263 (1).JPG",
+    image_url: "/",
     url: "https://fr.newchic.com/outdoor-tools-7288/p-907293.html",
     id: "907293",
     model: "SKU093263",
@@ -99,11 +98,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/A8/e579680c-f35c-4085-a441-297f54c5d5db.jpeg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/A8/e579680c-f35c-4085-a441-297f54c5d5db.jpeg",
+    image_url: "/",
     url: "https://fr.newchic.com/outdoor-tools-7288/p-1339082.html",
     id: "1339082",
     model: "SKUA06367",
@@ -153,11 +152,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BF/23/7fd7a743-15f2-4e7a-a79a-be6fdb5d0f5f.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BF/23/7fd7a743-15f2-4e7a-a79a-be6fdb5d0f5f.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/bedding-sets-5811/p-1332456.html",
     id: "1332456",
     model: "SKUA10391",
@@ -178,11 +177,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/banggood/images/FB/03/f586135d-f5e4-4e8a-b6b2-80af86323783.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/banggood/images/FB/03/f586135d-f5e4-4e8a-b6b2-80af86323783.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/egrow-flowers-8679/p-1244169.html",
     id: "1244169",
     model: "SKU820961",
@@ -203,11 +202,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/37/D0/ac6b7ad2-215e-41f7-aea3-d2c66bd85ecf.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/37/D0/ac6b7ad2-215e-41f7-aea3-d2c66bd85ecf.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/egrow-grasses-8677/p-1432170.html",
     id: "1432170",
     model: "SKUB42528",
@@ -228,11 +227,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DB/08/dd2cbff4-b875-4bfb-8a2e-a915bfeafba0.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DB/08/dd2cbff4-b875-4bfb-8a2e-a915bfeafba0.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/cleaning-supplies-4918/p-1657579.html",
     id: "1657579",
     model: "SKUE87086",
@@ -254,11 +253,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6B/FD/cf927c1a-00b0-4667-a15b-e813a0a14068.jpeg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6B/FD/cf927c1a-00b0-4667-a15b-e813a0a14068.jpeg",
+    image_url: "/",
     url: "https://fr.newchic.com/dessert-decorators-7266/p-1632823.html",
     id: "1632823",
     model: "SKUB62466",
@@ -310,11 +309,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/60/2B/b1ab10fc-6e2d-4344-88df-327c4258ecc0.jpeg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/60/2B/b1ab10fc-6e2d-4344-88df-327c4258ecc0.jpeg",
+    image_url: "/",
     url: "https://fr.newchic.com/outdoor-tools-7288/p-1687358.html",
     id: "1687358",
     model: "SKUE54645",
@@ -365,11 +364,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CF/07/1670f7a6-924d-41f0-93c8-a84fe0d30da4.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CF/07/1670f7a6-924d-41f0-93c8-a84fe0d30da4.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/flowers-8679/p-1677994.html",
     id: "1677994",
     model: "SKU578184+SKU903970",
@@ -391,11 +390,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/60/E3/ba978948-0948-4d67-933a-bd83609e28ec.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/60/E3/ba978948-0948-4d67-933a-bd83609e28ec.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/crafting-5493/p-1684835.html",
     id: "1684835",
     model: "SKUE83582",
@@ -506,11 +505,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C2/77/96810f17-25e6-4c96-92da-f6cb77e17154.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C2/77/96810f17-25e6-4c96-92da-f6cb77e17154.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-kitchen-tools-5983/p-1655134.html",
     id: "1655134",
     model: "SKUE83543",
@@ -532,11 +531,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/28/58/f6c57d2b-c086-4c35-b771-b07a26f7f7fd.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/28/58/f6c57d2b-c086-4c35-b771-b07a26f7f7fd.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/tapestries-5492/p-1572776.html",
     id: "1572776",
     model: "SKUD33444",
@@ -562,8 +561,7 @@ const House = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CB/CE/22f08980-54c1-48b8-9779-c645ab9535b6.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/95/C8/014f78a3-d159-4022-b018-b263eea1ac12.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/95/C8/014f78a3-d159-4022-b018-b263eea1ac12.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/95/C8/014f78a3-d159-4022-b018-b263eea1ac12.jpg",
     url: "https://fr.newchic.com/storage-boxes-4913/p-1698000.html",
@@ -587,11 +585,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E3/76/de597412-0ca9-4f21-8293-a2c9299c7eea.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E3/76/de597412-0ca9-4f21-8293-a2c9299c7eea.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-kitchen-tools-5983/p-1130524.html",
     id: "1130524",
     model: "SKU552458",
@@ -613,11 +611,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CB/65/3b9bb7e1-4f57-417d-a5da-97a3178b80f5.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CB/65/3b9bb7e1-4f57-417d-a5da-97a3178b80f5.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-garden-tools-7293/p-1691276.html",
     id: "1691276",
     model: "SKU970648",
@@ -639,11 +637,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6F/87/0d00b2b9-b3fc-431a-ae14-c958cfd4012d.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6F/87/0d00b2b9-b3fc-431a-ae14-c958cfd4012d.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-kitchen-tools-5983/p-1667313.html",
     id: "1667313",
     model: "SKUF04258",
@@ -723,11 +721,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/70/DC/7d6938fd-6aed-4123-b9ca-23404281402f.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/70/DC/7d6938fd-6aed-4123-b9ca-23404281402f.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-kitchen-tools-5983/p-1668100.html",
     id: "1668100",
     model: "SKUF04411",
@@ -748,11 +746,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/AC/87/b94dcb10-9492-4e3e-8f2a-3f4cfd220f44.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/AC/87/b94dcb10-9492-4e3e-8f2a-3f4cfd220f44.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/meat-and-poultry-tools-7240/p-1571191.html",
     id: "1571191",
     model: "SKUD60801",
@@ -809,8 +807,7 @@ const House = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/75/60/d877aa90-6ece-47e6-8a3e-a11a559bcfab.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F8/D0/275b7971-986e-4344-a84b-44ed6105996c.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F8/D0/275b7971-986e-4344-a84b-44ed6105996c.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F8/D0/275b7971-986e-4344-a84b-44ed6105996c.jpg",
     url: "https://fr.newchic.com/fruit-and-vegetable-tools-5978/p-1689345.html",
@@ -895,11 +892,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/54/C6/8cf06873-2a5f-4990-9f5c-6212031f7779.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/54/C6/8cf06873-2a5f-4990-9f5c-6212031f7779.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/crafting-5493/p-1684795.html",
     id: "1684795",
     model: "SKUE83703",
@@ -921,11 +918,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4F/78/35048314-e2d4-4070-8fcf-15bdc57f7b99.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4F/78/35048314-e2d4-4070-8fcf-15bdc57f7b99.jpg",
+    image_url: "/",
     url:
       "https://fr.newchic.com/cross-stitch-and-embroidery-5897/p-1694967.html",
     id: "1694967",
@@ -976,11 +973,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9D/76/47f2394a-87ef-47a0-a3f6-8a11650e2bd9.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9D/76/47f2394a-87ef-47a0-a3f6-8a11650e2bd9.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/crafting-5493/p-1693365.html",
     id: "1693365",
     model: "SKUF32293",
@@ -1060,11 +1057,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/58/72/b46e7cc8-861d-4775-b66c-7d7def038e57.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/58/72/b46e7cc8-861d-4775-b66c-7d7def038e57.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/crafting-5493/p-1685359.html",
     id: "1685359",
     model: "SKUE83581",
@@ -1086,11 +1083,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/88/4A/3915bb61-df5f-4427-89e4-6435ee147233.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/88/4A/3915bb61-df5f-4427-89e4-6435ee147233.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-garden-tools-7293/p-1684369.html",
     id: "1684369",
     model: "SKUF26575",
@@ -1142,11 +1139,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/15/1D/456e340e-2c77-49ea-9af0-3f4dae77ab74.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/15/1D/456e340e-2c77-49ea-9af0-3f4dae77ab74.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/home-carpets-7216/p-1701338.html",
     id: "1701338",
     model: "SKUF55255",
@@ -1168,11 +1165,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/58/52/f19d0078-8332-479c-80b9-9329851e8c30.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/58/52/f19d0078-8332-479c-80b9-9329851e8c30.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-kitchen-tools-5983/p-1684862.html",
     id: "1684862",
     model: "SKUE92949",
@@ -1193,11 +1190,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/81/FA/b2c90d4b-400b-4fbb-80e9-fa74a05520a3.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/81/FA/b2c90d4b-400b-4fbb-80e9-fa74a05520a3.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/pillows-and-eyeshade-5809/p-1370339.html",
     id: "1370339",
     model: "SKUA49939",
@@ -1219,11 +1216,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BD/51/a9a0eea9-f07a-458b-ad94-a26484d58e26.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BD/51/a9a0eea9-f07a-458b-ad94-a26484d58e26.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/egrow-grasses-8677/p-1659078.html",
     id: "1659078",
     model: "SKUE67040",
@@ -1244,11 +1241,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FE/E4/8080840b-48b6-47e6-9688-61d5a5f999d8.jpg",
+    variation_1_thumbnail: "",
+    variation_1_image: "/",
+    image_url: "",
     url: "https://fr.newchic.com/openers-5980/p-1716362.html",
     id: "1716362",
     model: "SKUF81490",
@@ -1270,11 +1267,12 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/97/3C/19bb6aff-deb8-4b89-8dac-42c5ec96a378.jpg",
+
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/97/3C/19bb6aff-deb8-4b89-8dac-42c5ec96a378.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/other-garden-tools-7293/p-1690468.html",
     id: "1690468",
     model: "SKUF32113",
@@ -1296,11 +1294,12 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/94/6F/b492bf46-79e8-4707-be00-2802311f912f.jpg",
+
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/94/6F/b492bf46-79e8-4707-be00-2802311f912f.jpg",
+    image_url: "/",
     url:
       "https://fr.newchic.com/bottles-and-jars-and-boxes-7256/p-1695710.html",
     id: "1695710",
@@ -1323,11 +1322,11 @@ const House = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8E/0E/846facef-01ed-4ced-aded-eaf2f5f33bb0.jpg",
     variation_1_thumbnail: "",
     variation_1_image: "",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8E/0E/846facef-01ed-4ced-aded-eaf2f5f33bb0.jpg",
+    image_url: "/",
     url: "https://fr.newchic.com/egrow-grasses-8677/p-1658837.html",
     id: "1658837",
     model: "SKUE68238",

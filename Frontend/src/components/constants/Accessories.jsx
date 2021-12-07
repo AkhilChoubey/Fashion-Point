@@ -21,8 +21,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/09/FD/e8204e98-8e30-41ca-a599-c8ed90469e08.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/2E/72/1c322075-7a7a-474d-976e-6bcbc45daaec.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2E/72/1c322075-7a7a-474d-976e-6bcbc45daaec.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2E/72/1c322075-7a7a-474d-976e-6bcbc45daaec.jpg",
     url: "https://fr.newchic.com/hats-and-caps-4192/p-1671872.html",
@@ -80,8 +79,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A4/2F/42467cfd-63b4-4f6e-901c-90dc34cd52b3.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/30/CE/5f9c589f-81f7-48c4-a24c-4ba41cdf3718.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/30/CE/5f9c589f-81f7-48c4-a24c-4ba41cdf3718.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/30/CE/5f9c589f-81f7-48c4-a24c-4ba41cdf3718.jpg",
     url: "https://fr.newchic.com/flat-caps-12160/p-1637790.html",
@@ -193,11 +191,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/24/A2/130196fb-f98a-4495-b8d5-a4acdc423843.JPG",
+
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/7A/DE/64d683af-9417-45fe-9f2d-73c894a82e69.jpg",
+    image_url: "",
     url:
       "https://fr.newchic.com/earmuffsandmouth-maskandblindfold-6010/p-1668210.html",
     id: "1668210",
@@ -254,8 +254,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/90/58/edea7848-9302-4aab-b9fa-d9f66167121c.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C9/2E/dbb5e404-fcfe-493b-ad96-9e1adf312b80.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C9/2E/dbb5e404-fcfe-493b-ad96-9e1adf312b80.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C9/2E/dbb5e404-fcfe-493b-ad96-9e1adf312b80.jpg",
     url: "https://fr.newchic.com/flat-caps-12160/p-1637791.html",
@@ -335,11 +334,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/7A/DE/64d683af-9417-45fe-9f2d-73c894a82e69.jpg",
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FC/C8/2782935a-aa14-493e-af10-2ed01c0718b8.JPG",
+
+    image_url: "",
     url:
       "https://fr.newchic.com/earmuffsandmouth-maskandblindfold-6010/p-1676041.html",
     id: "1676041",
@@ -396,8 +397,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/24/00/fb1e2c60-89a8-4322-8f69-f926f7e3a407.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/41/32/991197bd-8f95-413a-b328-1a0b772174dd.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/41/32/991197bd-8f95-413a-b328-1a0b772174dd.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/41/32/991197bd-8f95-413a-b328-1a0b772174dd.jpg",
     url: "https://fr.newchic.com/beanie-hat-12168/p-1669588.html",
@@ -420,11 +420,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FC/C8/2782935a-aa14-493e-af10-2ed01c0718b8.JPG",
+
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/96/6A/f9a84ee8-bce1-46f2-bfa5-2fd5353ef6d5.jpg",
+    image_url: "",
     url:
       "https://fr.newchic.com/earmuffsandmouth-maskandblindfold-6010/p-1668209.html",
     id: "1668209",
@@ -597,8 +599,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6C/56/0ad56719-7aa3-4d99-9231-c34cfd224753.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/71/74/209d4112-8e90-496e-bf3d-37357428f027.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/71/74/209d4112-8e90-496e-bf3d-37357428f027.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/71/74/209d4112-8e90-496e-bf3d-37357428f027.jpg",
     url: "https://fr.newchic.com/baseball-caps-12158/p-1674376.html",
@@ -621,11 +622,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/96/6A/f9a84ee8-bce1-46f2-bfa5-2fd5353ef6d5.jpg",
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2E/76/41f43df8-90c4-4f2c-b030-0fd959b5ad04.jpg",
+
+    image_url: "",
     url: "https://fr.newchic.com/baseball-caps-12158/p-1674134.html",
     id: "1674134",
     model: "SKUE94195",
@@ -681,8 +684,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FA/BA/433c34fb-3fa2-4cad-b827-5ff38a9c7364.JPG",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B7/E2/a7146c65-c870-4cba-a272-bc460ea9c2fa.JPG",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/E2/a7146c65-c870-4cba-a272-bc460ea9c2fa.JPG",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B7/E2/a7146c65-c870-4cba-a272-bc460ea9c2fa.JPG",
     url:
@@ -740,7 +742,7 @@ const Accessories = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/87/7D/788d358f-89ed-4011-810f-5f5bcbdcdd43.jpg",
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2E/76/41f43df8-90c4-4f2c-b030-0fd959b5ad04.jpg",
     url: "https://fr.newchic.com/beanie-hat-12168/p-1662888.html",
     id: "1662888",
     model: "SKUE95123",
@@ -761,11 +763,14 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2E/76/41f43df8-90c4-4f2c-b030-0fd959b5ad04.jpg",
+
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/10/66/0a9f3b22-5012-4037-b18a-ddbec814256d.jpg",
+
+    image_url: "",
     url:
       "https://fr.newchic.com/earmuffsandmouth-maskandblindfold-6010/p-1668213.html",
     id: "1668213",
@@ -822,7 +827,7 @@ const Accessories = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B6/6F/71f92631-51cf-4ccc-b455-3c3eb18dbc6a.jpg",
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/10/66/0a9f3b22-5012-4037-b18a-ddbec814256d.jpg",
     url: "https://fr.newchic.com/flat-caps-12160/p-1637789.html",
     id: "1637789",
     model: "SKUE50982",
@@ -843,11 +848,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/10/66/0a9f3b22-5012-4037-b18a-ddbec814256d.jpg",
+
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E8/0A/d499df50-c349-45ea-8a44-eb4cfe5c2c0a.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/beanie-hat-12168/p-1676014.html",
     id: "1676014",
     model: "SKUF16169",
@@ -962,8 +969,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/79/E2/857906c4-5348-4f10-8def-59d932dbc32e.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/79/E2/857906c4-5348-4f10-8def-59d932dbc32e.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/86/34/32269ae0-da4e-49ea-be65-b28cb6ddc484.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/womens-hats-4124/p-1674846.html",
     id: "1674846",
     model: "SKUF06912",
@@ -1014,11 +1020,12 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E8/0A/d499df50-c349-45ea-8a44-eb4cfe5c2c0a.jpg",
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/71/95/ce0803ce-679c-4c00-aa85-cda5e2d68442.jpg",
+    image_url: "",
     url:
       "https://fr.newchic.com/earmuffsandmouth-maskandblindfold-6010/p-1676046.html",
     id: "1676046",
@@ -1047,8 +1054,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/AB/68/e88b2e40-d68f-445e-9435-49fc625afeb8.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/AB/68/e88b2e40-d68f-445e-9435-49fc625afeb8.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/54/FD/c6678e90-0b96-4356-83f1-973c923fdaab.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/hats-and-caps-4192/p-1690110.html",
     id: "1690110",
     model: "SKUF19507",
@@ -1069,11 +1075,13 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
-    variation_1_thumbnail: "",
-    variation_1_image: "",
-    image_url:
+    variation_0_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/71/95/ce0803ce-679c-4c00-aa85-cda5e2d68442.jpg",
+    variation_1_thumbnail: "",
+    variation_1_image:
+      "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A9/5D/05d1fd51-647b-472b-ad94-4f170ed55b56.jpg",
+
+    image_url: "",
     url: "https://fr.newchic.com/baseball-caps-12158/p-1674138.html",
     id: "1674138",
     model: "SKUE94307",
@@ -1129,7 +1137,7 @@ const Accessories = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/69/23/b7c7dcdd-a794-4253-aa15-d02c7afe9766.jpg",
+      "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A9/5D/05d1fd51-647b-472b-ad94-4f170ed55b56.jpg",
     url: "https://fr.newchic.com/flat-caps-12160/p-1637788.html",
     id: "1637788",
     model: "SKUE51001",
@@ -1185,7 +1193,7 @@ const Accessories = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3F/D5/ffa164c3-bb85-4799-91aa-ea1123acb097.jpg",
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/78/62/62399b87-e110-427a-82d2-dac8a5277b1a.jpg",
     url: "https://fr.newchic.com/beanie-hat-12168/p-1676007.html",
     id: "1676007",
     model: "SKUF16119",
@@ -1301,8 +1309,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A9/C5/7e9e68e4-3ddc-476e-985e-305abc96544e.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A9/C5/7e9e68e4-3ddc-476e-985e-305abc96544e.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/87/27/1c203e88-f46c-4166-aab7-8379f619d122.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/beanie-hat-12168/p-1669498.html",
     id: "1669498",
     model: "SKUE93185",
@@ -1353,7 +1360,9 @@ const Accessories = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/01/96/5c322cff-87c6-4619-9f81-6310b1cb2a69.jpg",
+
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
@@ -1384,8 +1393,7 @@ const Accessories = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/18/A9/52e34d6e-350a-4b55-8f11-09246ee26256.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/01/96/5c322cff-87c6-4619-9f81-6310b1cb2a69.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/01/96/5c322cff-87c6-4619-9f81-6310b1cb2a69.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/01/96/5c322cff-87c6-4619-9f81-6310b1cb2a69.jpg",
     url: "https://fr.newchic.com/bucket-hat-12173/p-1668909.html",
