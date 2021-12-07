@@ -1,4 +1,4 @@
-const Bueaty = [
+const Beauty = [
   {
     category: "beauty",
     subcategory: "Faux cils",

@@ -47,42 +47,30 @@ const Categories = () => {
                 style={{ marginBottom: "5%", marginTop: "5%" }}
               >
                 <CategoryCard to="/Men" imgsrc={d1} title="MENS" />
-                <CategoryCard to="/Winter" imgsrc={d2} title="WINTER WEAR" />
-                <CategoryCard to="/Casuals" imgsrc={d3} title="CASUALS" />
-                <CategoryCard to="/Western" imgsrc={d4} title="WESTERN" />
-                <CategoryCard to="/Moody" imgsrc={d5} title="MOODY" />
-                <CategoryCard
-                  to="/Traditional"
-                  imgsrc={d6}
-                  title="TRADITIONAL"
-                />
-                <CategoryCard
-                  to="/SportsWear"
-                  imgsrc={d7}
-                  title="SPORTS WEAR"
-                />
-                <CategoryCard to="/Classics" imgsrc={d8} title="CLASSICS" />
-                <CategoryCard to="/Basics" imgsrc={d9} title="BASICS" />
-                <CategoryCard to="/Festive" imgsrc={d10} title="FESTIVE WEAR" />
-                <CategoryCard to="Kids" imgsrc={d11} title="KIDS" />
-                <CategoryCard
-                  to="KidsCasuals"
-                  imgsrc={d12}
-                  title="KIDS CASUALS"
-                />
+                <CategoryCard to="/Men" imgsrc={d2} title="WINTER WEAR" />
+                <CategoryCard to="/Men" imgsrc={d3} title="CASUALS" />
+                <CategoryCard to="/Men" imgsrc={d4} title="WESTERN" />
+                <CategoryCard to="/Men" imgsrc={d5} title="MOODY" />
+                <CategoryCard to="/Men" imgsrc={d6} title="TRADITIONAL" />
+                <CategoryCard to="/Women" imgsrc={d7} title="SPORTS WEAR" />
+                <CategoryCard to="/Women" imgsrc={d8} title="CLASSICS" />
+                <CategoryCard to="/Women" imgsrc={d9} title="BASICS" />
+                <CategoryCard to="/Men" imgsrc={d10} title="FESTIVE WEAR" />
+                <CategoryCard to="/Kids" imgsrc={d11} title="KIDS" />
+                <CategoryCard to="/Kids" imgsrc={d12} title="KIDS CASUALS" />
                 <h3 className="brand-title">FIND YOUR FAVOURITE BRANDS</h3>
-                <BrandsCard id="1" name="Puma" to="/Puma" title={<SiPuma />} />
+                <BrandsCard id="1" name="Puma" to="/Men" title={<SiPuma />} />
                 <BrandsCard
                   id="2"
                   name="Adidas"
-                  to="/Adidas"
+                  to="/Men"
                   title={<CgAdidas />}
                 />
-                <BrandsCard id="3" name="Nike" to="/Nike" title={<SiNike />} />
+                <BrandsCard id="3" name="Nike" to="/Men" title={<SiNike />} />
                 <BrandsCard
                   id="4"
                   name="Reebok"
-                  to="/Reebok"
+                  to="/Women"
                   title={<SiReebok />}
                 />
               </div>

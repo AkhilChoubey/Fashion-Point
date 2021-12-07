@@ -35,7 +35,7 @@ const Profile = () => {
     if (localStorage.getItem("token")) {
       var token = localStorage.getItem("token");
       var decoded = jwt_decode(token);
-      console.log(decoded);
+      // console.log(decoded);
       setUserFirstName(decoded.first_name);
       setUserLastName(decoded.last_name);
       setUserPhone(decoded.phone);

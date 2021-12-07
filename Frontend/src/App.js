@@ -38,7 +38,11 @@ import OrderSuccess from "./components/OrderSuccess";
 import SendOtpToEmail from "./components/Auth/SendOtpToEmail";
 import ResetPassword from "./components/Auth/ResetPassword";
 import ConfirmOrder from "./components/Auth/ConfirmOrder";
-
+import Accessories from "./components/CategoriesComponents/Accessories";
+import Bag from "./components/CategoriesComponents/Bag";
+import Beauty from "./components/CategoriesComponents/Beauty";
+import House from "./components/CategoriesComponents/Housee";
+import Jewelry from "./components/CategoriesComponents/Jewelry";
 function App() {
   const [isLoading, setLoading] = useState(true);
 
@@ -98,6 +102,13 @@ function App() {
               <Route path="/Traditional" exact element={<Traditional />} />
               <Route path="/Western" exact element={<Western />} />
               <Route path="/Winter" exact element={<Winter />} />
+
+              {/* Other Categories Items Route */}
+              <Route path="/accessories" exact element={<Accessories />} />
+              <Route path="/bag" exact element={<Bag />} />
+              <Route path="/beauty" exact element={<Beauty />} />
+              <Route path="/house" exact element={<House />} />
+              <Route path="/jewelry" exact element={<Jewelry />} />
 
               {/* Authentication routes */}
               <Route path="/signup" exact element={<SignUp />} />

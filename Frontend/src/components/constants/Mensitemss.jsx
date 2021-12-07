@@ -49,8 +49,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5E/BD/25215f7f-7d46-4be6-a895-04bbe4e23394.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/1A/B9/a3cf3082-931e-41c4-8fee-8ea0815c5b08.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/1A/B9/a3cf3082-931e-41c4-8fee-8ea0815c5b08.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/1A/B9/a3cf3082-931e-41c4-8fee-8ea0815c5b08.jpg",
     url: "https://fr.newchic.com/shirts-12209/p-1696680.html",
@@ -73,7 +72,9 @@ const Mensitemss = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DE/B2/f48684e2-845c-4102-87d1-60cdeb6c5daa.jpg",
+
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
@@ -103,8 +104,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/28/AB/085b12e4-43c3-46f9-b3ec-100acacb56de.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DE/B2/f48684e2-845c-4102-87d1-60cdeb6c5daa.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DE/B2/f48684e2-845c-4102-87d1-60cdeb6c5daa.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DE/B2/f48684e2-845c-4102-87d1-60cdeb6c5daa.jpg",
     url: "https://fr.newchic.com/pajamas-sets-6150/p-1658681.html",
@@ -134,8 +134,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/86/CD/0873a7e6-eb58-403a-af4d-b7da37d10b2c.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/86/CD/0873a7e6-eb58-403a-af4d-b7da37d10b2c.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/AE/24/8e681346-64cb-432f-8ba1-caa4e8fdfe0c.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/henley-shirts-12211/p-1361733.html",
     id: "1361733",
     model: "SKUA44469",
@@ -163,8 +162,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A1/7D/abba773c-0c24-48c6-83cd-8caacc2eff2f.jpeg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A1/7D/abba773c-0c24-48c6-83cd-8caacc2eff2f.jpeg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C1/BA/93d5c0e2-ce44-4852-9a8a-02ce532e9d38.jpeg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-12208/p-1650894.html",
     id: "1650894",
     model: "SKUE67015",
@@ -219,8 +217,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0D/DF/2ab83ec4-4e93-402a-8776-3d23b225822d.jpeg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/D8/5F/19f3e6b2-6dcd-4f7d-ba07-6882871b9e36.jpeg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D8/5F/19f3e6b2-6dcd-4f7d-ba07-6882871b9e36.jpeg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D8/5F/19f3e6b2-6dcd-4f7d-ba07-6882871b9e36.jpeg",
     url: "https://fr.newchic.com/incerun-pajamas-sets-6150/p-1679383.html",
@@ -250,8 +247,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/FA/3A/2704bafd-afdd-45b9-8479-dc72c05a7b20.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FA/3A/2704bafd-afdd-45b9-8479-dc72c05a7b20.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6A/50/95caa407-bcff-420f-9a4a-bf3aa6a72615.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1649599.html",
     id: "1649599",
     model: "SKUE54146",
@@ -279,8 +275,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/33/B3/8126309d-effc-45ea-a0b7-f12adaf69a14.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/33/B3/8126309d-effc-45ea-a0b7-f12adaf69a14.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/06/88/0fc06d4d-95bf-4f21-9e4f-3d6b803e49fb.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-12208/p-1685394.html",
     id: "1685394",
     model: "SKUF32558",
@@ -306,8 +301,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/25/4C/50f451e6-ca2b-46f6-a6c1-97171a27e857.jpeg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/63/63/a1b209ec-ab12-4bc0-94c6-f1d2d2865ff2.jpeg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/63/63/a1b209ec-ab12-4bc0-94c6-f1d2d2865ff2.jpeg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/63/63/a1b209ec-ab12-4bc0-94c6-f1d2d2865ff2.jpeg",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1496404.html",
@@ -366,8 +360,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F4/B9/2abe8fb7-84c4-457f-b44b-e1ebc4232906.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F4/B9/2abe8fb7-84c4-457f-b44b-e1ebc4232906.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E2/6B/c3b5dc3b-5d9f-4e2f-8d36-d2cecb4c3acf.jpeg",
+    image_url: "",
     url: "https://fr.newchic.com/shirts-12209/p-1646547.html",
     id: "1646547",
     model: "SKUE37685",
@@ -424,8 +417,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BE/31/bb24c4ec-0793-43f0-b0d5-2c033c0da21f.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BE/31/bb24c4ec-0793-43f0-b0d5-2c033c0da21f.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C3/E9/7c9dc43d-a0fd-4935-9b71-33e8c294a80b.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/shirts-12209/p-1687607.html",
     id: "1687607",
     model: "SKUF04403",
@@ -446,7 +438,9 @@ const Mensitemss = [
     variation_0_color: "",
     variation_1_color: "",
     variation_0_thumbnail: "",
-    variation_0_image: "",
+    variation_0_image:
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9F/BA/65e09384-af2c-44c5-ab9e-97853bc56324.jpg",
+
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
@@ -478,8 +472,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/97/F5/6c9f31c9-17fc-4184-b8f4-5cb9d7749eff.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/97/F5/6c9f31c9-17fc-4184-b8f4-5cb9d7749eff.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9F/BA/65e09384-af2c-44c5-ab9e-97853bc56324.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/henley-shirts-12211/p-1439022.html",
     id: "1439022",
     model: "SKUB55545",
@@ -507,8 +500,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/11/09/a2d5d4bd-fe49-425c-aa04-d6acbc7cfea5.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/11/09/a2d5d4bd-fe49-425c-aa04-d6acbc7cfea5.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/6D/59/4b211a09-05d8-4db7-bb8e-104744ee113b.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1662372.html",
     id: "1662372",
     model: "SKUE94088",
@@ -536,8 +528,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/93/DC/99106ef3-534c-4b81-8865-28c288565d72.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/93/DC/99106ef3-534c-4b81-8865-28c288565d72.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/52/0F/dfcb1f89-19a5-4e2a-9f74-9b979535819b.jpeg",
+    image_url: "",
     url: "https://fr.newchic.com/shirts-12209/p-1653022.html",
     id: "1653022",
     model: "SKUE55334",
@@ -595,8 +586,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/0C/85/f0291ea0-bd26-45bd-b323-8d31bdef1599.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/0C/85/f0291ea0-bd26-45bd-b323-8d31bdef1599.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/00/E1/0b90ea72-8abd-4c60-a278-79b2589fe65a.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1680786.html",
     id: "1680786",
     model: "SKUF20181",
@@ -622,8 +612,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/23/C7/f451f9ab-6609-47fb-80a8-106f142382ba.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/23/18/63a6666c-f262-4a11-b5d5-78ae991b7003.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/23/18/63a6666c-f262-4a11-b5d5-78ae991b7003.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/23/18/63a6666c-f262-4a11-b5d5-78ae991b7003.jpg",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1541922.html",
@@ -653,8 +642,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/1D/26/5f1daba2-3043-42ed-a930-272d8fca89bb.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/1D/26/5f1daba2-3043-42ed-a930-272d8fca89bb.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5D/CC/640003cb-be55-4168-97eb-e1c7c887403c.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1677991.html",
     id: "1677991",
     model: "SKUF08173",
@@ -682,8 +670,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/3F/6B/e6a3d9c8-7327-4392-9660-4d10e952d7b0.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/3F/6B/e6a3d9c8-7327-4392-9660-4d10e952d7b0.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/55/60/4da21dba-c700-4337-bd80-640da97dccb5.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-pants-4975/p-1285524.html",
     id: "1285524",
     model: "SKU924208",
@@ -711,8 +698,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/5D/03/709141a4-288e-4311-9f79-6eddaa342460.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5D/03/709141a4-288e-4311-9f79-6eddaa342460.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E1/A3/b1322050-7060-4a9a-a3bd-2330fdbc26ff.jpeg",
+    image_url: "",
     url: "https://fr.newchic.com/shirts-12209/p-1677988.html",
     id: "1677988",
     model: "SKUF08187",
@@ -740,8 +726,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/7F/CE/59124483-7e09-4eb6-aea7-1231362278e4.jpeg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/7F/CE/59124483-7e09-4eb6-aea7-1231362278e4.jpeg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/D4/F6/cb270942-4471-4ac1-b19a-f6ed6a6cf1ae.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/charmkpr-shirts-12209/p-1662784.html",
     id: "1662784",
     model: "SKUE54946",
@@ -769,8 +754,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9C/D5/ac7195e5-f79d-4541-a12c-7d2ed16a520f.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/9C/D5/ac7195e5-f79d-4541-a12c-7d2ed16a520f.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F2/8C/fd7a77a4-e255-41eb-8daa-4981fb4b24d9.JPG",
+    image_url: "",
     url: "https://fr.newchic.com/shirts-12209/p-1528008.html",
     id: "1528008",
     model: "SKUC62470",
@@ -825,8 +809,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/52/00/f39cd978-bb22-45db-b384-83cfbb193c6e.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/08/AA/6f0669cf-67b5-45be-a698-0dedc6bd46c8.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/08/AA/6f0669cf-67b5-45be-a698-0dedc6bd46c8.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/08/AA/6f0669cf-67b5-45be-a698-0dedc6bd46c8.jpg",
     url: "https://fr.newchic.com/shirts-12209/p-1658562.html",
@@ -855,7 +838,8 @@ const Mensitemss = [
     variation_1_thumbnail: "",
     variation_1_image: "",
     image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/97/98/b76a13e1-cf26-4351-b90e-49140c19fc8f.jpg",
+      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/08/AA/6f0669cf-67b5-45be-a698-0dedc6bd46c8.jpg",
+
     url: "https://fr.newchic.com/shirts-12209/p-1537191.html",
     id: "1537191",
     model: "SKUC73976",
@@ -881,8 +865,7 @@ const Mensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/7A/84/7a7a6de0-a466-4bea-9e27-363d331b81cd.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/84/AF/5120d90f-9cc9-4b19-a189-c28c41357af1.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/84/AF/5120d90f-9cc9-4b19-a189-c28c41357af1.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/84/AF/5120d90f-9cc9-4b19-a189-c28c41357af1.jpg",
     url: "https://fr.newchic.com/incerun-shirts-12209/p-1639578.html",

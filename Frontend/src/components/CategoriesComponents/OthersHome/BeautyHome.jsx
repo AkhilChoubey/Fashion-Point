@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import BeautyImage from "../../images/OthersHomeImages/beauty1.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const BeautyHome = () => {
   useEffect(() => {
@@ -16,9 +17,12 @@ const BeautyHome = () => {
             You are Amazing Just Like <br /> Our{" "}
             <span style={{ color: "rgb(248 18 41)" }}>Products.</span>
           </h1>
-          <button className="others-expore-btn btn btn-warning btn-lg">
+          <Link
+            to="/beauty"
+            className="others-expore-btn btn btn-warning btn-lg"
+          >
             EXPLORE
-          </button>
+          </Link>
         </div>
         <img className="others-image" src={BeautyImage} data-aos="zoom-out" />
       </div>

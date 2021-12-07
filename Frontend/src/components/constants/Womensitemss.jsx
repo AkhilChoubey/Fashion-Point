@@ -22,8 +22,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BE/47/78463cb2-6cbc-4a36-ae84-0d30dd50cac7.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BE/47/78463cb2-6cbc-4a36-ae84-0d30dd50cac7.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/FD/17/84b3ee75-de8d-40b2-b1f5-93c62436255b.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-3666/p-1690810.html",
     id: "1690810",
     model: "SKUF40137",
@@ -107,8 +106,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/F0/F6/e8349f09-80eb-4a64-b300-b3fdc46192c2.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/3A/20/bd1ec57a-875d-44ed-92e8-a7d487075dc1.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3A/20/bd1ec57a-875d-44ed-92e8-a7d487075dc1.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3A/20/bd1ec57a-875d-44ed-92e8-a7d487075dc1.jpg",
     url: "https://fr.newchic.com/print-dresses-3677/p-1691484.html",
@@ -138,8 +136,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/2D/EA/642b831d-c76d-4339-a0fc-7b3f32eed953.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/2D/EA/642b831d-c76d-4339-a0fc-7b3f32eed953.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/82/A2/d234e908-188c-4493-9f3c-9ae7a4275259.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-3666/p-1655044.html",
     id: "1655044",
     model: "SKUE83526",
@@ -166,9 +163,9 @@ const Womensitemss = [
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/3F/CB/9fbb9cf2-99d4-4cb4-aac3-1cda952f3f43.jpg",
     variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3F/CB/9fbb9cf2-99d4-4cb4-aac3-1cda952f3f43.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3F/CB/9fbb9cf2-99d4-4cb4-aac3-1cda952f3f43.jpg",
+      "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/3F/CB/9fbb9cf2-99d4-4cb4-aac3-1cda952f3f43.jpg",
+
+    image_url: "",
     url: "https://fr.newchic.com/print-dresses-3677/p-1527134.html",
     id: "1527134",
     model: "SKUC88481",
@@ -196,8 +193,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A6/50/bf193e3e-d976-403b-9870-19cbb4634b12.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A6/50/bf193e3e-d976-403b-9870-19cbb4634b12.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/52/51/562b5bbb-5180-4d3f-8014-993d79cbef92.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/jumpsuits-and-rompers-3702/p-1715194.html",
     id: "1715194",
     model: "SKUF79731",
@@ -225,8 +221,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C1/AC/f12ab12b-debe-4f5a-bacc-9e46dd280084.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C1/AC/f12ab12b-debe-4f5a-bacc-9e46dd280084.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C1/AC/f12ab12b-debe-4f5a-bacc-9e46dd280084.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/jumpsuits-and-rompers-3702/p-1660117.html",
     id: "1660117",
     model: "SKUE91643",
@@ -254,8 +249,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/73/6F/1f7e62ca-4fec-4b74-bd0a-654da998a4f8.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/73/6F/1f7e62ca-4fec-4b74-bd0a-654da998a4f8.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/56/AE/d89d31a2-1fae-4779-a82c-fbbe7675c413.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/gracila-pants-and-capris-3674/p-1663956.html",
     id: "1663956",
     model: "SKUE99093",
@@ -283,8 +277,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/6B/EE/ad63dff1-cc0d-48f7-bb35-4bfabc14fccc.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/6B/EE/ad63dff1-cc0d-48f7-bb35-4bfabc14fccc.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/95/D5/3e4908bf-7df3-49e3-b055-c764441b8e84.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/gracila-pants-and-capris-3674/p-1617649.html",
     id: "1617649",
     model: "SKUE10410",
@@ -371,8 +364,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/99/A1/608c337d-e3ad-40d3-a788-ffb8bffede31.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/99/A1/608c337d-e3ad-40d3-a788-ffb8bffede31.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CF/AA/e09c4602-1d28-47ad-a429-73cadef2e1a8.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-3666/p-1654724.html",
     id: "1654724",
     model: "SKUE82280",
@@ -429,8 +421,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/98/A8/de73f810-d351-46e1-943e-02e83c808c86.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/98/A8/de73f810-d351-46e1-943e-02e83c808c86.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/98/A8/de73f810-d351-46e1-943e-02e83c808c86.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/blouses-and-shirts-3689/p-1555575.html",
     id: "1555575",
     model: "SKUB88698",
@@ -488,8 +479,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/24/62/5164278a-e999-4111-8e3c-fd1b015a1372.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/24/62/5164278a-e999-4111-8e3c-fd1b015a1372.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/11/EE/77350a61-52b8-4c8b-b59f-872a7b2d79fb.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/gracila-t-shirts-3666/p-1656834.html",
     id: "1656834",
     model: "SKUE84599",
@@ -546,8 +536,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/90/EC/741364c1-6436-49a2-b483-048a36dc8b71.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/90/EC/741364c1-6436-49a2-b483-048a36dc8b71.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/A1/AC/f5588ba4-5f39-4d0a-bd1e-6216170be55b.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/print-dresses-3677/p-1666207.html",
     id: "1666207",
     model: "SKUE85353",
@@ -575,8 +564,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BC/2E/985de441-53ef-421d-a845-3e4339943dd4.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/BC/2E/985de441-53ef-421d-a845-3e4339943dd4.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B2/06/d0b6bba4-d182-4984-b609-76c032e8e99d.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/pants-and-capris-3674/p-1662798.html",
     id: "1662798",
     model: "SKUE97066",
@@ -662,8 +650,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DC/15/4336328e-c67b-4bec-891b-5a2155ca9a96.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/DC/15/4336328e-c67b-4bec-891b-5a2155ca9a96.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/32/95/4a6b7e59-0ffb-449e-a4d5-58ed057b5fdb.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/casual-dresses-5073/p-1526607.html",
     id: "1526607",
     model: "SKUC71203",
@@ -720,8 +707,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/41/63/1b7d4726-1477-41ac-9674-ae87105d4922.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/41/63/1b7d4726-1477-41ac-9674-ae87105d4922.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C1/23/707e0d3c-871b-4f48-9c0c-3243abce6b4c.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/blouses-and-shirts-3689/p-1477083.html",
     id: "1477083",
     model: "SKUB64124",
@@ -749,8 +735,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/3B/0E/e202cdb1-9cb4-4e1c-8bf1-05b11cc03b4a.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3B/0E/e202cdb1-9cb4-4e1c-8bf1-05b11cc03b4a.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/3B/0E/e202cdb1-9cb4-4e1c-8bf1-05b11cc03b4a.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/print-dresses-3677/p-1665087.html",
     id: "1665087",
     model: "SKUE91437",
@@ -776,8 +761,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/D9/D0/10d32e43-83a8-4659-b35e-03b61cdfd9e9.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/1F/63/cd2f08f2-0f1e-4b16-a69d-07f91282b3d0.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/1F/63/cd2f08f2-0f1e-4b16-a69d-07f91282b3d0.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/1F/63/cd2f08f2-0f1e-4b16-a69d-07f91282b3d0.jpg",
     url: "https://fr.newchic.com/plus-size-print-dresses-5159/p-1591654.html",
@@ -807,8 +791,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/ser1/newchic/images/51/45/02401dbd-b6bf-433c-aa2a-4209b1d7e336.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/51/45/02401dbd-b6bf-433c-aa2a-4209b1d7e336.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/ser1/newchic/images/E6/D5/a9750bea-9efc-493b-9070-08f3e84e74fc.jpg",
+    image_url: "",
     url:
       "https://fr.newchic.com/gracila-blouses-and-shirts-3689/p-1603323.html",
     id: "1603323",
@@ -895,8 +878,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E5/CF/1bddd809-6386-49d6-abf9-139f3b2b012c.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E5/CF/1bddd809-6386-49d6-abf9-139f3b2b012c.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8E/03/6397767e-da0a-424b-82a8-060c37388f82.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/t-shirts-3666/p-1651757.html",
     id: "1651757",
     model: "SKUE75118",
@@ -922,8 +904,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/46/9B/dba7322b-088c-4ec5-b16b-d3e2739b7fb1.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4A/7B/a19fb059-0321-4223-a62f-d9e0946d4719.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4A/7B/a19fb059-0321-4223-a62f-d9e0946d4719.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/4A/7B/a19fb059-0321-4223-a62f-d9e0946d4719.jpg",
     url:
@@ -948,8 +929,7 @@ const Womensitemss = [
     variation_1_color: "#02",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E7/CD/be2f2d8a-9f55-45ab-b52d-d3451d9cf91c.jpg",
-    variation_0_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E7/CD/be2f2d8a-9f55-45ab-b52d-d3451d9cf91c.jpg",
+    variation_0_image: "",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9C/18/83bbfef5-8991-44b4-8255-11c4cbcf1631.jpg",
     variation_1_image:
@@ -1070,8 +1050,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/CF/F5/41537d16-91ec-470b-9416-9985655d4590.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/8A/1B/3982c58d-ff78-43f3-9388-5d9adb2f1ec1.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8A/1B/3982c58d-ff78-43f3-9388-5d9adb2f1ec1.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/8A/1B/3982c58d-ff78-43f3-9388-5d9adb2f1ec1.jpg",
     url: "https://fr.newchic.com/t-shirts-3666/p-1661821.html",
@@ -1099,8 +1078,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/E1/5D/47c6547d-fc0f-4be2-8af1-de81d80ff5ae.jpg",
     variation_1_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C3/8B/ebfce95c-2bef-4ab2-960d-3de7662a6b1f.jpg",
-    variation_1_image:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C3/8B/ebfce95c-2bef-4ab2-960d-3de7662a6b1f.jpg",
+    variation_1_image: "",
     image_url:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/C3/8B/ebfce95c-2bef-4ab2-960d-3de7662a6b1f.jpg",
     url: "https://fr.newchic.com/plus-size-print-dresses-5159/p-1546066.html",
@@ -1160,8 +1138,7 @@ const Womensitemss = [
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/5E/45/3ae72b4e-c717-45d9-bdf5-4fce950eaeb1.jpg",
     variation_1_image:
       "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/5E/45/3ae72b4e-c717-45d9-bdf5-4fce950eaeb1.jpg",
-    image_url:
-      "https://imgaz1.chiccdn.com/thumb/view/oaupload/newchic/images/B1/8A/4ce149db-0da4-4c62-ae9e-4e88e66bfb7f.jpg",
+    image_url: "",
     url: "https://fr.newchic.com/pants-and-capris-3674/p-1667322.html",
     id: "1667322",
     model: "SKUF04426",

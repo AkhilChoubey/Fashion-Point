@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import JewelryImage from "../../images/OthersHomeImages/jewelry1.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const JewelryHome = () => {
   useEffect(() => {
@@ -22,9 +23,12 @@ const JewelryHome = () => {
             <span style={{ color: "rgb(248 18 41)" }}>Jewellery</span>{" "}
             Collection.
           </h1>
-          <button className="others-expore-btn btn btn-warning btn-lg">
+          <Link
+            to="/jewelry"
+            className="others-expore-btn btn btn-warning btn-lg"
+          >
             EXPLORE
-          </button>
+          </Link>
         </div>
       </div>
     </>
