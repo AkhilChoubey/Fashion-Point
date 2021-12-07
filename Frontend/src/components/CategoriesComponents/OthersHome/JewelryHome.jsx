@@ -13,6 +13,7 @@ const JewelryHome = () => {
     <>
       <div className="others-container" style={{ marginTop: "10%" }}>
         <img
+          alt="404 Not Found"
           className="others-first-child others-image"
           src={JewelryImage}
           data-aos="zoom-out"

@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import { useCart } from "react-use-cart";
 import { toast } from "react-toastify";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import jwt_decode from "jwt-decode";
 import { otpForOrderConfirm } from "../redux/actions/AuthActions";
 import "./style2.css";
-import { AiTwotoneDelete } from "react-icons/ai";
+
 import { TiArrowBack } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import { BsBagXFill } from "react-icons/bs";
@@ -21,7 +21,6 @@ const Cart = () => {
 
   const {
     isEmpty,
-    totalUniqueItems,
     items,
     updateItemQuantity,
     removeItem,
@@ -40,7 +39,7 @@ const Cart = () => {
 
       setUserEmail(decoded.email);
     }
-  });
+  }, []);
 
   const dispatch = useDispatch();
 
@@ -169,7 +168,8 @@ const Cart = () => {
                       $ {Math.round(item.price * item.quantity * 100) / 100}
                     </td>
                     <td className="text-center" style={{ paddingTop: "6.7%" }}>
-                      <a
+                      {/* <a> */}
+                      <RiDeleteBin2Fill
                         onClick={() => removeItem(item.id)}
                         style={{
                           fontSize: "2rem",
@@ -178,9 +178,8 @@ const Cart = () => {
                         }}
                         data-original-title="Remove item"
                         title="Remove Item"
-                      >
-                        <RiDeleteBin2Fill />
-                      </a>
+                      />
+                      {/* </a> */}
                     </td>
                   </tr>
                 ))}

@@ -24,7 +24,12 @@ const BeautyHome = () => {
             EXPLORE
           </Link>
         </div>
-        <img className="others-image" src={BeautyImage} data-aos="zoom-out" />
+        <img
+          alt="404 Not Found"
+          className="others-image"
+          src={BeautyImage}
+          data-aos="zoom-out"
+        />
       </div>
     </>
   );

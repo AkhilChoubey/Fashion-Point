@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { ProductCard } from "react-ui-cards";
 import { useCart } from "react-use-cart";
 import { toast } from "react-toastify";
-import { Navigate } from "react-router";
 
 //CSS of this component is in CommonCategory.css
 

@@ -6,15 +6,7 @@ import { Link } from "react-router-dom";
 
 const BrandsCard = (props) => {
   useEffect(() => {
-    if (props.id === 1) {
-      Aos.init({ duration: 1000, offset: 500 });
-    } else if (props.id === 2) {
-      Aos.init({ duration: 3000, offset: 1000 });
-    } else if (props.id === 3) {
-      Aos.init({ duration: 5000, offset: 1500 });
-    } else if (props.id === 4) {
-      Aos.init({ duration: 7000, offset: 2000 });
-    }
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (

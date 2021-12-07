@@ -26,6 +26,7 @@ const AccessoryHome = () => {
           </Link>
         </div>
         <img
+          alt="404 Not Found"
           className="others-image"
           src={AccessoryImage}
           data-aos="zoom-out"

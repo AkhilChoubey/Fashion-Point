@@ -1,8 +1,5 @@
 import React from "react";
-import a11 from "./images/carosel/a11.jpg";
-import a12 from "./images/carosel/a12.jpg";
-import a13 from "./images/carosel/a13.jpg";
-import a15 from "./images/carosel/a15.jpg";
+
 import Carousel from "react-material-ui-carousel";
 // import Carousel from "react-elastic-carousel";
 import { Paper } from "@material-ui/core";
