@@ -100,7 +100,7 @@ export const NewPass = (otp, password) => {
     axios
       .post(
         //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
-        "https://shopkeeper007.herokuapp.com/auth/resetPasswordWithOtp",
+        "https://shopkeeper007.herokuapp.com/v1/auth/resetPasswordWithOtp",
         // "http://192.168.43.120:4100/v1/auth/login",
         {
           otp,
