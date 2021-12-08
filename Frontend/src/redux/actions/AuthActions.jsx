@@ -131,7 +131,7 @@ export const NewPass = (otp, password) => {
 export const otpForOrderConfirm = (email) => {
   return (dispatch) => {
     axios
-      .post("http://localhost:4100/v1/auth//otpfororder", {
+      .post("http://localhost:4100/v1/auth/otpfororder", {
         email,
       })
       .then((res) => {
