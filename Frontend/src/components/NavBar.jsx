@@ -22,7 +22,6 @@ const NavBar = () => {
   }, []);
 
   useEffect(() => {
-    console.log(localStorage.getItem("loggedOut"));
     if (localStorage.getItem("loggedOut") === true) {
       setLogOut(true);
     } else {
