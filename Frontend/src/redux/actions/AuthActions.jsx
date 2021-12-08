@@ -7,7 +7,7 @@ export const signUp = (user) => {
     axios
       .post(
         // "https://intense-anchorage-09653.herokuapp.com/v1/auth/register",
-        "http://localhost:4100/v1/auth/register",
+        "https://shopkeeper007.herokuapp.com/v1/auth/register",
         user
       )
       .then((token) => {
@@ -40,7 +40,7 @@ export const signIn = (email, password) => {
     axios
       .post(
         //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
-        "http://localhost:4100/v1/auth/login",
+        "https://shopkeeper007.herokuapp.com/v1/auth/login",
         // "http://192.168.43.120:4100/v1/auth/login",
         {
           email,
@@ -76,7 +76,7 @@ export const signIn = (email, password) => {
 export const otpForPassword = (email) => {
   return (dispatch) => {
     axios
-      .post("http://localhost:4100/v1/auth/sendOtpToEmail", {
+      .post("https://shopkeeper007.herokuapp.com/v1/auth/sendOtpToEmail", {
         email,
       })
       .then((res) => {
@@ -100,7 +100,7 @@ export const NewPass = (otp, password) => {
     axios
       .post(
         //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
-        "http://localhost:4100/v1/auth/resetPasswordWithOtp",
+        "https://shopkeeper007.herokuapp.com/auth/resetPasswordWithOtp",
         // "http://192.168.43.120:4100/v1/auth/login",
         {
           otp,
@@ -131,7 +131,7 @@ export const NewPass = (otp, password) => {
 export const otpForOrderConfirm = (email) => {
   return (dispatch) => {
     axios
-      .post("http://localhost:4100/v1/auth/otpfororder", {
+      .post("https://shopkeeper007.herokuapp.com/v1/auth/otpfororder", {
         email,
       })
       .then((res) => {
@@ -155,7 +155,7 @@ export const confirmOrder = (otp) => {
     axios
       .post(
         //"https://intense-anchorage-09653.herokuapp.com/v1/auth/login"
-        "http://localhost:4100/v1/auth/confirmorder",
+        "https://shopkeeper007.herokuapp.com/v1/auth/confirmorder",
         // "http://192.168.43.120:4100/v1/auth/login",
         {
           otp,
