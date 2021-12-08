@@ -4,7 +4,7 @@ import SwipeCards from "./SwipeCards";
 // import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import { GoLinkExternal } from "react-icons/go";
-import SideBar from "./SideBar";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Carosel from "./Carosel";

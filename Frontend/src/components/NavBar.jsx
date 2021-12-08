@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaShopify } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
-import { CgProfile } from "react-icons/cg";
+
 import { BiCategory } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IoMdPower } from "react-icons/io";
@@ -30,7 +30,7 @@ const NavBar = () => {
     }
   }, []);
 
-  const { totalItems, emptyCart } = useCart();
+  const { totalItems } = useCart();
 
   return (
     <div className="container-fluid nav_bg">

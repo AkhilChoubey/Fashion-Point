@@ -43,7 +43,7 @@ const Profile = () => {
       setUserAddress(decoded.address);
       setUserEmail(decoded.email);
     }
-  });
+  }, []);
 
   return (
     <div>
@@ -89,12 +89,14 @@ const Profile = () => {
         >
           {userGender === "Female" ? (
             <img
+              alt="404 Not Found."
               className="profile-img"
               // style={{ marginLeft: "5%", width: "35%" }}
               src={GirlProfile}
             />
           ) : (
             <img
+              alt="404 Not Found."
               className="profile-img"
               // style={{ marginLeft: "5%", width: "35%" }}
               src={MenProfile}

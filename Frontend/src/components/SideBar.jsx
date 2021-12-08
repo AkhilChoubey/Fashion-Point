@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { SocialIcon } from "react-social-icons";
 import "./SideBar.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,9 +7,9 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
-{
-  /* <SocialIcon url="https://twitter.com/jaketrent" />; */
-}
+
+/* <SocialIcon url="https://twitter.com/jaketrent" />; */
+
 const SideBar = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -57,6 +56,7 @@ const SideBar = () => {
           className="sidebar-link"
           href="https://www.instagram.com/ironakhil/ "
           target="_blank"
+          rel="noreferrer"
         >
           <p>
             Follow on Instagram <AiFillInstagram className="social-icons" />
@@ -68,6 +68,7 @@ const SideBar = () => {
           className="sidebar-link"
           href="https://github.com/AkhilChoubey"
           target="_blank"
+          rel="noreferrer"
         >
           <p>
             Follow on Github <BsGithub className="social-icons" />

@@ -6,8 +6,6 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
-import UseAnimations from "react-useanimations";
-import github from "react-useanimations/lib/github";
 
 const Footer = () => {
   return (
@@ -57,7 +55,10 @@ const Footer = () => {
         <div className="footer-others-container">
           <div className="footer-policy">
             <div className="footer-policy-item">
-              <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" />
+              <img
+                alt="404 Not Found."
+                src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+              />
               <h6 style={{ marginLeft: "1%", color: "#696b79" }}>
                 <span style={{ fontSize: "1.25rem", color: "black" }}>
                   100% ORIGINAL
@@ -67,7 +68,10 @@ const Footer = () => {
               </h6>
             </div>
             <div className="footer-policy-item">
-              <img src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png" />
+              <img
+                alt="404 Not Found."
+                src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
+              />
               <h5 style={{ marginLeft: "2%", color: "#696b79" }}>
                 {" "}
                 <span style={{ fontSize: "1.25rem", color: "black" }}>
