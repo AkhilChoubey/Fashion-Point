@@ -43,20 +43,23 @@ const Home = () => {
             <h3>Right here Right now!</h3>
 
             <Link
-              className="btn-explore btn btn-danger btn-lg"
+              id="btn-explore"
+              className="btn btn-lg"
               to="/categories"
-              style={{
-                fontSize: "2rem",
-                color: "black",
-                borderRadius: "17px",
-                boxShadow: "0px 5px orange, -2px 6px orange, -1px 1px orange",
-                border: "1px solid orange",
-                backgroundColor: "#ffeac5",
-                transition: "0.5s",
-                "&:hover": {
-                  backgroundColor: "black",
-                },
-              }}
+              style={
+                {
+                  // fontSize: "2rem",
+                  // color: "black",
+                  // borderRadius: "17px",
+                  // boxShadow: "0px 5px orange, -2px 6px orange, -1px 1px orange",
+                  // border: "1px solid orange",
+                  // backgroundColor: "#ffeac5",
+                  // transition: "0.5s",
+                  // "&:hover": {
+                  //   backgroundColor: "black",
+                  // },
+                }
+              }
             >
               EXPLORE <GoLinkExternal />
             </Link>

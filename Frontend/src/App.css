@@ -182,13 +182,25 @@
   margin-left: 11%;
 }
 
-.btn-explore {
+#btn-explore {
   margin-left: 11%;
   margin-top: 2%;
   width: 30%;
-  border-radius: 65px 0px;
   height: 4.5rem;
   font-size: 2rem;
+
+  color: black;
+  border-radius: 17px;
+  box-shadow: 0px 5px orange, -2px 6px orange, -1px 1px orange;
+  border: 1px solid orange;
+  background-color: #ffeac5;
+  transition: 0.5s ease;
+}
+
+#btn-explore:hover {
+  box-shadow: 0px 10px #ffeac5, -2px 6px #ffeac5, -1px 1px #ffeac5;
+
+  background-color: orange;
 }
 
 @media (max-width: 980px) {
@@ -209,7 +221,7 @@
     text-align: center;
   }
 
-  .btn-explore {
+  #btn-explore {
     width: 85.2%;
     margin: 0;
     margin-left: 7.2%;
