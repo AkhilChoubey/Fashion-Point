@@ -32,6 +32,8 @@ const Home = () => {
                 style={{
                   color: "red",
                   fontWeight: "600",
+                  textShadow:
+                    "#fae4bc 0px 5px, orange -2px 6px, orange -1px 1px",
                 }}
               >
                 STYLE
@@ -43,7 +45,18 @@ const Home = () => {
             <Link
               className="btn-explore btn btn-danger btn-lg"
               to="/categories"
-              style={{ fontSize: "2rem", borderRadius: "65px" }}
+              style={{
+                fontSize: "2rem",
+                color: "black",
+                borderRadius: "17px",
+                boxShadow: "0px 5px orange, -2px 6px orange, -1px 1px orange",
+                border: "1px solid orange",
+                backgroundColor: "#ffeac5",
+                transition: "0.5s",
+                "&:hover": {
+                  backgroundColor: "black",
+                },
+              }}
             >
               EXPLORE <GoLinkExternal />
             </Link>
