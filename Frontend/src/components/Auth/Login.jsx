@@ -102,7 +102,7 @@ const Login = () => {
             >
               LOGIN
             </button>
-            <h6>
+            <h6 id="login-redirect-to-signup">
               New to ShopKeeper? <Link to="/signup">SignUp</Link>
             </h6>
             {/* <Button

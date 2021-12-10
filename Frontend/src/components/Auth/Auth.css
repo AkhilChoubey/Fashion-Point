@@ -16,6 +16,12 @@
 .signup-form h6 {
   font-size: 1rem;
   margin-top: 5%;
+  margin-left: -3.2%;
+}
+
+#login-redirect-to-signup {
+  font-size: 1rem;
+  margin-top: 5%;
   margin-left: 22.8%;
 }
 
@@ -59,6 +65,11 @@
     display: none;
   }
   .signup-form h6 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-left: 7.8%;
+  }
+  #login-redirect-to-signup {
     font-size: 0.8rem;
     margin-top: 5%;
     margin-left: 7.8%;

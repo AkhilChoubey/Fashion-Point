@@ -9,6 +9,7 @@ import { Typography, TextField } from "@material-ui/core";
 import { signUp } from "../../redux/actions/AuthActions";
 
 import Img1 from "../images/cart1.gif";
+import Img2 from "../images/authImages/registergirl1.gif";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -80,8 +81,13 @@ const SignUp = () => {
             autoComplete="off"
             className="signup-form"
             onSubmit={handleSubmit}
+            style={{ textAlign: "center" }}
           >
-            <Typography variant="h5" style={{ textAlign: "center" }}>
+            <img alt="404 Not Found" src={Img2} style={{ width: "40%" }} />
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", fontWeight: "600" }}
+            >
               SignUp
             </Typography>
             <TextField
@@ -121,8 +127,10 @@ const SignUp = () => {
               value={user.address}
               onChange={(e) => setUser({ ...user, address: e.target.value })}
             />
-            <FormControl component="fieldset">
-              <FormLabel component="legend">Gender</FormLabel>
+            <FormControl component="fieldset" style={{ marginTop: "1%" }}>
+              <FormLabel component="legend" style={{ fontWeight: "400" }}>
+                Gender
+              </FormLabel>
               <RadioGroup
                 row
                 aria-label="gender"
