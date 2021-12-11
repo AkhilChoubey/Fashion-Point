@@ -63,7 +63,10 @@ const Login = () => {
             onSubmit={handleSubmit}
             style={{ paddingTop: "9%" }}
           >
-            <Typography variant="h5" style={{ textAlign: "center" }}>
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", fontWeight: "600" }}
+            >
               LOGIN
             </Typography>
 

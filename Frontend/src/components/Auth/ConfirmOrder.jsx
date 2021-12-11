@@ -152,7 +152,10 @@ const ConfirmOrder = () => {
             onSubmit={handleSubmit}
             style={{ paddingTop: "6%" }}
           >
-            <Typography variant="h5" style={{ textAlign: "center" }}>
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", fontWeight: "600" }}
+            >
               CONFIRM YOUR ORDER
             </Typography>
             <div

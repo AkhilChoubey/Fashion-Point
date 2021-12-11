@@ -102,7 +102,10 @@ const ResetPassword = () => {
             onSubmit={handleSubmit}
             style={{ paddingTop: "5%" }}
           >
-            <Typography variant="h5" style={{ textAlign: "center" }}>
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", fontWeight: "600" }}
+            >
               ENTER NEW PASSWORD
             </Typography>
             <div
