@@ -22,7 +22,7 @@
 #login-redirect-to-signup {
   font-size: 1rem;
   margin-top: 5%;
-  margin-left: 22.8%;
+  /* margin-left: 22.8%; */
 }
 
 .auth-login-img {
@@ -72,6 +72,6 @@
   #login-redirect-to-signup {
     font-size: 0.8rem;
     margin-top: 5%;
-    margin-left: 7.8%;
+    /* margin-left: 7.8%; */
   }
 }
