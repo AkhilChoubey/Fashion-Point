@@ -62,10 +62,11 @@ const SendOtpToEmail = () => {
             autoComplete="off"
             className="signup-form"
             onSubmit={handleSubmit}
-            style={{ paddingTop: "9%" }}
+            style={{ paddingTop: "1%" }}
           >
-            <img alt="404 Not Found" src={Img2} style={{ width: "40%" }} />
-
+            <div style={{ textAlign: "center" }}>
+              <img alt="404 Not Found" src={Img2} style={{ width: "50%" }} />
+            </div>
             <Typography
               variant="h5"
               style={{ textAlign: "center", fontWeight: "600" }}
