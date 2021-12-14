@@ -9,6 +9,7 @@ import Loading from "../Loading";
 import { otpForPassword } from "../../redux/actions/AuthActions";
 
 import Img1 from "../images/delhivery3.gif";
+import Img2 from "../images/authImages/lock-ani1.gif";
 
 import "./Auth.css";
 
@@ -63,6 +64,8 @@ const SendOtpToEmail = () => {
             onSubmit={handleSubmit}
             style={{ paddingTop: "9%" }}
           >
+            <img alt="404 Not Found" src={Img2} style={{ width: "40%" }} />
+
             <Typography
               variant="h5"
               style={{ textAlign: "center", fontWeight: "600" }}

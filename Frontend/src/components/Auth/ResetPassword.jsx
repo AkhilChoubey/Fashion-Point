@@ -8,7 +8,6 @@ import Loading from "../Loading";
 import { NewPass } from "../../redux/actions/AuthActions";
 import OtpInput from "react-otp-input";
 import Img1 from "../images/teamAni5.gif";
-import Img2 from "../images/authImages/lock-ani1.gif";
 
 import "./Auth.css";
 import Countdown from "react-countdown";
@@ -104,8 +103,6 @@ const ResetPassword = () => {
             onSubmit={handleSubmit}
             style={{ paddingTop: "5%" }}
           >
-            <img alt="404 Not Found" src={Img2} style={{ width: "40%" }} />
-
             <Typography
               variant="h5"
               style={{ textAlign: "center", fontWeight: "600" }}
