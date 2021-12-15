@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Navigate } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, TextField } from "@material-ui/core";
@@ -10,7 +10,10 @@ import { otpForPassword } from "../../redux/actions/AuthActions";
 
 import Img1 from "../images/delhivery3.gif";
 import Img2 from "../images/authImages/lock-ani1.gif";
-
+import { BiArrowBack } from "react-icons/bi";
+import { IoReturnDownBack } from "react-icons/io5";
+import { RiArrowGoBackLine } from "react-icons/ri";
+import { TiArrowBack } from "react-icons/ti";
 import "./Auth.css";
 
 const useStyles = makeStyles({
@@ -83,7 +86,15 @@ const SendOtpToEmail = () => {
               value={creds.email}
               onChange={(e) => setCreds({ ...creds, email: e.target.value })}
             />
-
+            <div style={{ textAlign: "end" }}>
+              <Link
+                to="/login"
+                style={{ fontSize: "1.1rem", textDecoration: "none" }}
+              >
+                {" "}
+                <TiArrowBack style={{ marginBottom: "1%" }} /> Back To Login{" "}
+              </Link>
+            </div>
             <button
               style={{ marginTop: "20px", width: "100%" }}
               className="btn btn-warning"

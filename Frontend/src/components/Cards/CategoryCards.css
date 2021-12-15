@@ -4,6 +4,11 @@
   height: 11rem;
   width: 12rem;
   border-radius: 12px;
+  transition: 0.5s;
+}
+
+.category-card-dimension:hover {
+  transform: scale(1.1);
 }
 
 .card-title1 {
