@@ -35,6 +35,7 @@ const ResetPassword = () => {
     }, 1000);
   });
 
+  //Counter Timer Code
   const Completionist = () => {
     toast.error("OTP Expired!", {
       position: toast.POSITION.TOP_RIGHT,
@@ -44,6 +45,8 @@ const ResetPassword = () => {
     <span>OTP Expired!</span>;
     return <Navigate to="/sendotptoemail" />;
   };
+
+  const startDate = React.useRef(Date.now());
 
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -179,7 +182,7 @@ const ResetPassword = () => {
               <h4>OTP Expires In ::</h4>
               <Countdown
                 precision={1}
-                date={Date.now() + 900000}
+                date={startDate.current + 900000}
                 renderer={renderer}
               />
             </div>

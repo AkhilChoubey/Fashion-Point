@@ -8,6 +8,7 @@ import Loading from "../Loading";
 import { confirmOrder } from "../../redux/actions/AuthActions";
 import OtpInput from "react-otp-input";
 import Img1 from "../images/OrderSuccess/orderSuccess2.gif";
+
 import "./Auth.css";
 import Countdown from "react-countdown";
 
@@ -83,6 +84,7 @@ const ConfirmOrder = () => {
   //     </div>
   //   );
   // };
+  const startDate = React.useRef(Date.now());
 
   const Completionist = () => {
     toast.error("OTP Expired!", {
@@ -93,6 +95,35 @@ const ConfirmOrder = () => {
     <span>OTP Expired!</span>;
     return <Navigate to="/cart" />;
   };
+
+  // const [CurrentDate, setDate] = useState({ expiryDate: date });
+  // const CountdownWrapper = () => {
+  //   return (
+  //     <Countdown
+  //       date={Date.now() + 900000}
+  //       renderer={({ hours, minutes, seconds, completed }) => {
+  //         if (completed) {
+  //           // Render a complete state
+  //           return <Completionist />;
+  //         } else {
+  //           // Render a countdown
+  //           return (
+  //             <h1
+  //               style={{
+  //                 backgroundColor: "azure",
+  //                 border: "1.5px solid rgb(189, 242, 254)",
+  //               }}
+  //             >
+  //               <span style={{ color: "red" }}>{minutes}</span> :{" "}
+  //               <span style={{ color: "red" }}>{seconds}</span>
+  //               <span style={{ color: "grey", fontSize: "1.5rem" }}> s</span>
+  //             </h1>
+  //           );
+  //         }
+  //       }}
+  //     />
+  //   );
+  // };
 
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -128,7 +159,6 @@ const ConfirmOrder = () => {
     setCreds({ otp: "" });
   };
 
-  console.log(message);
   if (message.auth === "Order Successfully Placed!")
     return <Navigate to="/ordersuccess" />;
 
@@ -214,11 +244,12 @@ const ConfirmOrder = () => {
             >
               PLACE ORDER
             </button>
+
             <div style={{ textAlign: "center", marginTop: "5%" }}>
               <h4>OTP Expires In ::</h4>
               <Countdown
                 precision={1}
-                date={Date.now() + 900000}
+                date={startDate.current + 900000}
                 renderer={renderer}
               />
             </div>

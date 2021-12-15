@@ -88,6 +88,7 @@
   height: 14%;
   font-size: x-large;
   margin-top: 107%;
+  padding-top: 3%;
 }
 
 .others-house-button {
@@ -96,6 +97,7 @@
   height: 14%;
   font-size: x-large;
   margin-top: 100%;
+  padding-top: 3%;
 }
 
 @media (max-width: 980px) {
@@ -141,5 +143,6 @@
   .others-house-button {
     font-size: larger;
     margin-top: 120%;
+    padding-top: 5%;
   }
 }

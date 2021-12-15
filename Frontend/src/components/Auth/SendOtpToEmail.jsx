@@ -10,9 +10,7 @@ import { otpForPassword } from "../../redux/actions/AuthActions";
 
 import Img1 from "../images/delhivery3.gif";
 import Img2 from "../images/authImages/lock-ani1.gif";
-import { BiArrowBack } from "react-icons/bi";
-import { IoReturnDownBack } from "react-icons/io5";
-import { RiArrowGoBackLine } from "react-icons/ri";
+
 import { TiArrowBack } from "react-icons/ti";
 import "./Auth.css";
 
