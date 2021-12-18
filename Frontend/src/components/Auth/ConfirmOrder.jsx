@@ -180,7 +180,7 @@ const ConfirmOrder = () => {
             autoComplete="off"
             className="signup-form"
             onSubmit={handleSubmit}
-            style={{ paddingTop: "6%" }}
+            style={{ paddingTop: "4%" }}
           >
             <Typography
               variant="h5"
@@ -188,6 +188,14 @@ const ConfirmOrder = () => {
             >
               CONFIRM YOUR ORDER
             </Typography>
+
+            <div style={{ backgroundColor: "#fff5e4", marginTop: "4%" }}>
+              <p style={{ color: "black" }}>
+                To verify, it's you on the other side we have sent an OTP on
+                your registered Email.
+              </p>
+            </div>
+
             <div
               style={{
                 textAlign: "left",
