@@ -96,35 +96,6 @@ const ConfirmOrder = () => {
     return <Navigate to="/cart" />;
   };
 
-  // const [CurrentDate, setDate] = useState({ expiryDate: date });
-  // const CountdownWrapper = () => {
-  //   return (
-  //     <Countdown
-  //       date={Date.now() + 900000}
-  //       renderer={({ hours, minutes, seconds, completed }) => {
-  //         if (completed) {
-  //           // Render a complete state
-  //           return <Completionist />;
-  //         } else {
-  //           // Render a countdown
-  //           return (
-  //             <h1
-  //               style={{
-  //                 backgroundColor: "azure",
-  //                 border: "1.5px solid rgb(189, 242, 254)",
-  //               }}
-  //             >
-  //               <span style={{ color: "red" }}>{minutes}</span> :{" "}
-  //               <span style={{ color: "red" }}>{seconds}</span>
-  //               <span style={{ color: "grey", fontSize: "1.5rem" }}> s</span>
-  //             </h1>
-  //           );
-  //         }
-  //       }}
-  //     />
-  //   );
-  // };
-
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
       // Render a complete state
