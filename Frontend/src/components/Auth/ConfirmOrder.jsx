@@ -37,53 +37,6 @@ const ConfirmOrder = () => {
 
   //timer function
 
-  // const timerProps = {
-  //   isPlaying: true,
-  //   size: 120,
-  //   strokeWidth: 6,
-  // };
-
-  // const minuteSeconds = 60;
-  // const hourSeconds = 3600;
-  // const daySeconds = 86400;
-
-  // const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  // const endTime = stratTime + 243248; // use UNIX timestamp in seconds
-
-  // const remainingTime = endTime - stratTime;
-
-  // const getTimeMinutes = (time) => ((time % hourSeconds) / minuteSeconds) | 0;
-
-  // // const renderTime = ({ remainingTime }) => {
-  // //   if (remainingTime === 0) {
-  // //     toast.error("OTP Expired!", {
-  // //       position: toast.POSITION.TOP_RIGHT,
-  // //       theme: "colored",
-  // //     });
-  // //     return (
-  // //       <div className="timer">
-  // //         OTP Expired <Navigate to="/sendotptoemail" />{" "}
-  // //       </div>
-  // //     );
-  // //   }
-
-  // //   return (
-  // //     <div className="timer">
-  // //       <div className="text">Remaining</div>
-  // //       <div className="value">{remainingTime}</div>
-  // //       <div className="text">seconds</div>
-  // //     </div>
-  // //   );
-  // // };
-
-  // const renderTime = (time) => {
-  //   return (
-  //     <div className="time-wrapper">
-  //       <div className="time">{time}</div>
-  //       <div>minutes</div>
-  //     </div>
-  //   );
-  // };
   const startDate = React.useRef(Date.now());
 
   const Completionist = () => {
