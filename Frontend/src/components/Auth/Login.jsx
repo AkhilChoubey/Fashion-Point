@@ -118,14 +118,6 @@ const Login = () => {
                 New to ShopKeeper? <Link to="/signup">SignUp</Link>
               </h6>
             </div>
-            {/* <Button
-            variant="outlined"
-            color="primary"
-            className={classes.spacing}
-            type="submit"
-          >
-            SignUp
-          </Button> */}
           </form>
         </div>
       )}
