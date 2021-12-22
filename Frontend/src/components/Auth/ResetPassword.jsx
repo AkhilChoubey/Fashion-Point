@@ -186,14 +186,6 @@ const ResetPassword = () => {
                 renderer={renderer}
               />
             </div>
-            {/* <Button
-            variant="outlined"
-            color="primary"
-            className={classes.spacing}
-            type="submit"
-          >
-            SignUp
-          </Button> */}
           </form>
         </div>
       )}
