@@ -11,6 +11,7 @@ import Img1 from "../images/OrderSuccess/orderSuccess2.gif";
 
 import "./Auth.css";
 import Countdown from "react-countdown";
+import { RiErrorWarningLine } from "react-icons/ri";
 
 import { toast } from "react-toastify";
 
@@ -113,10 +114,19 @@ const ConfirmOrder = () => {
               CONFIRM YOUR ORDER
             </Typography>
 
-            <div style={{ backgroundColor: "#fff5e4", marginTop: "4%" }}>
-              <p style={{ color: "black" }}>
-                To verify, it's you on the other side we have sent an OTP on
-                your registered Email.
+            <div
+              style={{ backgroundColor: "rgb(230 241 244)", marginTop: "4%" }}
+            >
+              <p
+                style={{
+                  color: "darkslategrey",
+                  paddingLeft: "4%",
+                  paddingTop: "1%",
+                  paddingBottom: "1%",
+                }}
+              >
+                <RiErrorWarningLine /> To verify, it's you on the other side we
+                have sent an OTP on your registered Email.
               </p>
             </div>
 
