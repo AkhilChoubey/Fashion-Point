@@ -120,9 +120,10 @@ const ConfirmOrder = () => {
               <p
                 style={{
                   color: "darkslategrey",
-                  paddingLeft: "4%",
+                  paddingLeft: "2.5%",
                   paddingTop: "1%",
                   paddingBottom: "1%",
+                  textAlign: "center",
                 }}
               >
                 <RiErrorWarningLine /> To verify, it's you on the other side we
