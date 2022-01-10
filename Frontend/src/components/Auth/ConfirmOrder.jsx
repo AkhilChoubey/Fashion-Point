@@ -118,13 +118,14 @@ const ConfirmOrder = () => {
               style={{ backgroundColor: "rgb(230 241 244)", marginTop: "4%" }}
             >
               <p
-                style={{
-                  color: "darkslategrey",
-                  paddingLeft: "2.5%",
-                  paddingTop: "1%",
-                  paddingBottom: "1%",
-                  textAlign: "center",
-                }}
+                className="confirm-order-warning"
+                // style={{
+                //   color: "darkslategrey",
+                //   paddingLeft: "2.5%",
+                //   paddingTop: "1%",
+                //   paddingBottom: "1%",
+                //   textAlign: "center",
+                // }}
               >
                 <RiErrorWarningLine /> To verify, it's you on the other side we
                 have sent an OTP on your registered Email.

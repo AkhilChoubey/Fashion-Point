@@ -40,6 +40,13 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.confirm-order-warning {
+  color: darkslategrey;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
 @media (max-width: 950px) {
   .signup-form {
     width: 88%;
@@ -73,5 +80,8 @@
     font-size: 0.8rem;
     margin-top: 5%;
     /* margin-left: 7.8%; */
+  }
+  .confirm-order-warning {
+    padding-left: 5%;
   }
 }
