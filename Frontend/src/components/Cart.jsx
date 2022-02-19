@@ -239,7 +239,6 @@ const Cart = () => {
               </div>
             </div>
           </div>
-          {/* <h1>Total Amount :$ {Math.round(cartTotal * 100) / 100}</h1> */}
         </div>
       )}
     </div>
