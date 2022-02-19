@@ -130,6 +130,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-//  100% original png link : https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png
-// 30 days return png link :https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png
